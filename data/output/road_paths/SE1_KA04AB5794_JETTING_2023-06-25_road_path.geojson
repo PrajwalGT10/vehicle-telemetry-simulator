@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "start"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.61235,
+          12.958308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "route",
+        "vehicle_id": "SE1_KA04AB5794_JETTING",
+        "date": "2023-06-25"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6125371,
+            12.9584133
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "end"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.61235,
+          12.958308
+        ]
+      }
+    }
+  ]
+}

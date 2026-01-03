@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_01",
+        "name": "Neelasandra",
+        "zone": "South_East_Bangalore",
+        "locality_type": "mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.6089, 12.9501],
+          [77.6152, 12.9501],
+          [77.6152, 12.9563],
+          [77.6089, 12.9563],
+          [77.6089, 12.9501]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_02",
+        "name": "Ejipura",
+        "zone": "South_East_Bangalore",
+        "locality_type": "mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.6200, 12.9550],
+          [77.6280, 12.9550],
+          [77.6280, 12.9620],
+          [77.6200, 12.9620],
+          [77.6200, 12.9550]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_03",
+        "name": "Lakkasandra",
+        "zone": "South_East_Bangalore",
+        "locality_type": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.6035, 12.9490],
+          [77.6110, 12.9490],
+          [77.6110, 12.9550],
+          [77.6035, 12.9550],
+          [77.6035, 12.9490]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_04",
+        "name": "Adugodi",
+        "zone": "South_East_Bangalore",
+        "locality_type": "mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.6150, 12.9400],
+          [77.6230, 12.9400],
+          [77.6230, 12.9480],
+          [77.6150, 12.9480],
+          [77.6150, 12.9400]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_05",
+        "name": "Koramangala_1st_Block",
+        "zone": "South_East_Bangalore",
+        "locality_type": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.6260, 12.9350],
+          [77.6340, 12.9350],
+          [77.6340, 12.9430],
+          [77.6260, 12.9430],
+          [77.6260, 12.9350]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_06",
+        "name": "Wilson_Garden_East",
+        "zone": "South_East_Bangalore",
+        "locality_type": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.5960, 12.9400],
+          [77.6030, 12.9400],
+          [77.6030, 12.9480],
+          [77.5960, 12.9480],
+          [77.5960, 12.9400]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_07",
+        "name": "HSR_Layout_Sector_1",
+        "zone": "South_East_Bangalore",
+        "locality_type": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.6400, 12.9050],
+          [77.6480, 12.9050],
+          [77.6480, 12.9130],
+          [77.6400, 12.9130],
+          [77.6400, 12.9050]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_08",
+        "name": "Bommanahalli_Road_Corridor",
+        "zone": "South_East_Bangalore",
+        "locality_type": "road"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [77.6180, 12.9300],
+          [77.6240, 12.9300],
+          [77.6240, 12.9500],
+          [77.6180, 12.9500],
+          [77.6180, 12.9300]
+        ]]
+      }
+    }
+  ]
+}

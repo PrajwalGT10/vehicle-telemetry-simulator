@@ -1,0 +1,98 @@
+{
+  "year": 2023,
+  "country": "India",
+  "state": "Karnataka",
+  "description": "Government holidays applicable to Karnataka state for the year 2023. These dates are treated as non-operational days for dataset generation.",
+  "holidays": [
+    {
+      "date": "2023-01-26",
+      "name": "Republic Day",
+      "type": "government"
+    },
+    {
+      "date": "2023-03-08",
+      "name": "Holi",
+      "type": "government"
+    },
+    {
+      "date": "2023-03-30",
+      "name": "Ram Navami",
+      "type": "government"
+    },
+    {
+      "date": "2023-04-04",
+      "name": "Mahavir Jayanti",
+      "type": "government"
+    },
+    {
+      "date": "2023-04-07",
+      "name": "Good Friday",
+      "type": "government"
+    },
+    {
+      "date": "2023-04-14",
+      "name": "Dr. B. R. Ambedkar Jayanti",
+      "type": "government"
+    },
+    {
+      "date": "2023-05-05",
+      "name": "Buddha Purnima",
+      "type": "government"
+    },
+    {
+      "date": "2023-06-29",
+      "name": "Id-ul-Zuha (Bakrid)",
+      "type": "government"
+    },
+    {
+      "date": "2023-07-29",
+      "name": "Muharram",
+      "type": "government"
+    },
+    {
+      "date": "2023-08-15",
+      "name": "Independence Day",
+      "type": "government"
+    },
+    {
+      "date": "2023-09-07",
+      "name": "Janmashtami (Vaishnava)",
+      "type": "government"
+    },
+    {
+      "date": "2023-09-28",
+      "name": "Milad-un-Nabi (Id-e-Milad)",
+      "type": "government"
+    },
+    {
+      "date": "2023-10-02",
+      "name": "Mahatma Gandhi Jayanti",
+      "type": "government"
+    },
+    {
+      "date": "2023-10-24",
+      "name": "Dussehra (Vijaya Dashami)",
+      "type": "government"
+    },
+    {
+      "date": "2023-11-01",
+      "name": "Karnataka Rajyotsava",
+      "type": "government"
+    },
+    {
+      "date": "2023-11-12",
+      "name": "Deepavali (Diwali)",
+      "type": "government"
+    },
+    {
+      "date": "2023-11-27",
+      "name": "Guru Nanak Jayanti",
+      "type": "government"
+    },
+    {
+      "date": "2023-12-25",
+      "name": "Christmas",
+      "type": "government"
+    }
+  ]
+}

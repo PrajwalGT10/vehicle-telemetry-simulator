@@ -1,0 +1,36 @@
+template_id: RT_SE_01
+zone: South_East_Bangalore
+vehicle_type: Jetting_Machine
+
+description: >
+  Dense inner-loop route covering older residential pockets with
+  frequent short-distance stops.
+
+start_end:
+  type: depot
+  locality_id: SE_LOC_01
+  description: "Neelasandra depot"
+
+locality_pool:
+  include:
+  - SE_LOC_01
+  - SE_LOC_02
+  - SE_LOC_03
+  - SE_LOC_04
+  - SE_LOC_05
+  - SE_LOC_06
+  - SE_LOC_08
+  exclude: []
+
+daily_stops:
+  min: 9
+  max: 13
+
+dwell_rules:
+  min_minutes: 20
+  max_minutes: 30
+
+route_characteristics:
+  pattern: loop
+  expected_distance_km: [10, 15]
+  notes: "High stop density, slow average speed"

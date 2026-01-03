@@ -1,0 +1,34 @@
+zone: South_East_Bangalore
+
+templates:
+  RT_SE_01:
+    description: "Inner residential loop"
+    allowed_localities:
+      - SE_LOC_01
+      - SE_LOC_02
+      - SE_LOC_03
+      - SE_LOC_04
+      - SE_LOC_05
+      - SE_LOC_06
+      - SE_LOC_08
+
+  RT_SE_02:
+    description: "Mixed residential-commercial sweep"
+    allowed_localities:
+      - SE_LOC_01
+      - SE_LOC_02
+      - SE_LOC_03
+      - SE_LOC_04
+      - SE_LOC_05
+      - SE_LOC_06
+      - SE_LOC_08
+
+  RT_SE_03:
+    description: "Edge-to-edge corridor route"
+    allowed_localities:
+      - SE_LOC_01
+      - SE_LOC_02
+      - SE_LOC_04
+      - SE_LOC_05
+      - SE_LOC_07
+      - SE_LOC_08

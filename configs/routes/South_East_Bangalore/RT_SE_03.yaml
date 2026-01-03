@@ -1,0 +1,35 @@
+template_id: RT_SE_03
+zone: South_East_Bangalore
+vehicle_type: Jetting_Machine
+
+description: >
+  Edge-to-edge corridor route that traverses major connecting roads,
+  representing longer operational days with fewer stops.
+
+start_end:
+  type: depot
+  locality_id: SE_LOC_01
+  description: "Neelasandra depot"
+
+locality_pool:
+  include:
+  - SE_LOC_01
+  - SE_LOC_04
+  - SE_LOC_05
+  - SE_LOC_07
+  - SE_LOC_08
+  - SE_LOC_02
+  exclude: []
+
+daily_stops:
+  min: 6
+  max: 9
+
+dwell_rules:
+  min_minutes: 20
+  max_minutes: 30
+
+route_characteristics:
+  pattern: corridor
+  expected_distance_km: [18, 25]
+  notes: "Longer drives, higher average speed"
