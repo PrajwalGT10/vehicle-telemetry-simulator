@@ -3,7 +3,8 @@ vehicle:
   imei: "864895033188200"
   device_id: "SE1_KA04AB5794_JETTING"
   vehicle_type: "Jetting_Machine"
-
+  max_speed_knots: 25.0
+  
 zone:
   name: "South_East_Bangalore"
   roads_geojson: "data/zones/South_East_Bangalore/roads.geojson"

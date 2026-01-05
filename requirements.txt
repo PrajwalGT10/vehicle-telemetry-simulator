@@ -1,0 +1,12 @@
+pandas
+geopandas
+shapely
+networkx
+fiona
+pyyaml
+jinja2
+tqdm
+pydantic
+pytest
+black
+pyarrow
