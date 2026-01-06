@@ -8,79 +8,79 @@ class RoadNetwork:
         print(f"   Loading Road Graph from {geojson_path}...")
         self.gdf = gpd.read_file(geojson_path)
         
-        # 1. Build Directed Graph
-        self.graph = nx.DiGraph()
+        # 1. Build Directed Graph (Respects One-Ways if data has them, currently forcing 2-way for connectivity)
+        raw_graph = nx.DiGraph()
         
         for _, row in self.gdf.iterrows():
             geom = row.geometry
             if geom.geom_type == 'LineString':
-                # Precision rounding to merge close nodes
+                # Precision rounding (5 decimals approx 1 meter) to merge nodes
                 start = (round(geom.coords[0][0], 5), round(geom.coords[0][1], 5))
                 end = (round(geom.coords[-1][0], 5), round(geom.coords[-1][1], 5))
                 length = geom.length * 111139.0 
                 
-                # Add Edges (2-way for simulation connectivity)
-                # We default to straight lines if geometry breaks, but here we store the real one
-                self.graph.add_edge(start, end, weight=length, geometry=geom)
-                self.graph.add_edge(end, start, weight=length, geometry=LineString(list(geom.coords)[::-1]))
+                # Add Forward Edge
+                raw_graph.add_edge(start, end, weight=length, geometry=geom)
+                
+                # Add Backward Edge (Assuming local roads are accessible both ways)
+                rev_geom = LineString(list(geom.coords)[::-1])
+                raw_graph.add_edge(end, start, weight=length, geometry=rev_geom)
 
-        # 2. ISOLATION REMOVAL (Crucial Fix)
-        # We only keep the "Main City Component". Any road not connected to this is deleted.
-        if len(self.graph) > 0:
-            largest_cc = max(nx.weakly_connected_components(self.graph), key=len)
-            self.main_graph = self.graph.subgraph(largest_cc).copy()
+        # 2. CLEANUP: Remove isolated islands (Objective #7)
+        if len(raw_graph) > 0:
+            undirected = raw_graph.to_undirected()
+            largest_cc = max(nx.connected_components(undirected), key=len)
+            self.graph = raw_graph.subgraph(largest_cc).copy()
             
-            removed = len(self.graph) - len(self.main_graph)
-            print(f"   Graph Cleaned: Kept {len(self.main_graph)} nodes. (Deleted {removed} isolated nodes).")
-            self.graph = self.main_graph
+            removed = len(raw_graph) - len(self.graph)
+            print(f"   Graph Cleaned: Kept {len(self.graph)} nodes (Removed {removed} disconnected nodes).")
         else:
-            print("   ⚠️ Warning: Graph is empty!")
+            self.graph = raw_graph
 
-        # Create a spatial index (list of nodes) for fast lookup
+        # Pre-cache nodes for fast lookup
         self.node_list = list(self.graph.nodes)
+        print(f"   Graph Ready: {self.graph.number_of_edges()} drivable edges.")
 
-    def find_shortest_path(self, start_coords: tuple, end_coords: tuple) -> LineString:
+    def find_shortest_path(self, start_coords: tuple, end_coords: tuple):
+        """Returns (LineString, Distance_Meters)"""
         start_node = self._get_nearest_node(start_coords)
         end_node = self._get_nearest_node(end_coords)
         
-        if not start_node or not end_node: return None
+        if not start_node or not end_node: return None, 0
 
         try:
             path_nodes = nx.shortest_path(self.graph, start_node, end_node, weight='weight')
         except nx.NetworkXNoPath:
-            return None
+            return None, 0
             
-        # 3. Stitch Geometry with "Zig-Zag Prevention"
         coords = []
+        total_len = 0
+        
         for i in range(len(path_nodes) - 1):
             u = path_nodes[i]
             v = path_nodes[i+1]
             data = self.graph.get_edge_data(u, v)
             
-            # Use the road geometry if it exists, otherwise straight line
+            edge_len = data.get('weight', 0)
+            total_len += edge_len
+            
             if 'geometry' in data:
                 seg_coords = list(data['geometry'].coords)
+                if len(coords) > 0: coords.extend(seg_coords[1:])
+                else: coords.extend(seg_coords)
             else:
-                seg_coords = [u, v]
-
-            # Append to path (avoiding duplicates at join points)
-            if len(coords) > 0:
-                coords.extend(seg_coords[1:])
-            else:
-                coords.extend(seg_coords)
+                coords.append(u)
+                coords.append(v)
                 
-        return LineString(coords) if len(coords) > 1 else None
+        return LineString(coords) if len(coords) > 1 else None, total_len
 
     def _get_nearest_node(self, point_coords):
-        """Finds the nearest node that exists in the MAIN CONNECTED GRAPH."""
         target_lon = point_coords[1]
         target_lat = point_coords[0]
-        
         best_node = None
         min_dist = float('inf')
         
-        # Optimization: Check 2000 random nodes if graph is huge, or simple scan
-        # For robustness, we scan all (fast enough for 20k nodes in C-based Python)
+        # Optimization: Simple linear scan is robust for <50k nodes
         for node in self.node_list:
             dist = (node[0] - target_lon)**2 + (node[1] - target_lat)**2
             if dist < min_dist:
