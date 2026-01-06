@@ -1,14 +1,16 @@
 from pathlib import Path
 from shapely.geometry import LineString
-from shapely.ops import linemerge
 from datetime import datetime, timedelta
 import random
-import math
-
 from vts_core.config import load_vehicle_config
 from vts_core.store import SimulationStore
 from vts_core.graph import RoadNetwork
 from vts_core.agent import VehicleAgent
+
+# --- CONFIGURATION ---
+# Depot: Koramangala
+HOME_BASE_LAT = 12.958319
+HOME_BASE_LON = 77.612422
 
 def run_simulation_day(vehicle_config_path: str, zone_roads_path: str, date: str, output_dir: str = "data"):
     config = load_vehicle_config(vehicle_config_path)
@@ -16,109 +18,90 @@ def run_simulation_day(vehicle_config_path: str, zone_roads_path: str, date: str
     network = RoadNetwork(zone_roads_path)
     agent = VehicleAgent(config, store)
     
-    # --- 1. Smart Route Planning (Target: 11km - 25km) ---
-    path_geom = plan_route_with_target_distance(network, min_km=11, max_km=25)
+    # --- 1. Find Valid Home Node ---
+    # We must ensure Home is part of the connected graph
+    home_node = network._get_nearest_node((HOME_BASE_LAT, HOME_BASE_LON))
+    if not home_node:
+        print(f"❌ Error: Home Base {HOME_BASE_LAT},{HOME_BASE_LON} is too far from any road.")
+        return
     
-    if not path_geom:
-        print("❌ Could not find a route of suitable length.")
+    # --- 2. Plan Route ---
+    path_info = plan_dynamic_route(network, home_node, min_km=2, max_km=25)
+    
+    if not path_info:
+        print(f"❌ No valid route found for {date} (Tried 100 routes from Home)")
         return
 
-    route_km = path_geom.length * 111.139
-    print(f"🚗 Simulating {config.imei} on {date}")
-    print(f"   Route Length: {route_km:.2f} km")
+    path_geom = path_info['geometry']
+    print(f"🚗 {date}: {path_info['distance']:.2f}km | {path_info['sites']} Sites")
 
-    # --- 2. Smart Stop Planning (5-10 stops) ---
-    stops = generate_random_stops(route_km, min_stops=5, max_stops=10)
-    print(f"   Planned Stops: {len(stops)}")
+    # --- 3. Run Simulation ---
+    stops = generate_random_stops(path_info['distance'])
+    start_hr = random.randint(7, 9)
+    end_hr = random.randint(18, 20)
     
-    # --- 3. Smart Shift Timing ---
-    # 70% chance of Standard (9-18), 30% chance of Variation
-    if random.random() < 0.7:
-        start_hr, end_hr = 9, 18
-    else:
-        # Pick a variation: Early Start OR Late End OR Both
-        start_hr = random.choice([7, 9])
-        end_hr = random.choice([18, 19])
-    
-    print(f"   Shift Hours: {start_hr}:00 to {end_hr}:00")
-
-    # --- 4. Start ---
     agent.start_24h_cycle(date, path_geom, shift_start=start_hr, shift_end=end_hr, stops=stops)
     
     while agent.is_active:
         agent.tick()
-        if len(agent.telemetry_buffer) > 1000:
-            agent.flush_memory()
-    
+        if len(agent.telemetry_buffer) > 1000: agent.flush_memory()
     agent.flush_memory()
-    print(f"✅ Finished.")
 
-def plan_route_with_target_distance(network: RoadNetwork, min_km: float, max_km: float) -> LineString:
-    """Tries to find a path within distance range. Retries up to 20 times."""
-    nodes = list(network.graph.nodes)
-    if len(nodes) < 2: return None
-
-    for attempt in range(20):
-        start = random.choice(nodes)
-        end = random.choice(nodes)
+def plan_dynamic_route(network, home_node, min_km, max_km):
+    home_pt = (home_node[1], home_node[0]) # (Lat, Lon)
+    nodes = network.node_list
+    
+    for _ in range(100):
+        # 1-3 Sites
+        num_sites = 1 if random.random() < 0.6 else random.randint(2, 3)
         
-        # Simple A -> B
-        path = network.find_shortest_path((start[1], start[0]), (end[1], end[0]))
-        if path:
-            dist_km = path.length * 111.139
-            if min_km <= dist_km <= max_km:
-                return path
+        waypoints = [home_pt]
+        for _ in range(num_sites):
+            t = random.choice(nodes) # Pick random node from CLEANED graph
+            waypoints.append((t[1], t[0]))
+        waypoints.append(home_pt) 
+        
+        # Build Path
+        full_coords = []
+        total_dist = 0
+        valid = True
+        
+        for i in range(len(waypoints)-1):
+            geom = network.find_shortest_path(waypoints[i], waypoints[i+1])
+            if not geom: 
+                valid = False; break
             
-            # If too short, try to add a waypoint (A -> Mid -> B)
-            if dist_km < min_km:
-                mid = random.choice(nodes)
-                leg1 = path
-                leg2 = network.find_shortest_path((end[1], end[0]), (mid[1], mid[0]))
-                if leg2:
-                    total_dist = (leg1.length + leg2.length) * 111.139
-                    if min_km <= total_dist <= max_km:
-                        coords = list(leg1.coords) + list(leg2.coords)
-                        return LineString(coords)
+            coords = list(geom.coords)
+            if full_coords: full_coords.extend(coords[1:])
+            else: full_coords.extend(coords)
+            
+            total_dist += geom.length * 111.139
+            
+        if valid and min_km <= total_dist <= max_km:
+            return {"geometry": LineString(full_coords), "distance": total_dist, "sites": num_sites}
+            
+    return None
 
-    print("⚠️ Warning: Could not satisfy strict distance constraints. Using best attempt.")
-    return path
-
-def generate_random_stops(total_km: float, min_stops: int, max_stops: int):
-    """Generates stop definitions distributed along the route."""
-    # 1. Define Variables
-    num_stops = random.randint(min_stops, max_stops)
-    total_meters = total_km * 1000.0
-    
-    # 2. Pick Random Points (5% to 95% along route)
-    stop_points = sorted([random.uniform(0.05, 0.95) for _ in range(num_stops)])
-    
-    # 3. Create Stop Objects
-    stops = []
-    for pct in stop_points:
-        stops.append({
-            "at_meter": total_meters * pct,
-            "duration_min": 45,  # Increased to 45 mins
-            "duration_max": 90   # Increased to 90 mins
-        })
-    return stops
+def generate_random_stops(total_km):
+    count = random.randint(5, 10) if total_km > 5 else random.randint(2, 4)
+    total_m = total_km * 1000
+    points = sorted([random.uniform(0.1, 0.9) for _ in range(count)])
+    return [{"at_meter": p * total_m, "duration_min": 45, "duration_max": 90} for p in points]
 
 def generate_parked_day(vehicle_config_path: str, date: str, output_dir: str="data"):
     config = load_vehicle_config(vehicle_config_path)
     store = SimulationStore(base_dir=output_dir)
-    print(f"💤 Simulating {config.imei} on {date} (Parking Mode)...")
     
-    start_time = datetime.strptime(f"{date} 00:00:00", "%Y-%m-%d %H:%M:%S")
-    end_time = datetime.strptime(f"{date} 23:59:59", "%Y-%m-%d %H:%M:%S")
-    current = start_time
-    home_lat, home_lon = 12.9716, 77.5946
-    records = []
+    start = datetime.strptime(f"{date} 00:00:00", "%Y-%m-%d %H:%M:%S")
+    end = datetime.strptime(f"{date} 23:59:59", "%Y-%m-%d %H:%M:%S")
+    current = start
     
-    while current < end_time:
-        records.append({
-            "timestamp": current, "lat": home_lat, "lon": home_lon,
+    recs = []
+    while current < end:
+        recs.append({
+            "timestamp": current, "lat": HOME_BASE_LAT, "lon": HOME_BASE_LON,
             "speed": 0.0, "heading": 0.0, "device_id": config.device_id
         })
-        current += timedelta(seconds=25) 
+        current += timedelta(minutes=10) 
         
-    store.write_telemetry(config.imei, date, records)
-    print(f"✅ Finished Parking.")
+    store.write_telemetry(config.imei, date, recs)
