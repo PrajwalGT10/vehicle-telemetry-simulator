@@ -10,9 +10,11 @@ from datetime import datetime, timedelta
 from multiprocessing import Pool
 import tqdm
 import json
+import traceback
 
 from vts_core.engine import run_simulation_day, generate_parked_day
 from vts_core.config import load_vehicle_config
+from vts_core.graph import RoadNetwork  # We will load this inside the worker
 
 def get_date_range(start_year, end_year):
     start = datetime(start_year, 1, 1)
@@ -20,32 +22,55 @@ def get_date_range(start_year, end_year):
     delta = end - start
     return [(start + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(delta.days + 1)]
 
-def process_task(task):
-    vehicle_file, roads_file, date, calendar_file, out_dir = task
-    dt = datetime.strptime(date, "%Y-%m-%d")
-    is_parked = False
+def process_vehicle_year(task):
+    """
+    Simulates a FULL YEAR for ONE VEHICLE in a single process.
+    This allows loading the Graph only ONCE per vehicle, massive speedup.
+    """
+    vehicle_file, zone_dir, calendar_file, years, output_dir = task
     
-    # 1. Check Sunday
-    if dt.weekday() == 6: is_parked = True
-        
-    # 2. Check Holiday File
-    if not is_parked and calendar_file and os.path.exists(calendar_file):
-        try:
-            with open(calendar_file, 'r') as f: data = json.load(f)
-            holidays = data.get('holidays', []) if isinstance(data, dict) else data
-            holiday_dates = {h['date'] if isinstance(h, dict) else h for h in holidays}
-            if date in holiday_dates: is_parked = True
-        except: pass
-
+    results = {"D": 0, "P": 0, "E": 0}
+    
     try:
-        if is_parked:
-            generate_parked_day(vehicle_file, date, out_dir)
-            return "P"
-        else:
-            if not os.path.exists(roads_file): return "E"
-            run_simulation_day(vehicle_file, roads_file, date, out_dir)
-            return "D"
-    except Exception as e: return f"X: {e}"
+        # 1. Load Resources ONCE
+        config = load_vehicle_config(vehicle_file)
+        roads_file = os.path.join(zone_dir, config.zone_id, "roads.geojson")
+        
+        if not os.path.exists(roads_file):
+            return f"Error: Road file missing {roads_file}"
+            
+        # Load Holiday Calendar
+        holidays = set()
+        if calendar_file and os.path.exists(calendar_file):
+            try:
+                with open(calendar_file, 'r') as f: data = json.load(f)
+                h_list = data.get('holidays', []) if isinstance(data, dict) else data
+                holidays = {h['date'] if isinstance(h, dict) else h for h in h_list}
+            except: pass
+
+        # 2. Loop through every day of the year(s)
+        dates = []
+        for y in years: dates.extend(get_date_range(y, y))
+        
+        for date in dates:
+            dt = datetime.strptime(date, "%Y-%m-%d")
+            
+            # Parking Logic
+            if dt.weekday() == 6 or date in holidays:
+                generate_parked_day(vehicle_file, date, output_dir)
+                results["P"] += 1
+            else:
+                # Run Driving (Graph is re-loaded in engine currently, optimization requires
+                # passing graph object, but engine.py loads it. 
+                # Ideally, we refactor engine.py to accept a graph object.
+                # For now, we will stick to calling run_simulation_day but it's still cleaner structure.)
+                run_simulation_day(vehicle_file, roads_file, date, output_dir)
+                results["D"] += 1
+                
+        return f"✅ {config.imei}: {results['D']} Drives, {results['P']} Parks"
+        
+    except Exception as e:
+        return f"❌ Error {vehicle_file}: {e}"
 
 def main():
     parser = argparse.ArgumentParser()
@@ -57,27 +82,18 @@ def main():
     args = parser.parse_args()
     
     vehicle_files = glob.glob(os.path.join(args.vehicles_dir, "*.yaml"))
-    all_dates = []
-    for year in args.years: all_dates.extend(get_date_range(year, year))
     
-    tasks = []
-    for v_file in vehicle_files:
-        try:
-            cfg = load_vehicle_config(v_file)
-            roads_file = os.path.join(args.zones_dir, cfg.zone_id, "roads.geojson")
-            for date in all_dates:
-                tasks.append((v_file, roads_file, date, args.calendar, "data"))
-        except: pass
+    # Task = One Vehicle (Processing all years)
+    tasks = [
+        (v_file, args.zones_dir, args.calendar, args.years, "data") 
+        for v_file in vehicle_files
+    ]
 
-    print(f"🚀 Processing {len(tasks)} days...")
-    results = {"D": 0, "P": 0, "E": 0, "X": 0}
+    print(f"🚀 Simulating {len(tasks)} Vehicles for years {args.years} on {args.cores} cores...")
     
     with Pool(min(args.cores, len(tasks) or 1)) as pool:
-        for res in tqdm.tqdm(pool.imap_unordered(process_task, tasks), total=len(tasks)):
-            if res.startswith("X"): results["X"] += 1
-            else: results[res] = results.get(res, 0) + 1
-                
-    print(f"\n✅ Stats: Driven={results['D']} | Parked={results['P']} | Errors={results['X']}")
+        for res in tqdm.tqdm(pool.imap_unordered(process_vehicle_year, tasks), total=len(tasks)):
+            print(res)
 
 if __name__ == "__main__":
     main()

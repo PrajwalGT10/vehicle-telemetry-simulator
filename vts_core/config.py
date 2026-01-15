@@ -1,69 +1,52 @@
 import yaml
-from pathlib import Path
-from typing import Optional
-from pydantic import BaseModel, Field, ValidationError, AliasChoices
+from dataclasses import dataclass
 
-# --- 1. Define the Shapes (Schemas) ---
-
-class VehicleConfig(BaseModel):
-    """
-    Validates content of configs/vehicles/*.yaml
-    """
+@dataclass
+class VehicleConfig:
+    imei: str
     name: str
-    imei: str = Field(..., min_length=15, max_length=15, description="Must be exactly 15 digits")
     device_id: str
-    
-    # Handle 'vehicle_type' or 'type' from YAML
-    vehicle_type: str = Field(validation_alias=AliasChoices('vehicle_type', 'type'))
-    
-    # We expect this to be populated by the loader
     zone_id: str
-    
-    max_speed_knots: float = 40.0 # Default
-
-class RouteConfig(BaseModel):
-    """
-    Validates content of configs/routes/*.yaml
-    """
-    template_id: str
-    zone: str
-    vehicle_type: str = Field(validation_alias=AliasChoices('vehicle_type', 'type'))
-    description: Optional[str] = None
-
-# --- 2. Define the Loaders ---
+    type: str
+    depot_location: tuple # (Lat, Lon)
+    max_speed_knots: float # <--- Added this field
 
 def load_vehicle_config(yaml_path: str) -> VehicleConfig:
-    """Reads a YAML file, flattens the structure, and validates."""
-    path = Path(yaml_path)
-    if not path.exists():
-        raise FileNotFoundError(f"Config file not found: {yaml_path}")
-
-    with open(path, "r") as f:
-        raw_data = yaml.safe_load(f)
-    
-    # --- LOGIC FIX: Handle Nested Structure ---
-    # The YAML has 'vehicle' and 'zone' as top-level keys.
-    # We combine them into a single dictionary for Pydantic.
-    
-    flat_data = raw_data.get("vehicle", {}).copy()
-    zone_block = raw_data.get("zone", {})
-    
-    # Extract zone name
-    if isinstance(zone_block, dict):
-        flat_data["zone_id"] = zone_block.get("name")
-    else:
-        flat_data["zone_id"] = str(zone_block)
-
-    try:
-        return VehicleConfig(**flat_data)
-    except ValidationError as e:
-        print(f"❌ Configuration Error in {path.name}:")
-        raise e
-
-def load_route_config(yaml_path: str) -> RouteConfig:
-    """Reads a YAML file and returns a validated RouteConfig object."""
-    path = Path(yaml_path)
-    with open(path, "r") as f:
+    with open(yaml_path, "r") as f:
         data = yaml.safe_load(f)
+    
+    # 1. Handle "Nested" Structure (Official VTS format)
+    if "vehicle" in data:
+        v_data = data["vehicle"]
+        # Zone might be defined in a 'zone' block or just a 'zone_id' key
+        z_data = data.get("zone", {})
+        zone_val = data.get("zone_id", z_data.get("name", "Unknown_Zone"))
         
-    return RouteConfig(**data)
+        return VehicleConfig(
+            imei=str(v_data["imei"]),
+            name=v_data["name"],
+            device_id=v_data.get("device_id", "unknown"),
+            zone_id=zone_val,
+            type=v_data.get("vehicle_type", "Vehicle"),
+            depot_location=(
+                v_data.get("depot_lat", 12.958319), 
+                v_data.get("depot_lon", 77.612422)
+            ),
+            # Extract speed, default to 25.0 if missing
+            max_speed_knots=float(v_data.get("max_speed_knots", 25.0))
+        )
+        
+    # 2. Handle "Flat" Structure (Legacy format)
+    else:
+        return VehicleConfig(
+            imei=str(data["imei"]),
+            name=data["name"],
+            device_id=data.get("device_id", "unknown"),
+            zone_id=data.get("zone_id", "Unknown_Zone"),
+            type=data.get("type", "Vehicle"),
+            depot_location=(
+                data.get("depot_lat", 12.958319), 
+                data.get("depot_lon", 77.612422)
+            ),
+            max_speed_knots=float(data.get("max_speed_knots", 25.0))
+        )

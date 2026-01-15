@@ -6,18 +6,27 @@ import json
 import datetime
 import os
 
-from vts_core.utils import decimal_to_ddmm_mmmm, format_time_hhmmss_ms
+from vts_core.utils import decimal_to_nmea, get_hemisphere
 
 class SimulationStore:
     def __init__(self, base_dir: str = "data"):
         self.base_dir = Path(base_dir)
         self.base_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Initialize optional Metadata DB (Preserving structure)
         self.db_path = self.base_dir / "simulation_metadata.db"
         self._init_db()
+        
+        # Main Telemetry storage (Parquet)
         self.telemetry_dir = self.base_dir / "telemetry"
         self.telemetry_dir.mkdir(exist_ok=True)
+        
+        # Legacy/Custom Text Log storage
+        self.legacy_dir = self.base_dir / "output" / "tracker"
+        self.legacy_dir.mkdir(parents=True, exist_ok=True)
 
     def _init_db(self):
+        """Creates metadata tables if they don't exist."""
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
         cursor.execute("""
@@ -27,84 +36,81 @@ class SimulationStore:
                 zone_id TEXT
             )
         """)
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS daily_plans (
-                plan_id TEXT PRIMARY KEY,
-                date TEXT,
-                vehicle_imei TEXT,
-                route_id TEXT,
-                start_time TEXT,
-                meta_json TEXT,
-                FOREIGN KEY(vehicle_imei) REFERENCES vehicles(imei)
-            )
-        """)
         conn.commit()
         conn.close()
 
-    def register_vehicle(self, vehicle_config: Dict[str, Any]):
-        conn = sqlite3.connect(self.db_path)
-        conn.execute(
-            "INSERT OR REPLACE INTO vehicles (imei, config_json, zone_id) VALUES (?, ?, ?)",
-            (vehicle_config['imei'], json.dumps(vehicle_config), vehicle_config.get('zone_id'))
-        )
-        conn.commit()
-        conn.close()
+    def write_telemetry(self, imei: str, date_str: str, records: list):
+        """
+        Writes simulation data to:
+        1. Parquet (Efficient binary format for maps/analytics)
+        2. Text Log (Custom format requested for device emulation)
+        """
+        if not records:
+            return
 
-    def write_telemetry(self, vehicle_imei: str, date: str, records: List[Dict]):
-        if not records: return
+        # --- 1. Setup File Paths ---
+        year, month = date_str.split("-")[:2]
+        
+        # Parquet Path: data/telemetry/year=2023/month=01/
+        parquet_dir = self.telemetry_dir / f"year={year}" / f"month={month}"
+        parquet_dir.mkdir(parents=True, exist_ok=True)
+        parquet_path = parquet_dir / f"{imei}_{date_str}.parquet"
+        
+        # Text Log Path: data/output/tracker/{imei}/
+        vehicle_log_dir = self.legacy_dir / imei
+        vehicle_log_dir.mkdir(parents=True, exist_ok=True)
+        log_path = vehicle_log_dir / f"{date_str}.txt"
+
+        # --- 2. Write Parquet (Source of Truth) ---
         df = pd.DataFrame(records)
-        df['timestamp'] = pd.to_datetime(df['timestamp'])
-        df['vehicle_imei'] = vehicle_imei
-        
-        dt = datetime.datetime.strptime(date, "%Y-%m-%d")
-        year = str(dt.year)
-        month = f"{dt.month:02d}"
-        output_dir = self.telemetry_dir / f"year={year}" / f"month={month}"
-        output_dir.mkdir(parents=True, exist_ok=True)
-        
-        file_path = output_dir / f"{vehicle_imei}_{date}.parquet"
-        if file_path.exists():
-            existing_df = pd.read_parquet(file_path)
-            df = pd.concat([existing_df, df])
-        
-        df.to_parquet(file_path, engine='pyarrow', index=False)
-        return str(file_path)
+        # Ensure timestamp is datetime for parquet efficiency
+        if not df.empty and isinstance(df.iloc[0]['timestamp'], str):
+            df['timestamp'] = pd.to_datetime(df['timestamp'])
+            
+        df.to_parquet(parquet_path, index=False)
 
-    def export_legacy_log(self, vehicle_imei: str, date: str, device_id: str, output_path: str = None) -> str:
-        """
-        Export Format (FIXED):
-        imei:868...,tracker,140...,,F,060722.000,A,1255.4187,N,07733.1281,E,0.81,121.83;
-        """
-        dt = datetime.datetime.strptime(date, "%Y-%m-%d")
-        year = str(dt.year)
-        month = f"{dt.month:02d}"
-        parquet_path = self.telemetry_dir / f"year={year}" / f"month={month}" / f"{vehicle_imei}_{date}.parquet"
+        # --- 3. Write Custom Text Log ---
+        # Format: imei:868...,tracker,140...,,F,060722.000,A,1255.4187,N,07733.1281,E,0.81,121.83;
         
-        if not parquet_path.exists():
-            raise FileNotFoundError(f"No telemetry data found for {vehicle_imei} on {date}")
+        with open(log_path, "w") as f:
+            for r in records:
+                ts = r["timestamp"]
+                # Handle timestamp types (string vs datetime object)
+                if isinstance(ts, str):
+                    try:
+                        ts = datetime.datetime.fromisoformat(ts)
+                    except ValueError:
+                        # Fallback if unknown format
+                        continue
+                
+                # A. Generate Packet Fields
+                # Packet ID: YYMMDDHHMMSS (Unique based on time)
+                packet_id = ts.strftime("%y%m%d%H%M%S")
+                
+                # Time: HHMMSS.000
+                time_str = ts.strftime("%H%M%S.000")
+                
+                # Lat/Lon NMEA conversion
+                lat = r["lat"]
+                lon = r["lon"]
+                lat_nmea = decimal_to_nmea(lat, is_longitude=False)
+                lat_dir = get_hemisphere(lat, is_lon=False)
+                
+                lon_nmea = decimal_to_nmea(lon, is_longitude=True)
+                lon_dir = get_hemisphere(lon, is_lon=True)
+                
+                # Speed: km/h -> Knots (1 km/h = 0.539957 knots)
+                speed_kmh = r.get("speed", 0.0)
+                speed_knots = speed_kmh * 0.539957
+                
+                # Heading
+                heading = r.get("heading", 0.0)
 
-        df = pd.read_parquet(parquet_path)
-        df = df.sort_values('timestamp')
-        
-        lines = []
-        for _, row in df.iterrows():
-            ts_str = format_time_hhmmss_ms(row['timestamp'])
-            lat_str = decimal_to_ddmm_mmmm(row['lat'], is_longitude=False)
-            lon_str = decimal_to_ddmm_mmmm(row['lon'], is_longitude=True)
-            speed = f"{row['speed']:.2f}"
-            heading = f"{row['heading']:.2f}"
-            
-            # --- FIX: Removed '(' and ')' ---
-            line = (
-                f"imei:{vehicle_imei},tracker,{device_id},,F,{ts_str},"
-                f"A,{lat_str},N,{lon_str},E,{speed},{heading};"
-            )
-            lines.append(line)
-            
-        if output_path is None:
-            output_path = str(self.base_dir / f"{vehicle_imei}_{date}.txt")
-            
-        with open(output_path, "w") as f:
-            f.write("\n".join(lines))
-            
-        return output_path
+                # B. Build Line
+                line = (
+                    f"imei:{imei},tracker,{packet_id},,F,{time_str},A,"
+                    f"{lat_nmea},{lat_dir},{lon_nmea},{lon_dir},"
+                    f"{speed_knots:.2f},{heading:.2f};"
+                )
+                
+                f.write(line + "\n")

@@ -4,6 +4,8 @@ vehicle:
   device_id: "SE1_KA04AB5794_JETTING"
   vehicle_type: "Jetting_Machine"
   max_speed_knots: 25.0
+  depot_lat: 12.958319
+  depot_lon: 77.612422
   
 zone:
   name: "South_East_Bangalore"
