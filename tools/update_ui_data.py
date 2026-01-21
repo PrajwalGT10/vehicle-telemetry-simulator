@@ -24,7 +24,10 @@ def main():
     # 2. Process each vehicle
     for f in yaml_files:
         try:
-            cfg = load_vehicle_config(f)
+            cfg = load_vehicle_config(f) # load_vehicle_config should handle encoding, let's check it.
+            # actually load_vehicle_config calls open(path, 'r'), which uses default encoding (cp1252 on windows).
+            # We should fix vts_core/config.py, but for now let's see if we can just fix it there.
+            # checking vts_core/config.py is better. Use view_file first.
             # We use IMEI as the key so the UI passes IMEI to the map loader
             ui_data[cfg.imei] = {
                 "imei": cfg.imei,

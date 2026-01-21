@@ -2,11 +2,29 @@ import networkx as nx
 import geopandas as gpd
 from shapely.geometry import Point, LineString
 import math
+import os
+import random
 
 class RoadNetwork:
-    def __init__(self, geojson_path: str):
+    def __init__(self, geojson_path: str, localities_path: str = None):
         print(f"   Loading Road Graph from {geojson_path}...")
         self.gdf = gpd.read_file(geojson_path)
+        self.localities = []
+
+        if localities_path and os.path.exists(localities_path):
+             try:
+                 loc_gdf = gpd.read_file(localities_path)
+                 print(f"   Loading {len(loc_gdf)} localities from {localities_path}...")
+                 # Store (Lon, Lat) tuples
+                 for _, row in loc_gdf.iterrows():
+                     geom = row.geometry
+                     if geom.geom_type == 'Point':
+                         self.localities.append((geom.x, geom.y))
+                     elif geom.geom_type in ['Polygon', 'MultiPolygon']:
+                         c = geom.centroid
+                         self.localities.append((c.x, c.y))
+             except Exception as e:
+                 print(f"⚠️ Error loading localities: {e}")
         
         # 1. Build Directed Graph (Respects One-Ways if data has them, currently forcing 2-way for connectivity)
         raw_graph = nx.DiGraph()
@@ -40,6 +58,31 @@ class RoadNetwork:
         # Pre-cache nodes for fast lookup
         self.node_list = list(self.graph.nodes)
         print(f"   Graph Ready: {self.graph.number_of_edges()} drivable edges.")
+
+    def get_random_waypoints(self, n=5):
+        """
+        Returns 'n' random nodes.
+        Prioritizes localities (mapped to nearest road node) if available.
+        """
+        waypoints = []
+        
+        # 1. Try to use localities
+        if self.localities:
+            # Pick random localities
+            chunk_size = min(len(self.localities), n)
+            chosen_locs = random.sample(self.localities, chunk_size)
+            
+            for loc in chosen_locs:
+                # Find nearest graph node to this locality
+                node = self._get_nearest_node((loc[1], loc[0])) # Lat, Lon
+                if node: waypoints.append(node)
+                
+        # 2. Fill remainder with random nodes
+        remaining = n - len(waypoints)
+        if remaining > 0 and self.node_list:
+            waypoints.extend([random.choice(self.node_list) for _ in range(remaining)])
+            
+        return waypoints
 
     def find_shortest_path(self, start_coords: tuple, end_coords: tuple):
         """Returns (LineString, Distance_Meters)"""

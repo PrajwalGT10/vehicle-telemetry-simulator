@@ -1,0 +1,37 @@
+vehicle:
+  name: NE3_KA04AA1783_Desilting
+  imei: '868683022805455'
+  device_id: NE3_KA04AA1783_Desilting
+  vehicle_type: Desilting
+  vehicle_number: KA04AA1783
+  zone_id: NE3
+  max_speed_knots: 25.0
+  depot_lat: 12.958319
+  depot_lon: 77.612422
+zone:
+  name: South_East_Bangalore
+  roads_geojson: data/zones/South_East_Bangalore/roads.geojson
+  localities_file: data/zones/South_East_Bangalore/localities.geojson
+shift:
+  timezone: Asia/Kolkata
+  start_time: 09:00
+  end_time: '19:00'
+  sampling_interval_seconds: 25
+  sampling_jitter_seconds: 5
+calendar:
+  working_days:
+  - MON
+  - TUE
+  - WED
+  - THU
+  - FRI
+  allow_saturdays: true
+  saturday_probability_per_month: 2
+  holidays_file: configs/calendars/india_2023_holidays.json
+routes:
+  templates:
+  - RT_DEFAULT
+generation:
+  random_seed: 12345
+  output_root: data/output
+  output_granularity: per_day

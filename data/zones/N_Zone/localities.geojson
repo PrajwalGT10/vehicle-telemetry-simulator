@@ -1,0 +1,819 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_1",
+        "name": "Yelahanka",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "430143744"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5933454,
+              13.0976982
+            ],
+            [
+              77.5993454,
+              13.0976982
+            ],
+            [
+              77.5993454,
+              13.1036982
+            ],
+            [
+              77.5933454,
+              13.1036982
+            ],
+            [
+              77.5933454,
+              13.0976982
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_2",
+        "name": "Arkavathy Layout 1st Block",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "533583971"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6053207,
+              13.0810392
+            ],
+            [
+              77.6113207,
+              13.0810392
+            ],
+            [
+              77.6113207,
+              13.0870392
+            ],
+            [
+              77.6053207,
+              13.0870392
+            ],
+            [
+              77.6053207,
+              13.0810392
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_3",
+        "name": "Sector A",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "959499304"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.583453,
+              13.093843399999999
+            ],
+            [
+              77.589453,
+              13.093843399999999
+            ],
+            [
+              77.589453,
+              13.0998434
+            ],
+            [
+              77.583453,
+              13.0998434
+            ],
+            [
+              77.583453,
+              13.093843399999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_4",
+        "name": "Yelahanka New Town",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "959499372"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5781889,
+              13.0948039
+            ],
+            [
+              77.5841889,
+              13.0948039
+            ],
+            [
+              77.5841889,
+              13.1008039
+            ],
+            [
+              77.5781889,
+              13.1008039
+            ],
+            [
+              77.5781889,
+              13.0948039
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_5",
+        "name": "Sector B",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "959499462"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.578801,
+              13.0952811
+            ],
+            [
+              77.584801,
+              13.0952811
+            ],
+            [
+              77.584801,
+              13.1012811
+            ],
+            [
+              77.578801,
+              13.1012811
+            ],
+            [
+              77.578801,
+              13.0952811
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_6",
+        "name": "4th Phase",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "959502436"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.572315,
+              13.1018382
+            ],
+            [
+              77.578315,
+              13.1018382
+            ],
+            [
+              77.578315,
+              13.1078382
+            ],
+            [
+              77.572315,
+              13.1078382
+            ],
+            [
+              77.572315,
+              13.1018382
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_7",
+        "name": "Gandhinagar",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "960168729"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5922828,
+              13.0957546
+            ],
+            [
+              77.5982828,
+              13.0957546
+            ],
+            [
+              77.5982828,
+              13.1017546
+            ],
+            [
+              77.5922828,
+              13.1017546
+            ],
+            [
+              77.5922828,
+              13.0957546
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_8",
+        "name": "Judicial Layout",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "960240551"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5830438,
+              13.0807692
+            ],
+            [
+              77.5890438,
+              13.0807692
+            ],
+            [
+              77.5890438,
+              13.0867692
+            ],
+            [
+              77.5830438,
+              13.0867692
+            ],
+            [
+              77.5830438,
+              13.0807692
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_9",
+        "name": "Sharadhanagar",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "7658457889"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5733941,
+              13.0912392
+            ],
+            [
+              77.5793941,
+              13.0912392
+            ],
+            [
+              77.5793941,
+              13.0972392
+            ],
+            [
+              77.5733941,
+              13.0972392
+            ],
+            [
+              77.5733941,
+              13.0912392
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_10",
+        "name": "Puttenahalli",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "7978094280"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5777595,
+              13.1074253
+            ],
+            [
+              77.5837595,
+              13.1074253
+            ],
+            [
+              77.5837595,
+              13.1134253
+            ],
+            [
+              77.5777595,
+              13.1134253
+            ],
+            [
+              77.5777595,
+              13.1074253
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_11",
+        "name": "Jakkur Plantation",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "9940037948"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5950019,
+              13.0804599
+            ],
+            [
+              77.6010019,
+              13.0804599
+            ],
+            [
+              77.6010019,
+              13.0864599
+            ],
+            [
+              77.5950019,
+              13.0864599
+            ],
+            [
+              77.5950019,
+              13.0804599
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_12",
+        "name": "Maruthi Nagara",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "10607453283"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6040517,
+              13.1046199
+            ],
+            [
+              77.6100517,
+              13.1046199
+            ],
+            [
+              77.6100517,
+              13.1106199
+            ],
+            [
+              77.6040517,
+              13.1106199
+            ],
+            [
+              77.6040517,
+              13.1046199
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_13",
+        "name": "Venkatala",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "10607453284"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5996475,
+              13.109207099999999
+            ],
+            [
+              77.6056475,
+              13.109207099999999
+            ],
+            [
+              77.6056475,
+              13.1152071
+            ],
+            [
+              77.5996475,
+              13.1152071
+            ],
+            [
+              77.5996475,
+              13.109207099999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_14",
+        "name": "Kenchenahalli",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "10983994603"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5819342,
+              13.1170124
+            ],
+            [
+              77.5879342,
+              13.1170124
+            ],
+            [
+              77.5879342,
+              13.1230124
+            ],
+            [
+              77.5819342,
+              13.1230124
+            ],
+            [
+              77.5819342,
+              13.1170124
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_15",
+        "name": "Vinayaka Layout",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "10984067985"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5750195,
+              13.1106647
+            ],
+            [
+              77.5810195,
+              13.1106647
+            ],
+            [
+              77.5810195,
+              13.1166647
+            ],
+            [
+              77.5750195,
+              13.1166647
+            ],
+            [
+              77.5750195,
+              13.1106647
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_16",
+        "name": "Surabhi Layout",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "10984582462"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5972443,
+              13.0900374
+            ],
+            [
+              77.6032443,
+              13.0900374
+            ],
+            [
+              77.6032443,
+              13.0960374
+            ],
+            [
+              77.5972443,
+              13.0960374
+            ],
+            [
+              77.5972443,
+              13.0900374
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_17",
+        "name": "GKVK Layout",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "10984720097"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6004629,
+              13.0797075
+            ],
+            [
+              77.6064629,
+              13.0797075
+            ],
+            [
+              77.6064629,
+              13.0857075
+            ],
+            [
+              77.6004629,
+              13.0857075
+            ],
+            [
+              77.6004629,
+              13.0797075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_18",
+        "name": "Mathru Layout",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "11423253044"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5718438,
+              13.0940606
+            ],
+            [
+              77.5778438,
+              13.0940606
+            ],
+            [
+              77.5778438,
+              13.1000606
+            ],
+            [
+              77.5718438,
+              13.1000606
+            ],
+            [
+              77.5718438,
+              13.0940606
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_19",
+        "name": "LIG 3rd Stage",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "11448931999"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5746681,
+              13.093158
+            ],
+            [
+              77.5806681,
+              13.093158
+            ],
+            [
+              77.5806681,
+              13.099158000000001
+            ],
+            [
+              77.5746681,
+              13.099158000000001
+            ],
+            [
+              77.5746681,
+              13.093158
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_20",
+        "name": "Kogilu",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "11821173928"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6137721,
+              13.100973
+            ],
+            [
+              77.6197721,
+              13.100973
+            ],
+            [
+              77.6197721,
+              13.106973
+            ],
+            [
+              77.6137721,
+              13.106973
+            ],
+            [
+              77.6137721,
+              13.100973
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_21",
+        "name": "Prakruthi Nagar",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "11880637076"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6127367,
+              13.0948966
+            ],
+            [
+              77.6187367,
+              13.0948966
+            ],
+            [
+              77.6187367,
+              13.1008966
+            ],
+            [
+              77.6127367,
+              13.1008966
+            ],
+            [
+              77.6127367,
+              13.0948966
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "N_LOC_22",
+        "name": "Chikkabommasandra",
+        "zone": "N_Zone",
+        "locality_type": "residential",
+        "osm_id": "12031544035"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5773933,
+              13.0886685
+            ],
+            [
+              77.5833933,
+              13.0886685
+            ],
+            [
+              77.5833933,
+              13.094668500000001
+            ],
+            [
+              77.5773933,
+              13.094668500000001
+            ],
+            [
+              77.5773933,
+              13.0886685
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

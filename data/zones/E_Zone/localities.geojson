@@ -1,0 +1,2595 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_347261886",
+        "name": "Domlur",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.63569580000001,
+              12.959966900000001
+            ],
+            [
+              77.6406958,
+              12.959966900000001
+            ],
+            [
+              77.6406958,
+              12.9649669
+            ],
+            [
+              77.63569580000001,
+              12.9649669
+            ],
+            [
+              77.63569580000001,
+              12.959966900000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_347262164",
+        "name": "Kodihalli",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6454018,
+              12.9603452
+            ],
+            [
+              77.6504018,
+              12.9603452
+            ],
+            [
+              77.6504018,
+              12.9653452
+            ],
+            [
+              77.6454018,
+              12.9653452
+            ],
+            [
+              77.6454018,
+              12.9603452
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_443807286",
+        "name": "Baiyyappanahalli",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6508197,
+              12.993840800000001
+            ],
+            [
+              77.6558197,
+              12.993840800000001
+            ],
+            [
+              77.6558197,
+              12.9988408
+            ],
+            [
+              77.6508197,
+              12.9988408
+            ],
+            [
+              77.6508197,
+              12.993840800000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_448991617",
+        "name": "Indiranagar",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6379672,
+              12.9707913
+            ],
+            [
+              77.6429672,
+              12.9707913
+            ],
+            [
+              77.6429672,
+              12.9757913
+            ],
+            [
+              77.6379672,
+              12.9757913
+            ],
+            [
+              77.6379672,
+              12.9707913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_513600978",
+        "name": "Indiranagar 1st Stage",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6366534,
+              12.976842000000001
+            ],
+            [
+              77.6416534,
+              12.976842000000001
+            ],
+            [
+              77.6416534,
+              12.981842
+            ],
+            [
+              77.6366534,
+              12.981842
+            ],
+            [
+              77.6366534,
+              12.976842000000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_513600979",
+        "name": "Indiranagar 2nd Stage",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.63619,
+              12.974585600000001
+            ],
+            [
+              77.64119,
+              12.974585600000001
+            ],
+            [
+              77.64119,
+              12.9795856
+            ],
+            [
+              77.63619,
+              12.9795856
+            ],
+            [
+              77.63619,
+              12.974585600000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_513600980",
+        "name": "Motappanapalya",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6363731,
+              12.9706648
+            ],
+            [
+              77.6413731,
+              12.9706648
+            ],
+            [
+              77.6413731,
+              12.975664799999999
+            ],
+            [
+              77.6363731,
+              12.975664799999999
+            ],
+            [
+              77.6363731,
+              12.9706648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_513600981",
+        "name": "Jeevan Bhima Nagar",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6543367,
+              12.9653074
+            ],
+            [
+              77.6593367,
+              12.9653074
+            ],
+            [
+              77.6593367,
+              12.9703074
+            ],
+            [
+              77.6543367,
+              12.9703074
+            ],
+            [
+              77.6543367,
+              12.9653074
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_513652499",
+        "name": "Domlur 1st Stage",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6352909,
+              12.956642
+            ],
+            [
+              77.6402909,
+              12.956642
+            ],
+            [
+              77.6402909,
+              12.961642
+            ],
+            [
+              77.6352909,
+              12.961642
+            ],
+            [
+              77.6352909,
+              12.956642
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_513652501",
+        "name": "New Thippasandra",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6511931,
+              12.9711956
+            ],
+            [
+              77.6561931,
+              12.9711956
+            ],
+            [
+              77.6561931,
+              12.976195599999999
+            ],
+            [
+              77.6511931,
+              12.976195599999999
+            ],
+            [
+              77.6511931,
+              12.9711956
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_710722699",
+        "name": "Domlur 2nd Stage",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6358676,
+              12.9615664
+            ],
+            [
+              77.64086759999999,
+              12.9615664
+            ],
+            [
+              77.64086759999999,
+              12.9665664
+            ],
+            [
+              77.6358676,
+              12.9665664
+            ],
+            [
+              77.6358676,
+              12.9615664
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_736207253",
+        "name": "Defence Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6410315,
+              12.973671000000001
+            ],
+            [
+              77.64603149999999,
+              12.973671000000001
+            ],
+            [
+              77.64603149999999,
+              12.978671
+            ],
+            [
+              77.6410315,
+              12.978671
+            ],
+            [
+              77.6410315,
+              12.973671000000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_1232740569",
+        "name": "Eshwara Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6312669,
+              12.9718818
+            ],
+            [
+              77.6362669,
+              12.9718818
+            ],
+            [
+              77.6362669,
+              12.9768818
+            ],
+            [
+              77.6312669,
+              12.9768818
+            ],
+            [
+              77.6312669,
+              12.9718818
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_1232740599",
+        "name": "LBS Nagar",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6297716,
+              12.9739755
+            ],
+            [
+              77.6347716,
+              12.9739755
+            ],
+            [
+              77.6347716,
+              12.978975499999999
+            ],
+            [
+              77.6297716,
+              12.978975499999999
+            ],
+            [
+              77.6297716,
+              12.9739755
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_1420058875",
+        "name": "Domlur Village",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.633302,
+              12.9599344
+            ],
+            [
+              77.638302,
+              12.9599344
+            ],
+            [
+              77.638302,
+              12.964934399999999
+            ],
+            [
+              77.633302,
+              12.964934399999999
+            ],
+            [
+              77.633302,
+              12.9599344
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_1420066610",
+        "name": "Doopanahalli",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6371382,
+              12.9649584
+            ],
+            [
+              77.64213819999999,
+              12.9649584
+            ],
+            [
+              77.64213819999999,
+              12.9699584
+            ],
+            [
+              77.6371382,
+              12.9699584
+            ],
+            [
+              77.6371382,
+              12.9649584
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_1453825863",
+        "name": "Halasuru",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6221697,
+              12.9753793
+            ],
+            [
+              77.6271697,
+              12.9753793
+            ],
+            [
+              77.6271697,
+              12.9803793
+            ],
+            [
+              77.6221697,
+              12.9803793
+            ],
+            [
+              77.6221697,
+              12.9753793
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_1473221118",
+        "name": "Cambridge Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6252757,
+              12.9676231
+            ],
+            [
+              77.6302757,
+              12.9676231
+            ],
+            [
+              77.6302757,
+              12.9726231
+            ],
+            [
+              77.6252757,
+              12.9726231
+            ],
+            [
+              77.6252757,
+              12.9676231
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_1844365244",
+        "name": "Lakshmipuram",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62817770000001,
+              12.9750466
+            ],
+            [
+              77.6331777,
+              12.9750466
+            ],
+            [
+              77.6331777,
+              12.9800466
+            ],
+            [
+              77.62817770000001,
+              12.9800466
+            ],
+            [
+              77.62817770000001,
+              12.9750466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_1857028749",
+        "name": "HAL 2nd Stage",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.64121060000001,
+              12.9664409
+            ],
+            [
+              77.6462106,
+              12.9664409
+            ],
+            [
+              77.6462106,
+              12.9714409
+            ],
+            [
+              77.64121060000001,
+              12.9714409
+            ],
+            [
+              77.64121060000001,
+              12.9664409
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_1966567908",
+        "name": "Binnamangala",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6391769,
+              12.9814881
+            ],
+            [
+              77.64417689999999,
+              12.9814881
+            ],
+            [
+              77.64417689999999,
+              12.986488099999999
+            ],
+            [
+              77.6391769,
+              12.986488099999999
+            ],
+            [
+              77.6391769,
+              12.9814881
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3198681423",
+        "name": "Domlur BDA Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6324677,
+              12.9619251
+            ],
+            [
+              77.6374677,
+              12.9619251
+            ],
+            [
+              77.6374677,
+              12.9669251
+            ],
+            [
+              77.6324677,
+              12.9669251
+            ],
+            [
+              77.6324677,
+              12.9619251
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3298366364",
+        "name": "Bhoomi Reddy Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6496258,
+              12.972733400000001
+            ],
+            [
+              77.65462579999999,
+              12.972733400000001
+            ],
+            [
+              77.65462579999999,
+              12.9777334
+            ],
+            [
+              77.6496258,
+              12.9777334
+            ],
+            [
+              77.6496258,
+              12.972733400000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3298378274",
+        "name": "HAL 3rd Stage",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6472819,
+              12.9690338
+            ],
+            [
+              77.65228189999999,
+              12.9690338
+            ],
+            [
+              77.65228189999999,
+              12.974033799999999
+            ],
+            [
+              77.6472819,
+              12.974033799999999
+            ],
+            [
+              77.6472819,
+              12.9690338
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3298378275",
+        "name": "Thippasandra",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6484982,
+              12.971436
+            ],
+            [
+              77.6534982,
+              12.971436
+            ],
+            [
+              77.6534982,
+              12.976436
+            ],
+            [
+              77.6484982,
+              12.976436
+            ],
+            [
+              77.6484982,
+              12.971436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3298494103",
+        "name": "Sudgunte Palya",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6541216,
+              12.9807023
+            ],
+            [
+              77.65912159999999,
+              12.9807023
+            ],
+            [
+              77.65912159999999,
+              12.9857023
+            ],
+            [
+              77.6541216,
+              12.9857023
+            ],
+            [
+              77.6541216,
+              12.9807023
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3311193161",
+        "name": "Jogupalya",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62552600000001,
+              12.9721882
+            ],
+            [
+              77.630526,
+              12.9721882
+            ],
+            [
+              77.630526,
+              12.977188199999999
+            ],
+            [
+              77.62552600000001,
+              12.977188199999999
+            ],
+            [
+              77.62552600000001,
+              12.9721882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3311194760",
+        "name": "Saraswathipuram",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6291363,
+              12.9723063
+            ],
+            [
+              77.6341363,
+              12.9723063
+            ],
+            [
+              77.6341363,
+              12.977306299999999
+            ],
+            [
+              77.6291363,
+              12.977306299999999
+            ],
+            [
+              77.6291363,
+              12.9723063
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3311194761",
+        "name": "Gowthamapura",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6228437,
+              12.9664797
+            ],
+            [
+              77.6278437,
+              12.9664797
+            ],
+            [
+              77.6278437,
+              12.9714797
+            ],
+            [
+              77.6228437,
+              12.9714797
+            ],
+            [
+              77.6228437,
+              12.9664797
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3384271515",
+        "name": "Appareddipalaya",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.634743,
+              12.971687900000001
+            ],
+            [
+              77.639743,
+              12.971687900000001
+            ],
+            [
+              77.639743,
+              12.9766879
+            ],
+            [
+              77.634743,
+              12.9766879
+            ],
+            [
+              77.634743,
+              12.971687900000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3384271516",
+        "name": "Kadiranpalaya",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.632828,
+              12.9842555
+            ],
+            [
+              77.637828,
+              12.9842555
+            ],
+            [
+              77.637828,
+              12.989255499999999
+            ],
+            [
+              77.632828,
+              12.989255499999999
+            ],
+            [
+              77.632828,
+              12.9842555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3384271517",
+        "name": "LIC Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6517086,
+              12.966571100000001
+            ],
+            [
+              77.6567086,
+              12.966571100000001
+            ],
+            [
+              77.6567086,
+              12.9715711
+            ],
+            [
+              77.6517086,
+              12.9715711
+            ],
+            [
+              77.6517086,
+              12.966571100000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3384271518",
+        "name": "Old Thippasandra",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6439991,
+              12.9695823
+            ],
+            [
+              77.6489991,
+              12.9695823
+            ],
+            [
+              77.6489991,
+              12.9745823
+            ],
+            [
+              77.6439991,
+              12.9745823
+            ],
+            [
+              77.6439991,
+              12.9695823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3384284801",
+        "name": "BM Kaval",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6458709,
+              12.9791939
+            ],
+            [
+              77.6508709,
+              12.9791939
+            ],
+            [
+              77.6508709,
+              12.9841939
+            ],
+            [
+              77.6458709,
+              12.9841939
+            ],
+            [
+              77.6458709,
+              12.9791939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3384284802",
+        "name": "Michaelpalya",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6440951,
+              12.978594000000001
+            ],
+            [
+              77.6490951,
+              12.978594000000001
+            ],
+            [
+              77.6490951,
+              12.983594
+            ],
+            [
+              77.6440951,
+              12.983594
+            ],
+            [
+              77.6440951,
+              12.978594000000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3474697231",
+        "name": "Puttappa Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6502383,
+              12.9684603
+            ],
+            [
+              77.6552383,
+              12.9684603
+            ],
+            [
+              77.6552383,
+              12.9734603
+            ],
+            [
+              77.6502383,
+              12.9734603
+            ],
+            [
+              77.6502383,
+              12.9684603
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3497378217",
+        "name": "Amarjyothi Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6402434,
+              12.954127900000001
+            ],
+            [
+              77.6452434,
+              12.954127900000001
+            ],
+            [
+              77.6452434,
+              12.9591279
+            ],
+            [
+              77.6402434,
+              12.9591279
+            ],
+            [
+              77.6402434,
+              12.954127900000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3532995084",
+        "name": "MV Garden",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62039440000001,
+              12.9767343
+            ],
+            [
+              77.6253944,
+              12.9767343
+            ],
+            [
+              77.6253944,
+              12.9817343
+            ],
+            [
+              77.62039440000001,
+              12.9817343
+            ],
+            [
+              77.62039440000001,
+              12.9767343
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3643239014",
+        "name": "Gupta Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6222821,
+              12.9771895
+            ],
+            [
+              77.6272821,
+              12.9771895
+            ],
+            [
+              77.6272821,
+              12.982189499999999
+            ],
+            [
+              77.6222821,
+              12.982189499999999
+            ],
+            [
+              77.6222821,
+              12.9771895
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3648204414",
+        "name": "Old Binnamangala",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6390509,
+              12.977078500000001
+            ],
+            [
+              77.6440509,
+              12.977078500000001
+            ],
+            [
+              77.6440509,
+              12.9820785
+            ],
+            [
+              77.6390509,
+              12.9820785
+            ],
+            [
+              77.6390509,
+              12.977078500000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_3887129211",
+        "name": "ITC Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6276239,
+              12.9956729
+            ],
+            [
+              77.6326239,
+              12.9956729
+            ],
+            [
+              77.6326239,
+              13.0006729
+            ],
+            [
+              77.6276239,
+              13.0006729
+            ],
+            [
+              77.6276239,
+              12.9956729
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_4162555217",
+        "name": "Babasaheb Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6408621,
+              12.9634245
+            ],
+            [
+              77.6458621,
+              12.9634245
+            ],
+            [
+              77.6458621,
+              12.9684245
+            ],
+            [
+              77.6408621,
+              12.9684245
+            ],
+            [
+              77.6408621,
+              12.9634245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_4203653089",
+        "name": "Gitanjali Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6512885,
+              12.973375800000001
+            ],
+            [
+              77.6562885,
+              12.973375800000001
+            ],
+            [
+              77.6562885,
+              12.9783758
+            ],
+            [
+              77.6512885,
+              12.9783758
+            ],
+            [
+              77.6512885,
+              12.973375800000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_4506781903",
+        "name": "Hutting Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6406419,
+              12.9789904
+            ],
+            [
+              77.6456419,
+              12.9789904
+            ],
+            [
+              77.6456419,
+              12.9839904
+            ],
+            [
+              77.6406419,
+              12.9839904
+            ],
+            [
+              77.6406419,
+              12.9789904
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_4533367168",
+        "name": "Someshwarapura",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62891690000001,
+              12.9668316
+            ],
+            [
+              77.6339169,
+              12.9668316
+            ],
+            [
+              77.6339169,
+              12.9718316
+            ],
+            [
+              77.62891690000001,
+              12.9718316
+            ],
+            [
+              77.62891690000001,
+              12.9668316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_4558992323",
+        "name": "Corporation Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6443359,
+              12.955843
+            ],
+            [
+              77.6493359,
+              12.955843
+            ],
+            [
+              77.6493359,
+              12.960842999999999
+            ],
+            [
+              77.6443359,
+              12.960842999999999
+            ],
+            [
+              77.6443359,
+              12.955843
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_4692685699",
+        "name": "Keshavaraj Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6244272,
+              12.9683978
+            ],
+            [
+              77.6294272,
+              12.9683978
+            ],
+            [
+              77.6294272,
+              12.973397799999999
+            ],
+            [
+              77.6244272,
+              12.973397799999999
+            ],
+            [
+              77.6244272,
+              12.9683978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_5339114465",
+        "name": "Shivalingaiah Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6541232,
+              12.961294800000001
+            ],
+            [
+              77.6591232,
+              12.961294800000001
+            ],
+            [
+              77.6591232,
+              12.9662948
+            ],
+            [
+              77.6541232,
+              12.9662948
+            ],
+            [
+              77.6541232,
+              12.961294800000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_5469373810",
+        "name": "Krishna Reddy Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6346896,
+              12.9537218
+            ],
+            [
+              77.6396896,
+              12.9537218
+            ],
+            [
+              77.6396896,
+              12.9587218
+            ],
+            [
+              77.6346896,
+              12.9587218
+            ],
+            [
+              77.6346896,
+              12.9537218
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_5490015858",
+        "name": "Indiranagar 3rd Stage",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6363125,
+              12.9727555
+            ],
+            [
+              77.6413125,
+              12.9727555
+            ],
+            [
+              77.6413125,
+              12.977755499999999
+            ],
+            [
+              77.6363125,
+              12.977755499999999
+            ],
+            [
+              77.6363125,
+              12.9727555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_5519076249",
+        "name": "New Baiyyappanahalli Extension",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6432345,
+              12.984583800000001
+            ],
+            [
+              77.6482345,
+              12.984583800000001
+            ],
+            [
+              77.6482345,
+              12.9895838
+            ],
+            [
+              77.6432345,
+              12.9895838
+            ],
+            [
+              77.6432345,
+              12.984583800000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_5519077334",
+        "name": "Ramaswamy Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6446078,
+              12.986293100000001
+            ],
+            [
+              77.6496078,
+              12.986293100000001
+            ],
+            [
+              77.6496078,
+              12.9912931
+            ],
+            [
+              77.6446078,
+              12.9912931
+            ],
+            [
+              77.6446078,
+              12.986293100000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_5726430220",
+        "name": "Jayaraj Nagar",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6231751,
+              12.978563900000001
+            ],
+            [
+              77.62817509999999,
+              12.978563900000001
+            ],
+            [
+              77.62817509999999,
+              12.9835639
+            ],
+            [
+              77.6231751,
+              12.9835639
+            ],
+            [
+              77.6231751,
+              12.978563900000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_5726430821",
+        "name": "Dodakattappa",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62307940000001,
+              12.9750809
+            ],
+            [
+              77.6280794,
+              12.9750809
+            ],
+            [
+              77.6280794,
+              12.980080899999999
+            ],
+            [
+              77.62307940000001,
+              12.980080899999999
+            ],
+            [
+              77.62307940000001,
+              12.9750809
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_5726430822",
+        "name": "Hoysala Nagar",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6248767,
+              12.9777093
+            ],
+            [
+              77.6298767,
+              12.9777093
+            ],
+            [
+              77.6298767,
+              12.9827093
+            ],
+            [
+              77.6248767,
+              12.9827093
+            ],
+            [
+              77.6248767,
+              12.9777093
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_5726455320",
+        "name": "Someshwarpura",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62031780000001,
+              12.973269100000001
+            ],
+            [
+              77.6253178,
+              12.973269100000001
+            ],
+            [
+              77.6253178,
+              12.9782691
+            ],
+            [
+              77.62031780000001,
+              12.9782691
+            ],
+            [
+              77.62031780000001,
+              12.973269100000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_5726457434",
+        "name": "Yellappa Chetty Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6157694,
+              12.975073100000001
+            ],
+            [
+              77.6207694,
+              12.975073100000001
+            ],
+            [
+              77.6207694,
+              12.9800731
+            ],
+            [
+              77.6157694,
+              12.9800731
+            ],
+            [
+              77.6157694,
+              12.975073100000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_6310532126",
+        "name": "Kalahalli",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6207254,
+              12.9844375
+            ],
+            [
+              77.6257254,
+              12.9844375
+            ],
+            [
+              77.6257254,
+              12.9894375
+            ],
+            [
+              77.6207254,
+              12.9894375
+            ],
+            [
+              77.6207254,
+              12.9844375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_8526697567",
+        "name": "Sathyanagara",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.637103,
+              12.997136600000001
+            ],
+            [
+              77.64210299999999,
+              12.997136600000001
+            ],
+            [
+              77.64210299999999,
+              13.0021366
+            ],
+            [
+              77.637103,
+              13.0021366
+            ],
+            [
+              77.637103,
+              12.997136600000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_9811371625",
+        "name": "Corporation Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6270796,
+              12.9797565
+            ],
+            [
+              77.6320796,
+              12.9797565
+            ],
+            [
+              77.6320796,
+              12.9847565
+            ],
+            [
+              77.6270796,
+              12.9847565
+            ],
+            [
+              77.6270796,
+              12.9797565
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_9993208661",
+        "name": "ISRO Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.631111,
+              12.9652163
+            ],
+            [
+              77.636111,
+              12.9652163
+            ],
+            [
+              77.636111,
+              12.970216299999999
+            ],
+            [
+              77.631111,
+              12.970216299999999
+            ],
+            [
+              77.631111,
+              12.9652163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_10293831873",
+        "name": "Heerachand Layout",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6242713,
+              12.9934778
+            ],
+            [
+              77.6292713,
+              12.9934778
+            ],
+            [
+              77.6292713,
+              12.9984778
+            ],
+            [
+              77.6242713,
+              12.9984778
+            ],
+            [
+              77.6242713,
+              12.9934778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_10293847385",
+        "name": "Krishnaiahnapalya",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6502619,
+              12.9947741
+            ],
+            [
+              77.6552619,
+              12.9947741
+            ],
+            [
+              77.6552619,
+              12.9997741
+            ],
+            [
+              77.6502619,
+              12.9997741
+            ],
+            [
+              77.6502619,
+              12.9947741
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_10293847386",
+        "name": "Old Baiyappanahalli",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6384334,
+              12.9918495
+            ],
+            [
+              77.64343339999999,
+              12.9918495
+            ],
+            [
+              77.64343339999999,
+              12.9968495
+            ],
+            [
+              77.6384334,
+              12.9968495
+            ],
+            [
+              77.6384334,
+              12.9918495
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_10293847397",
+        "name": "Jeevanahalli",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6264225,
+              12.993909
+            ],
+            [
+              77.6314225,
+              12.993909
+            ],
+            [
+              77.6314225,
+              12.998909
+            ],
+            [
+              77.6264225,
+              12.998909
+            ],
+            [
+              77.6264225,
+              12.993909
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_10293847431",
+        "name": "Kathalipalya",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6356761,
+              12.9897626
+            ],
+            [
+              77.6406761,
+              12.9897626
+            ],
+            [
+              77.6406761,
+              12.9947626
+            ],
+            [
+              77.6356761,
+              12.9947626
+            ],
+            [
+              77.6356761,
+              12.9897626
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_10667163084",
+        "name": "Siddhartha Nagar",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.63410230000001,
+              12.9549233
+            ],
+            [
+              77.6391023,
+              12.9549233
+            ],
+            [
+              77.6391023,
+              12.9599233
+            ],
+            [
+              77.63410230000001,
+              12.9599233
+            ],
+            [
+              77.63410230000001,
+              12.9549233
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_10667163085",
+        "name": "Gowtham Colony",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6373407,
+              12.9549749
+            ],
+            [
+              77.64234069999999,
+              12.9549749
+            ],
+            [
+              77.64234069999999,
+              12.959974899999999
+            ],
+            [
+              77.6373407,
+              12.959974899999999
+            ],
+            [
+              77.6373407,
+              12.9549749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_12215405971",
+        "name": "Krishnappa Garden",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.65682530000001,
+              12.9749564
+            ],
+            [
+              77.6618253,
+              12.9749564
+            ],
+            [
+              77.6618253,
+              12.979956399999999
+            ],
+            [
+              77.65682530000001,
+              12.979956399999999
+            ],
+            [
+              77.65682530000001,
+              12.9749564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "E_LOC_12367522144",
+        "name": "Hanuman Nagar",
+        "zone": "E_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6536147,
+              12.9675949
+            ],
+            [
+              77.6586147,
+              12.9675949
+            ],
+            [
+              77.6586147,
+              12.972594899999999
+            ],
+            [
+              77.6536147,
+              12.972594899999999
+            ],
+            [
+              77.6536147,
+              12.9675949
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

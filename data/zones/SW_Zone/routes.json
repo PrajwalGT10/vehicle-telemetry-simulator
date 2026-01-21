@@ -1,0 +1,474 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_SW_Zone_01",
+      "name": "Route 1: Bangarappa Nagar - Ideal Homes Layout - Javaranadoddi...",
+      "waypoints": [
+        [
+          77.5271422,
+          12.924518800000001
+        ],
+        [
+          77.51379560000001,
+          12.9321889
+        ],
+        [
+          77.5228292,
+          12.9304948
+        ],
+        [
+          77.50874960000002,
+          12.917937499999999
+        ]
+      ],
+      "stops": [
+        "Bangarappa Nagar",
+        "Ideal Homes Layout",
+        "Javaranadoddi",
+        "BHEL Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_02",
+      "name": "Route 2: Bangarappa Nagar - Rajarajeshwari Nagar - Marappa Layout...",
+      "waypoints": [
+        [
+          77.5271422,
+          12.924518800000001
+        ],
+        [
+          77.51502239999999,
+          12.9269413
+        ],
+        [
+          77.5227906,
+          12.9287632
+        ],
+        [
+          77.51379560000001,
+          12.9321889
+        ],
+        [
+          77.5197202,
+          12.9191528
+        ]
+      ],
+      "stops": [
+        "Bangarappa Nagar",
+        "Rajarajeshwari Nagar",
+        "Marappa Layout",
+        "Ideal Homes Layout",
+        "BEML Layout 3rd Stage"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_03",
+      "name": "Route 3: Halagevaderahalli - Gattigere Extension - Marappa Layout...",
+      "waypoints": [
+        [
+          77.5137194,
+          12.921141599999999
+        ],
+        [
+          77.5250006,
+          12.919707700000004
+        ],
+        [
+          77.5227906,
+          12.9287632
+        ]
+      ],
+      "stops": [
+        "Halagevaderahalli",
+        "Gattigere Extension",
+        "Marappa Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_04",
+      "name": "Route 4: Kenchenahalli - Bangarappa Nagar - Rajarajeshwari Nagar...",
+      "waypoints": [
+        [
+          77.5127978,
+          12.9262912
+        ],
+        [
+          77.5271422,
+          12.924518800000001
+        ],
+        [
+          77.51502239999999,
+          12.9269413
+        ],
+        [
+          77.5177504,
+          12.9268325
+        ]
+      ],
+      "stops": [
+        "Kenchenahalli",
+        "Bangarappa Nagar",
+        "Rajarajeshwari Nagar",
+        "Ideal Homes Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_05",
+      "name": "Route 5: Rajarajeshwari Nagar - Ideal Homes Layout - Marappa Layout...",
+      "waypoints": [
+        [
+          77.51502239999999,
+          12.9269413
+        ],
+        [
+          77.51379560000001,
+          12.9321889
+        ],
+        [
+          77.5227906,
+          12.9287632
+        ],
+        [
+          77.5127978,
+          12.9262912
+        ],
+        [
+          77.5250006,
+          12.919707700000004
+        ]
+      ],
+      "stops": [
+        "Rajarajeshwari Nagar",
+        "Ideal Homes Layout",
+        "Marappa Layout",
+        "Kenchenahalli",
+        "Gattigere Extension"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_06",
+      "name": "Route 6: Halagevaderahalli - Aditya Layout - Gattigere Extension...",
+      "waypoints": [
+        [
+          77.5137194,
+          12.921141599999999
+        ],
+        [
+          77.5244278,
+          12.926177099999999
+        ],
+        [
+          77.5250006,
+          12.919707700000004
+        ]
+      ],
+      "stops": [
+        "Halagevaderahalli",
+        "Aditya Layout",
+        "Gattigere Extension"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_07",
+      "name": "Route 7: BEML Layout 3rd Stage - Aditya Layout - Marappa Layout...",
+      "waypoints": [
+        [
+          77.5197202,
+          12.9191528
+        ],
+        [
+          77.5244278,
+          12.926177099999999
+        ],
+        [
+          77.5227906,
+          12.9287632
+        ],
+        [
+          77.51379560000001,
+          12.9321889
+        ]
+      ],
+      "stops": [
+        "BEML Layout 3rd Stage",
+        "Aditya Layout",
+        "Marappa Layout",
+        "Ideal Homes Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_08",
+      "name": "Route 8: Aditya Layout - Ideal Homes Layout - Marappa Layout...",
+      "waypoints": [
+        [
+          77.5244278,
+          12.926177099999999
+        ],
+        [
+          77.5177504,
+          12.9268325
+        ],
+        [
+          77.5227906,
+          12.9287632
+        ],
+        [
+          77.5271422,
+          12.924518800000001
+        ],
+        [
+          77.50874960000002,
+          12.917937499999999
+        ],
+        [
+          77.51379560000001,
+          12.9321889
+        ]
+      ],
+      "stops": [
+        "Aditya Layout",
+        "Ideal Homes Layout",
+        "Marappa Layout",
+        "Bangarappa Nagar",
+        "BHEL Layout",
+        "Ideal Homes Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_09",
+      "name": "Route 9: BHEL Layout - Halagevaderahalli - Kenchenahalli...",
+      "waypoints": [
+        [
+          77.50874960000002,
+          12.917937499999999
+        ],
+        [
+          77.5137194,
+          12.921141599999999
+        ],
+        [
+          77.5127978,
+          12.9262912
+        ],
+        [
+          77.5271422,
+          12.924518800000001
+        ],
+        [
+          77.5227906,
+          12.9287632
+        ]
+      ],
+      "stops": [
+        "BHEL Layout",
+        "Halagevaderahalli",
+        "Kenchenahalli",
+        "Bangarappa Nagar",
+        "Marappa Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_10",
+      "name": "Route 10: Javaranadoddi - Rajarajeshwari Nagar - BHEL Layout...",
+      "waypoints": [
+        [
+          77.5228292,
+          12.9304948
+        ],
+        [
+          77.51502239999999,
+          12.9269413
+        ],
+        [
+          77.50874960000002,
+          12.917937499999999
+        ],
+        [
+          77.5137194,
+          12.921141599999999
+        ],
+        [
+          77.5177504,
+          12.9268325
+        ],
+        [
+          77.5227906,
+          12.9287632
+        ]
+      ],
+      "stops": [
+        "Javaranadoddi",
+        "Rajarajeshwari Nagar",
+        "BHEL Layout",
+        "Halagevaderahalli",
+        "Ideal Homes Layout",
+        "Marappa Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_11",
+      "name": "Route 11: Gattigere Extension - Ideal Homes Layout - Ideal Homes Layout...",
+      "waypoints": [
+        [
+          77.5250006,
+          12.919707700000004
+        ],
+        [
+          77.51379560000001,
+          12.9321889
+        ],
+        [
+          77.5177504,
+          12.9268325
+        ],
+        [
+          77.5228292,
+          12.9304948
+        ],
+        [
+          77.50874960000002,
+          12.917937499999999
+        ],
+        [
+          77.5137194,
+          12.921141599999999
+        ]
+      ],
+      "stops": [
+        "Gattigere Extension",
+        "Ideal Homes Layout",
+        "Ideal Homes Layout",
+        "Javaranadoddi",
+        "BHEL Layout",
+        "Halagevaderahalli"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_12",
+      "name": "Route 12: Halagevaderahalli - Javaranadoddi - Ideal Homes Layout...",
+      "waypoints": [
+        [
+          77.5137194,
+          12.921141599999999
+        ],
+        [
+          77.5228292,
+          12.9304948
+        ],
+        [
+          77.51379560000001,
+          12.9321889
+        ],
+        [
+          77.5271422,
+          12.924518800000001
+        ]
+      ],
+      "stops": [
+        "Halagevaderahalli",
+        "Javaranadoddi",
+        "Ideal Homes Layout",
+        "Bangarappa Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_13",
+      "name": "Route 13: Bangarappa Nagar - Aditya Layout - Kenchenahalli...",
+      "waypoints": [
+        [
+          77.5271422,
+          12.924518800000001
+        ],
+        [
+          77.5244278,
+          12.926177099999999
+        ],
+        [
+          77.5127978,
+          12.9262912
+        ],
+        [
+          77.51379560000001,
+          12.9321889
+        ]
+      ],
+      "stops": [
+        "Bangarappa Nagar",
+        "Aditya Layout",
+        "Kenchenahalli",
+        "Ideal Homes Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_14",
+      "name": "Route 14: Javaranadoddi - Ideal Homes Layout - Aditya Layout...",
+      "waypoints": [
+        [
+          77.5228292,
+          12.9304948
+        ],
+        [
+          77.5177504,
+          12.9268325
+        ],
+        [
+          77.5244278,
+          12.926177099999999
+        ],
+        [
+          77.51379560000001,
+          12.9321889
+        ],
+        [
+          77.5197202,
+          12.9191528
+        ],
+        [
+          77.5250006,
+          12.919707700000004
+        ]
+      ],
+      "stops": [
+        "Javaranadoddi",
+        "Ideal Homes Layout",
+        "Aditya Layout",
+        "Ideal Homes Layout",
+        "BEML Layout 3rd Stage",
+        "Gattigere Extension"
+      ]
+    },
+    {
+      "route_id": "RT_SW_Zone_15",
+      "name": "Route 15: BEML Layout 3rd Stage - Ideal Homes Layout - BHEL Layout...",
+      "waypoints": [
+        [
+          77.5197202,
+          12.9191528
+        ],
+        [
+          77.51379560000001,
+          12.9321889
+        ],
+        [
+          77.50874960000002,
+          12.917937499999999
+        ],
+        [
+          77.5271422,
+          12.924518800000001
+        ],
+        [
+          77.5244278,
+          12.926177099999999
+        ]
+      ],
+      "stops": [
+        "BEML Layout 3rd Stage",
+        "Ideal Homes Layout",
+        "BHEL Layout",
+        "Bangarappa Nagar",
+        "Aditya Layout"
+      ]
+    }
+  ]
+}

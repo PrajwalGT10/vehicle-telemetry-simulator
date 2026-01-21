@@ -1,6 +1,7 @@
 import argparse
 import os
 import json
+import datetime
 from vts_core.engine import run_simulation_day, generate_parked_day
 
 def is_holiday(date_str, calendar_path):
@@ -15,16 +16,21 @@ def is_holiday(date_str, calendar_path):
     # 1. List of strings: ["2023-01-26", "2023-08-15"]
     # 2. List of objs: [{"date": "2023-01-26", "name": "Republic Day"}]
     
+    holidays = []
     if isinstance(data, list):
-        if not data: return False
+        holidays = data
+    elif isinstance(data, dict):
+        holidays = data.get("holidays", [])
         
-        # Check first item type
-        if isinstance(data[0], str):
-            return date_str in data
-        elif isinstance(data[0], dict):
-            # Extract dates from dict
-            holidays = [item.get("date") for item in data]
-            return date_str in holidays
+    if not holidays: return False
+    
+    # Check first item type
+    if isinstance(holidays[0], str):
+        return date_str in holidays
+    elif isinstance(holidays[0], dict):
+        # Extract dates from dict
+        str_dates = [item.get("date") for item in holidays]
+        return date_str in str_dates
             
     return False
 
@@ -54,15 +60,23 @@ def main():
 
     # 3. Dispatch
     if on_holiday:
-        # We don't need roads for parking
-        generate_parked_day(args.vehicle, args.date)
-    else:
-        # We need roads for driving
-        if not os.path.exists(args.roads):
-            print(f"❌ Roads file not found: {args.roads}")
-            return
-            
-        run_simulation_day(
+        print(f"   ⛔ Operations suspended for Holiday.")
+        process_external_only(args.vehicle, args.date)
+        return 
+
+    # Check for Sunday (ISO weekday 7)
+    dt = datetime.datetime.strptime(args.date, "%Y-%m-%d")
+    if dt.isoweekday() == 7:
+        print(f"   ⛔ Operations suspended for Sunday.")
+        process_external_only(args.vehicle, args.date)
+        return
+
+    # We need roads for driving
+    if not os.path.exists(args.roads):
+        print(f"❌ Roads file not found: {args.roads}")
+        return
+        
+    run_simulation_day(
             vehicle_config_path=args.vehicle,
             zone_roads_path=args.roads,
             date=args.date

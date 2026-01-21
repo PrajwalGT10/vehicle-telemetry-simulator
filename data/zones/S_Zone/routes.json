@@ -1,0 +1,469 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_S_Zone_01",
+      "name": "Route 1: Kankanpalya - Someshwaranagar - Jayanagar 5th Block...",
+      "waypoints": [
+        [
+          77.58338330000001,
+          12.9415193
+        ],
+        [
+          77.5915346,
+          12.941491500000001
+        ],
+        [
+          77.582781,
+          12.9190037
+        ],
+        [
+          77.61221309999999,
+          12.930317800000001
+        ],
+        [
+          77.59704250000001,
+          12.9040372
+        ]
+      ],
+      "stops": [
+        "Kankanpalya",
+        "Someshwaranagar",
+        "Jayanagar 5th Block",
+        "Jogi Colony",
+        "JP Nagar 4th Phase"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_02",
+      "name": "Route 2: DK Naik Nagar - Koramangala 7th Block - Jayanagar 8th Block...",
+      "waypoints": [
+        [
+          77.58787559999999,
+          12.917495400000002
+        ],
+        [
+          77.6128783,
+          12.9358846
+        ],
+        [
+          77.5770307,
+          12.919115200000002
+        ]
+      ],
+      "stops": [
+        "DK Naik Nagar",
+        "Koramangala 7th Block",
+        "Jayanagar 8th Block"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_03",
+      "name": "Route 3: R D Layout - Eramma Layout - Lakkasandra...",
+      "waypoints": [
+        [
+          77.60309201999999,
+          12.941242919999999
+        ],
+        [
+          77.6021552,
+          12.945045099999998
+        ],
+        [
+          77.5991061,
+          12.942622799999999
+        ],
+        [
+          77.5744504,
+          12.9319983
+        ],
+        [
+          77.6027328,
+          12.920157499999998
+        ]
+      ],
+      "stops": [
+        "R D Layout",
+        "Eramma Layout",
+        "Lakkasandra",
+        "Yediyuru",
+        "Gurappana Palya"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_04",
+      "name": "Route 4: KSRTC Layout - BTM Layout 2nd Stage - JP Nagar 1st Phase...",
+      "waypoints": [
+        [
+          77.5928931,
+          12.9122386
+        ],
+        [
+          77.607345,
+          12.913408200000001
+        ],
+        [
+          77.57928709999999,
+          12.9113148
+        ],
+        [
+          77.61329269999999,
+          12.9218501
+        ],
+        [
+          77.5915346,
+          12.941491500000001
+        ]
+      ],
+      "stops": [
+        "KSRTC Layout",
+        "BTM Layout 2nd Stage",
+        "JP Nagar 1st Phase",
+        "Maruthi Nagara",
+        "Someshwaranagar"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_05",
+      "name": "Route 5: Jayanagar 8th Block - Yediyuru - Dollars Colony...",
+      "waypoints": [
+        [
+          77.5770307,
+          12.919115200000002
+        ],
+        [
+          77.5744504,
+          12.9319983
+        ],
+        [
+          77.59495580000001,
+          12.9034098
+        ],
+        [
+          77.582781,
+          12.9190037
+        ]
+      ],
+      "stops": [
+        "Jayanagar 8th Block",
+        "Yediyuru",
+        "Dollars Colony",
+        "Jayanagar 5th Block"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_06",
+      "name": "Route 6: Jayanagar 4T Block - Kuvempu Nagar - Geetha Colony...",
+      "waypoints": [
+        [
+          77.59164330000002,
+          12.923188099999999
+        ],
+        [
+          77.61315320000001,
+          12.9138469
+        ],
+        [
+          77.58489349999999,
+          12.9291257
+        ],
+        [
+          77.58243359999999,
+          12.933263
+        ],
+        [
+          77.59032420000001,
+          12.933059
+        ],
+        [
+          77.5862976,
+          12.9412488
+        ]
+      ],
+      "stops": [
+        "Jayanagar 4T Block",
+        "Kuvempu Nagar",
+        "Geetha Colony",
+        "Jayanagar 3rd Block",
+        "Jayanagar East",
+        "Jayanagar 1st Block"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_07",
+      "name": "Route 7: BHBCS Layout - NAL Layout - IAS Officers Colony...",
+      "waypoints": [
+        [
+          77.6007654,
+          12.9138596
+        ],
+        [
+          77.59829219999999,
+          12.9247908
+        ],
+        [
+          77.610896,
+          12.910992400000001
+        ],
+        [
+          77.58243359999999,
+          12.933263
+        ],
+        [
+          77.57695040000002,
+          12.9248648
+        ]
+      ],
+      "stops": [
+        "BHBCS Layout",
+        "NAL Layout",
+        "IAS Officers Colony",
+        "Jayanagar 3rd Block",
+        "Jayanagar 7th Block"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_08",
+      "name": "Route 8: Tilak Nagar - Bismillah Nagar - Jayanagar...",
+      "waypoints": [
+        [
+          77.5941124,
+          12.9269876
+        ],
+        [
+          77.6027847,
+          12.9257385
+        ],
+        [
+          77.58182289999999,
+          12.928673100000001
+        ],
+        [
+          77.5970188,
+          12.9111853
+        ],
+        [
+          77.59106510000001,
+          12.9176594
+        ],
+        [
+          77.57928709999999,
+          12.9113148
+        ]
+      ],
+      "stops": [
+        "Tilak Nagar",
+        "Bismillah Nagar",
+        "Jayanagar",
+        "JP Nagar 3rd Phase",
+        "Marenahalli",
+        "JP Nagar 1st Phase"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_09",
+      "name": "Route 9: BTM Layout 1st Stage - Jogi Colony - JP Nagar 1st Phase...",
+      "waypoints": [
+        [
+          77.6106906,
+          12.9184004
+        ],
+        [
+          77.61221309999999,
+          12.930317800000001
+        ],
+        [
+          77.57928709999999,
+          12.9113148
+        ]
+      ],
+      "stops": [
+        "BTM Layout 1st Stage",
+        "Jogi Colony",
+        "JP Nagar 1st Phase"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_10",
+      "name": "Route 10: Jayanagar 6th Block - Someshwaranagar - Jayanagar 2nd Block...",
+      "waypoints": [
+        [
+          77.5776213,
+          12.9301493
+        ],
+        [
+          77.5915346,
+          12.941491500000001
+        ],
+        [
+          77.58203820000001,
+          12.939303899999999
+        ],
+        [
+          77.59029389999999,
+          12.9305905
+        ],
+        [
+          77.6106906,
+          12.9184004
+        ]
+      ],
+      "stops": [
+        "Jayanagar 6th Block",
+        "Someshwaranagar",
+        "Jayanagar 2nd Block",
+        "Canara Bank Colony",
+        "BTM Layout 1st Stage"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_11",
+      "name": "Route 11: Balaji Layout - Koramangala 7th Block - Maruthi Layout...",
+      "waypoints": [
+        [
+          77.6062291,
+          12.925788599999999
+        ],
+        [
+          77.613928,
+          12.936880664999999
+        ],
+        [
+          77.60614319999999,
+          12.9198015
+        ],
+        [
+          77.5829041,
+          12.9259737
+        ],
+        [
+          77.5991061,
+          12.942622799999999
+        ],
+        [
+          77.6027847,
+          12.9257385
+        ]
+      ],
+      "stops": [
+        "Balaji Layout",
+        "Koramangala 7th Block",
+        "Maruthi Layout",
+        "Jayanagar 4th Block",
+        "Lakkasandra",
+        "Bismillah Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_12",
+      "name": "Route 12: JP Nagar 2nd Phase - Marenahalli - Shakambari Nagar...",
+      "waypoints": [
+        [
+          77.5899671,
+          12.9112413
+        ],
+        [
+          77.59106510000001,
+          12.9176594
+        ],
+        [
+          77.5753435,
+          12.9129785
+        ]
+      ],
+      "stops": [
+        "JP Nagar 2nd Phase",
+        "Marenahalli",
+        "Shakambari Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_13",
+      "name": "Route 13: R D Layout - BTM Layout - Jayanagar 6th Block...",
+      "waypoints": [
+        [
+          77.60309201999999,
+          12.941242919999999
+        ],
+        [
+          77.60968210000001,
+          12.9134008
+        ],
+        [
+          77.5776213,
+          12.9301493
+        ],
+        [
+          77.58182289999999,
+          12.928673100000001
+        ],
+        [
+          77.6007654,
+          12.9138596
+        ],
+        [
+          77.5970188,
+          12.9111853
+        ]
+      ],
+      "stops": [
+        "R D Layout",
+        "BTM Layout",
+        "Jayanagar 6th Block",
+        "Jayanagar",
+        "BHBCS Layout",
+        "JP Nagar 3rd Phase"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_14",
+      "name": "Route 14: Kuvempu Nagar - Jayanagar 3rd Block - MICO Layout...",
+      "waypoints": [
+        [
+          77.61315320000001,
+          12.9138469
+        ],
+        [
+          77.58243359999999,
+          12.933263
+        ],
+        [
+          77.60223579999999,
+          12.912228899999999
+        ],
+        [
+          77.5776213,
+          12.9301493
+        ]
+      ],
+      "stops": [
+        "Kuvempu Nagar",
+        "Jayanagar 3rd Block",
+        "MICO Layout",
+        "Jayanagar 6th Block"
+      ]
+    },
+    {
+      "route_id": "RT_S_Zone_15",
+      "name": "Route 15: Jayanagar - Siddapura - Sadgunte Palya...",
+      "waypoints": [
+        [
+          77.58182289999999,
+          12.928673100000001
+        ],
+        [
+          77.59148769999999,
+          12.945820699999999
+        ],
+        [
+          77.60902519999999,
+          12.930945699999999
+        ]
+      ],
+      "stops": [
+        "Jayanagar",
+        "Siddapura",
+        "Sadgunte Palya"
+      ]
+    }
+  ]
+}

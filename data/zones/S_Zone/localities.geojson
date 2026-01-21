@@ -1,0 +1,1952 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_1",
+        "name": "Koramangala 7th Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "28110503"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6110481,
+              12.9369701
+            ],
+            [
+              77.6111325,
+              12.9370079
+            ],
+            [
+              77.6114894,
+              12.9371154
+            ],
+            [
+              77.6115806,
+              12.9375177
+            ],
+            [
+              77.6116906,
+              12.9381289
+            ],
+            [
+              77.6117369,
+              12.9381203
+            ],
+            [
+              77.6130407,
+              12.9378793
+            ],
+            [
+              77.6129892,
+              12.9375781
+            ],
+            [
+              77.6143811,
+              12.937237
+            ],
+            [
+              77.6147143,
+              12.9373692
+            ],
+            [
+              77.6162135,
+              12.9368798
+            ],
+            [
+              77.617245,
+              12.9365623
+            ],
+            [
+              77.6172084,
+              12.9364316
+            ],
+            [
+              77.6172039,
+              12.9364153
+            ],
+            [
+              77.616235,
+              12.9363962
+            ],
+            [
+              77.616071,
+              12.9363138
+            ],
+            [
+              77.6155931,
+              12.936109
+            ],
+            [
+              77.6155343,
+              12.9360838
+            ],
+            [
+              77.6124043,
+              12.9345275
+            ],
+            [
+              77.6110481,
+              12.9369701
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_2",
+        "name": "R D Layout",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "334266810"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6026819,
+              12.941756
+            ],
+            [
+              77.6024622,
+              12.9405342
+            ],
+            [
+              77.6039426,
+              12.9404226
+            ],
+            [
+              77.6036915,
+              12.9417458
+            ],
+            [
+              77.6026819,
+              12.941756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_3",
+        "name": "Jayanagar",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "429853334"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5794229,
+              12.9262731
+            ],
+            [
+              77.5854229,
+              12.9262731
+            ],
+            [
+              77.5854229,
+              12.9322731
+            ],
+            [
+              77.5794229,
+              12.9322731
+            ],
+            [
+              77.5794229,
+              12.9262731
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_4",
+        "name": "JP Nagar",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "429853335"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5836067,
+              12.9066941
+            ],
+            [
+              77.5896067,
+              12.9066941
+            ],
+            [
+              77.5896067,
+              12.9126941
+            ],
+            [
+              77.5836067,
+              12.9126941
+            ],
+            [
+              77.5836067,
+              12.9066941
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_5",
+        "name": "Marenahalli",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "429937955"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5886651,
+              12.9152594
+            ],
+            [
+              77.5946651,
+              12.9152594
+            ],
+            [
+              77.5946651,
+              12.9212594
+            ],
+            [
+              77.5886651,
+              12.9212594
+            ],
+            [
+              77.5886651,
+              12.9152594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_6",
+        "name": "BTM Layout",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "447032046"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6072821,
+              12.9110008
+            ],
+            [
+              77.6132821,
+              12.9110008
+            ],
+            [
+              77.6132821,
+              12.9170008
+            ],
+            [
+              77.6072821,
+              12.9170008
+            ],
+            [
+              77.6072821,
+              12.9110008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_7",
+        "name": "Bismillah Nagar",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "493530617"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6003847,
+              12.9233385
+            ],
+            [
+              77.6063847,
+              12.9233385
+            ],
+            [
+              77.6063847,
+              12.9293385
+            ],
+            [
+              77.6003847,
+              12.9293385
+            ],
+            [
+              77.6003847,
+              12.9233385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_8",
+        "name": "NAL Layout",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "493530639"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5958922,
+              12.9223908
+            ],
+            [
+              77.6018922,
+              12.9223908
+            ],
+            [
+              77.6018922,
+              12.9283908
+            ],
+            [
+              77.5958922,
+              12.9283908
+            ],
+            [
+              77.5958922,
+              12.9223908
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_9",
+        "name": "Canara Bank Colony",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "493538970"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5878939,
+              12.9281905
+            ],
+            [
+              77.5938939,
+              12.9281905
+            ],
+            [
+              77.5938939,
+              12.9341905
+            ],
+            [
+              77.5878939,
+              12.9341905
+            ],
+            [
+              77.5878939,
+              12.9281905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_10",
+        "name": "Tilak Nagar",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "493538976"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5917124,
+              12.9245876
+            ],
+            [
+              77.5977124,
+              12.9245876
+            ],
+            [
+              77.5977124,
+              12.9305876
+            ],
+            [
+              77.5917124,
+              12.9305876
+            ],
+            [
+              77.5917124,
+              12.9245876
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_11",
+        "name": "Jayanagar 8th Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "494013059"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5746307,
+              12.9167152
+            ],
+            [
+              77.5806307,
+              12.9167152
+            ],
+            [
+              77.5806307,
+              12.9227152
+            ],
+            [
+              77.5746307,
+              12.9227152
+            ],
+            [
+              77.5746307,
+              12.9167152
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_12",
+        "name": "Jayanagar 4th Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "494013065"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5805041,
+              12.9235737
+            ],
+            [
+              77.5865041,
+              12.9235737
+            ],
+            [
+              77.5865041,
+              12.9295737
+            ],
+            [
+              77.5805041,
+              12.9295737
+            ],
+            [
+              77.5805041,
+              12.9235737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_13",
+        "name": "Jayanagar 5th Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "494013068"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.580381,
+              12.9166037
+            ],
+            [
+              77.586381,
+              12.9166037
+            ],
+            [
+              77.586381,
+              12.9226037
+            ],
+            [
+              77.580381,
+              12.9226037
+            ],
+            [
+              77.580381,
+              12.9166037
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_14",
+        "name": "Jayanagar 7th Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "494013077"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5745504,
+              12.9224648
+            ],
+            [
+              77.5805504,
+              12.9224648
+            ],
+            [
+              77.5805504,
+              12.9284648
+            ],
+            [
+              77.5745504,
+              12.9284648
+            ],
+            [
+              77.5745504,
+              12.9224648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_15",
+        "name": "IAS Officers Colony",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "494013080"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.608496,
+              12.9085924
+            ],
+            [
+              77.614496,
+              12.9085924
+            ],
+            [
+              77.614496,
+              12.9145924
+            ],
+            [
+              77.608496,
+              12.9145924
+            ],
+            [
+              77.608496,
+              12.9085924
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_16",
+        "name": "Jayanagar 4T Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "494013086"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5892433,
+              12.9207881
+            ],
+            [
+              77.5952433,
+              12.9207881
+            ],
+            [
+              77.5952433,
+              12.9267881
+            ],
+            [
+              77.5892433,
+              12.9267881
+            ],
+            [
+              77.5892433,
+              12.9207881
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_17",
+        "name": "Jayanagar 9th Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "494240021"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5891272,
+              12.9159992
+            ],
+            [
+              77.5951272,
+              12.9159992
+            ],
+            [
+              77.5951272,
+              12.9219992
+            ],
+            [
+              77.5891272,
+              12.9219992
+            ],
+            [
+              77.5891272,
+              12.9159992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_18",
+        "name": "JP Nagar 1st Phase",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "494248860"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5768871,
+              12.9089148
+            ],
+            [
+              77.5828871,
+              12.9089148
+            ],
+            [
+              77.5828871,
+              12.9149148
+            ],
+            [
+              77.5768871,
+              12.9149148
+            ],
+            [
+              77.5768871,
+              12.9089148
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_19",
+        "name": "JP Nagar 2nd Phase",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "494248872"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5875671,
+              12.9088413
+            ],
+            [
+              77.5935671,
+              12.9088413
+            ],
+            [
+              77.5935671,
+              12.9148413
+            ],
+            [
+              77.5875671,
+              12.9148413
+            ],
+            [
+              77.5875671,
+              12.9088413
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_20",
+        "name": "JP Nagar 3rd Phase",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "494248874"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5946188,
+              12.9087853
+            ],
+            [
+              77.6006188,
+              12.9087853
+            ],
+            [
+              77.6006188,
+              12.9147853
+            ],
+            [
+              77.5946188,
+              12.9147853
+            ],
+            [
+              77.5946188,
+              12.9087853
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_21",
+        "name": "Someshwaranagar",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "769260893"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5891346,
+              12.9390915
+            ],
+            [
+              77.5951346,
+              12.9390915
+            ],
+            [
+              77.5951346,
+              12.9450915
+            ],
+            [
+              77.5891346,
+              12.9450915
+            ],
+            [
+              77.5891346,
+              12.9390915
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_22",
+        "name": "BTM Layout 2nd Stage",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "2941483808"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.604945,
+              12.9110082
+            ],
+            [
+              77.610945,
+              12.9110082
+            ],
+            [
+              77.610945,
+              12.9170082
+            ],
+            [
+              77.604945,
+              12.9170082
+            ],
+            [
+              77.604945,
+              12.9110082
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_23",
+        "name": "BTM Layout 1st Stage",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "2941483809"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6082906,
+              12.9160004
+            ],
+            [
+              77.6142906,
+              12.9160004
+            ],
+            [
+              77.6142906,
+              12.9220004
+            ],
+            [
+              77.6082906,
+              12.9220004
+            ],
+            [
+              77.6082906,
+              12.9160004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_24",
+        "name": "MICO Layout",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "2941487973"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5998358,
+              12.909828899999999
+            ],
+            [
+              77.6058358,
+              12.909828899999999
+            ],
+            [
+              77.6058358,
+              12.9158289
+            ],
+            [
+              77.5998358,
+              12.9158289
+            ],
+            [
+              77.5998358,
+              12.909828899999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_25",
+        "name": "DK Naik Nagar",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "2941488876"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5854756,
+              12.9150954
+            ],
+            [
+              77.5914756,
+              12.9150954
+            ],
+            [
+              77.5914756,
+              12.9210954
+            ],
+            [
+              77.5854756,
+              12.9210954
+            ],
+            [
+              77.5854756,
+              12.9150954
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_26",
+        "name": "Jayanagar 6th Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "2941488877"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5752213,
+              12.9277493
+            ],
+            [
+              77.5812213,
+              12.9277493
+            ],
+            [
+              77.5812213,
+              12.9337493
+            ],
+            [
+              77.5752213,
+              12.9337493
+            ],
+            [
+              77.5752213,
+              12.9277493
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_27",
+        "name": "Jayanagar East",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "2941512413"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5879242,
+              12.930659
+            ],
+            [
+              77.5939242,
+              12.930659
+            ],
+            [
+              77.5939242,
+              12.936659
+            ],
+            [
+              77.5879242,
+              12.936659
+            ],
+            [
+              77.5879242,
+              12.930659
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_28",
+        "name": "Yediyuru",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "2941546952"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5720504,
+              12.9295983
+            ],
+            [
+              77.5780504,
+              12.9295983
+            ],
+            [
+              77.5780504,
+              12.9355983
+            ],
+            [
+              77.5720504,
+              12.9355983
+            ],
+            [
+              77.5720504,
+              12.9295983
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_29",
+        "name": "Lakkasandra",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "3304147661"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5967061,
+              12.940222799999999
+            ],
+            [
+              77.6027061,
+              12.940222799999999
+            ],
+            [
+              77.6027061,
+              12.9462228
+            ],
+            [
+              77.5967061,
+              12.9462228
+            ],
+            [
+              77.5967061,
+              12.940222799999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_30",
+        "name": "Maruthi Nagara",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "3304756734"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6108927,
+              12.9194501
+            ],
+            [
+              77.6168927,
+              12.9194501
+            ],
+            [
+              77.6168927,
+              12.9254501
+            ],
+            [
+              77.6108927,
+              12.9254501
+            ],
+            [
+              77.6108927,
+              12.9194501
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_31",
+        "name": "Eramma Layout",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "3406880172"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5997552,
+              12.9426451
+            ],
+            [
+              77.6057552,
+              12.9426451
+            ],
+            [
+              77.6057552,
+              12.9486451
+            ],
+            [
+              77.5997552,
+              12.9486451
+            ],
+            [
+              77.5997552,
+              12.9426451
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_32",
+        "name": "Sadgunte Palya",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "3415500221"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6066252,
+              12.928545699999999
+            ],
+            [
+              77.6126252,
+              12.928545699999999
+            ],
+            [
+              77.6126252,
+              12.9345457
+            ],
+            [
+              77.6066252,
+              12.9345457
+            ],
+            [
+              77.6066252,
+              12.928545699999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_33",
+        "name": "Jayanagar 3rd Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "3416382485"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5800336,
+              12.930863
+            ],
+            [
+              77.5860336,
+              12.930863
+            ],
+            [
+              77.5860336,
+              12.936863
+            ],
+            [
+              77.5800336,
+              12.936863
+            ],
+            [
+              77.5800336,
+              12.930863
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_34",
+        "name": "Gurappana Palya",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "4397421776"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6003328,
+              12.9177575
+            ],
+            [
+              77.6063328,
+              12.9177575
+            ],
+            [
+              77.6063328,
+              12.9237575
+            ],
+            [
+              77.6003328,
+              12.9237575
+            ],
+            [
+              77.6003328,
+              12.9177575
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_35",
+        "name": "Koramangala 7th Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "5537275042"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6104783,
+              12.9334846
+            ],
+            [
+              77.6164783,
+              12.9334846
+            ],
+            [
+              77.6164783,
+              12.9394846
+            ],
+            [
+              77.6104783,
+              12.9394846
+            ],
+            [
+              77.6104783,
+              12.9334846
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_36",
+        "name": "Dollars Colony",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "7304848948"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5925558,
+              12.9010098
+            ],
+            [
+              77.5985558,
+              12.9010098
+            ],
+            [
+              77.5985558,
+              12.9070098
+            ],
+            [
+              77.5925558,
+              12.9070098
+            ],
+            [
+              77.5925558,
+              12.9010098
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_37",
+        "name": "Shakambari Nagar",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "10853169837"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5729435,
+              12.9105785
+            ],
+            [
+              77.5789435,
+              12.9105785
+            ],
+            [
+              77.5789435,
+              12.9165785
+            ],
+            [
+              77.5729435,
+              12.9165785
+            ],
+            [
+              77.5729435,
+              12.9105785
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_38",
+        "name": "Kuvempu Nagar",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "10924790341"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6107532,
+              12.9114469
+            ],
+            [
+              77.6167532,
+              12.9114469
+            ],
+            [
+              77.6167532,
+              12.9174469
+            ],
+            [
+              77.6107532,
+              12.9174469
+            ],
+            [
+              77.6107532,
+              12.9114469
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_39",
+        "name": "KSRTC Layout",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "11293087531"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5904931,
+              12.9098386
+            ],
+            [
+              77.5964931,
+              12.9098386
+            ],
+            [
+              77.5964931,
+              12.9158386
+            ],
+            [
+              77.5904931,
+              12.9158386
+            ],
+            [
+              77.5904931,
+              12.9098386
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_40",
+        "name": "BHBCS Layout",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "11293105794"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5983654,
+              12.9114596
+            ],
+            [
+              77.6043654,
+              12.9114596
+            ],
+            [
+              77.6043654,
+              12.9174596
+            ],
+            [
+              77.5983654,
+              12.9174596
+            ],
+            [
+              77.5983654,
+              12.9114596
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_41",
+        "name": "Sarakki",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "11304473527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5768635,
+              12.9057511
+            ],
+            [
+              77.5828635,
+              12.9057511
+            ],
+            [
+              77.5828635,
+              12.9117511
+            ],
+            [
+              77.5768635,
+              12.9117511
+            ],
+            [
+              77.5768635,
+              12.9057511
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_42",
+        "name": "JP Nagar 4th Phase",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "11618114061"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5946425,
+              12.9016372
+            ],
+            [
+              77.6006425,
+              12.9016372
+            ],
+            [
+              77.6006425,
+              12.9076372
+            ],
+            [
+              77.5946425,
+              12.9076372
+            ],
+            [
+              77.5946425,
+              12.9016372
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_43",
+        "name": "Jayanagar 3 East Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "11652753088"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5856035,
+              12.92857
+            ],
+            [
+              77.5916035,
+              12.92857
+            ],
+            [
+              77.5916035,
+              12.93457
+            ],
+            [
+              77.5856035,
+              12.93457
+            ],
+            [
+              77.5856035,
+              12.92857
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_44",
+        "name": "Jayanagar 1st Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "11652753117"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5838976,
+              12.9388488
+            ],
+            [
+              77.5898976,
+              12.9388488
+            ],
+            [
+              77.5898976,
+              12.9448488
+            ],
+            [
+              77.5838976,
+              12.9448488
+            ],
+            [
+              77.5838976,
+              12.9388488
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_45",
+        "name": "Jayanagar 2nd Block",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "11652753118"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5796382,
+              12.936903899999999
+            ],
+            [
+              77.5856382,
+              12.936903899999999
+            ],
+            [
+              77.5856382,
+              12.9429039
+            ],
+            [
+              77.5796382,
+              12.9429039
+            ],
+            [
+              77.5796382,
+              12.936903899999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_46",
+        "name": "Siddapura",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "11689969342"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5890877,
+              12.943420699999999
+            ],
+            [
+              77.5950877,
+              12.943420699999999
+            ],
+            [
+              77.5950877,
+              12.9494207
+            ],
+            [
+              77.5890877,
+              12.9494207
+            ],
+            [
+              77.5890877,
+              12.943420699999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_47",
+        "name": "Kankanpalya",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "12161093396"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5809833,
+              12.9391193
+            ],
+            [
+              77.5869833,
+              12.9391193
+            ],
+            [
+              77.5869833,
+              12.9451193
+            ],
+            [
+              77.5809833,
+              12.9451193
+            ],
+            [
+              77.5809833,
+              12.9391193
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_48",
+        "name": "Geetha Colony",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "12532200073"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5824935,
+              12.9267257
+            ],
+            [
+              77.5884935,
+              12.9267257
+            ],
+            [
+              77.5884935,
+              12.9327257
+            ],
+            [
+              77.5824935,
+              12.9327257
+            ],
+            [
+              77.5824935,
+              12.9267257
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_49",
+        "name": "Balaji Layout",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "12875676574"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6038291,
+              12.9233886
+            ],
+            [
+              77.6098291,
+              12.9233886
+            ],
+            [
+              77.6098291,
+              12.9293886
+            ],
+            [
+              77.6038291,
+              12.9293886
+            ],
+            [
+              77.6038291,
+              12.9233886
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_50",
+        "name": "Jogi Colony",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "12948806709"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6098131,
+              12.9279178
+            ],
+            [
+              77.6158131,
+              12.9279178
+            ],
+            [
+              77.6158131,
+              12.9339178
+            ],
+            [
+              77.6098131,
+              12.9339178
+            ],
+            [
+              77.6098131,
+              12.9279178
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "S_LOC_51",
+        "name": "Maruthi Layout",
+        "zone": "S_Zone",
+        "locality_type": "residential",
+        "osm_id": "13068033897"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6037432,
+              12.9174015
+            ],
+            [
+              77.6097432,
+              12.9174015
+            ],
+            [
+              77.6097432,
+              12.9234015
+            ],
+            [
+              77.6037432,
+              12.9234015
+            ],
+            [
+              77.6037432,
+              12.9174015
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

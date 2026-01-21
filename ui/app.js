@@ -10,13 +10,18 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 // 1. Load Vehicles
+let vehicleData = {};
+
 fetch("data/vehicles.json")
   .then(r => r.json())
   .then(vehicles => {
+    vehicleData = vehicles; // Store globally
     const select = document.getElementById("deviceSelect");
     Object.keys(vehicles).forEach(v => {
       const opt = document.createElement("option");
-      opt.value = v; opt.textContent = v;
+      opt.value = v; 
+      // Show Name in Dropdown, but Value is IMEI
+      opt.textContent = vehicles[v].vehicle_name || v; 
       select.appendChild(opt);
     });
     select.onchange = () => { reloadRoutes(); };
@@ -37,7 +42,17 @@ function loadRouteRange(vehicleId, startDate, endDate) {
   const bounds = [];
 
   dates.forEach(date => {
-    const path = `../data/exported_geojson/${vehicleId}/${date}.geojson`;
+    // Construct Path: ../data/exported_geojson/{VehicleName}/{Year}/{Month}/{Date}.geojson
+    // Lookup vehicle name from global data
+    const vInfo = vehicleData[vehicleId];
+    if (!vInfo) return;
+    
+    // Ensure name format matches Export script (spaces to underscores etc if needed, 
+    // but export script and UpdateUI should align on name from Config/Info).
+    const vName = vInfo.vehicle_name; 
+    
+    const [year, month, day] = date.split("-");
+    const path = `../data/exported_geojson/${vName}/${year}/${month}/${date}.geojson`;
     fetch(path)
       .then(r => r.json())
       .then(data => {

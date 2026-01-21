@@ -1,6 +1,8 @@
 from shapely.geometry import LineString
 from datetime import datetime, timedelta
 import random
+import os
+import json
 from vts_core.config import load_vehicle_config
 from vts_core.store import SimulationStore
 from vts_core.graph import RoadNetwork
@@ -12,8 +14,31 @@ def run_simulation_day(vehicle_config_path: str, zone_roads_path: str, date: str
     store = SimulationStore(base_dir=output_dir)
     
     # 2. Load Graph
-    network = RoadNetwork(zone_roads_path)
+    # Extract localities file from config (it's in the dict raw config usually, but let's assume config object has it or we pass it)
+    # The config object is VehicleConfig. The attributes are populated from YAML.
+    # The YAML has 'zone' -> 'localities_file'.
+    # We might need to access the raw dictionary or assume attribute 'zone' exists.
+    
+    # Assuming config has .zone attribute which is a dict
+    loc_file = None
+    if hasattr(config, "zone") and isinstance(config.zone, dict):
+        loc_file = config.zone.get("localities_file")
+    
+    network = RoadNetwork(zone_roads_path, localities_path=loc_file)
     agent = VehicleAgent(config, store)
+    
+    # Load Predefined Routes if available
+    zone_dir = os.path.dirname(zone_roads_path)
+    routes_file = os.path.join(zone_dir, "routes.json")
+    predefined_routes = []
+    if os.path.exists(routes_file):
+        try:
+            with open(routes_file, 'r') as rf:
+                rdata = json.load(rf)
+                predefined_routes = rdata.get("routes", [])
+                print(f"   Loaded {len(predefined_routes)} predefined routes for zone.")
+        except Exception as e:
+            print(f"⚠️ Error loading routes.json: {e}")
     
     # 3. Use Configured Depot (No more hardcoding)
     depot_lat, depot_lon = config.depot_location
@@ -25,7 +50,21 @@ def run_simulation_day(vehicle_config_path: str, zone_roads_path: str, date: str
         return
     
     # 4. Plan Mission
-    mission = plan_mission_route(network, home_node, min_km=2, max_km=25)
+    # Strategy: Pick a random predefined route 80% of the time, else random mission
+    mission = None
+    
+    if predefined_routes and random.random() < 0.8:
+        selected_route = random.choice(predefined_routes)
+        print(f"   🗺️ Assigned Route: {selected_route['route_id']} ({selected_route['name']})")
+        
+        # Convert waypoints to LineString path
+        # waypoints are [[lon, lat], ...]
+        # usage: plan_mission_from_waypoints(network, home_node, waypoints)
+        mission = plan_mission_from_waypoints(network, home_node, selected_route['waypoints'])
+    
+    if not mission:
+        # Fallback to random generation
+        mission = plan_mission_route(network, home_node, min_km=2, max_km=25)
     
     if not mission:
         print(f"❌ No valid mission found for {date}")
@@ -43,15 +82,59 @@ def run_simulation_day(vehicle_config_path: str, zone_roads_path: str, date: str
     
     while agent.is_active:
         agent.tick()
-        if len(agent.telemetry_buffer) > 1000: agent.flush_memory()
+        # Removed intermediate flush to prevent log overwriting
+        # if len(agent.telemetry_buffer) > 1000: agent.flush_memory()
+    
+    # 5. External Data Injection
+    try:
+        from vts_core.external_data import ExternalLogProvider
+        ext_provider = ExternalLogProvider("data/external/manual_logs.csv")
+        ext_events = ext_provider.get_events(config.name, date)
+        if ext_events:
+            agent.inject_external_logs(ext_events)
+    except Exception as e:
+        print(f"⚠️ External Data Error: {e}")
+
     agent.flush_memory()
+
+def process_external_only(vehicle_config_path: str, date: str, output_dir: str = "data"):
+    """
+    Checks for external logs (manual entries) and writes them even if the day is skipped.
+    """
+    config = load_vehicle_config(vehicle_config_path)
+    store = SimulationStore(base_dir=output_dir)
+    
+    try:
+        from vts_core.external_data import ExternalLogProvider
+        ext_provider = ExternalLogProvider("data/external/manual_logs.csv")
+        ext_events = ext_provider.get_events(config.name, date)
+        
+        if ext_events:
+            print(f"   💉 Found {len(ext_events)} external logs for skipped day.")
+            # Convert to telemetry format
+            records = []
+            for e in ext_events:
+                records.append({
+                    "timestamp": e['timestamp'],
+                    "lat": e['lat'],
+                    "lon": e['lon'],
+                    "speed": e.get('speed', 0.0),
+                    "heading": e.get('heading', 0.0),
+                    "device_id": config.device_id
+                })
+            store.write_telemetry(config.imei, date, records, vehicle_name=config.name)
+            
+    except Exception as e:
+        print(f"⚠️ External Data Error: {e}")
 
 def plan_mission_route(network, home_node, min_km, max_km):
     home_pt = (home_node[1], home_node[0]) # (Lat, Lon)
     
     for _ in range(50):
         num_sites = random.randint(2, 8)
-        sites = [random.choice(network.node_list) for _ in range(num_sites)]
+        num_sites = random.randint(2, 8)
+        # Use localities if available
+        sites = network.get_random_waypoints(num_sites)
         waypoints = [home_pt] + [(s[1], s[0]) for s in sites] + [home_pt]
         
         full_coords = []
@@ -74,12 +157,65 @@ def plan_mission_route(network, home_node, min_km, max_km):
             
         total_km = cumulative_dist / 1000.0
         
-        if valid and min_km <= total_km <= max_km:
-            return {
-                "geometry": LineString(full_coords),
-                "distance_km": total_km,
-                "site_locations": site_locations_meters
-            }
+
+        
+    return {
+        "geometry": LineString(full_coords),
+        "distance_km": cumulative_dist / 1000.0,
+        "site_locations": site_locations_meters
+    }
+
+def plan_mission_from_waypoints(network, home_node, waypoints_coords):
+    # waypoints_coords: list of [lon, lat]
+    if not waypoints_coords: return None
+    
+    home_pt = (home_node[1], home_node[0])
+    
+    # 1. Map coords to nodes
+    route_nodes = [home_pt]
+    for pt in waypoints_coords:
+        # pt is [lon, lat]
+        node = network._get_nearest_node((pt[1], pt[0])) # lat, lon
+        if node:
+            route_nodes.append((node[1], node[0])) # lat, lon for finding path? check find_shortest_path
+            # find_shortest_path expects (lat, lon) tuples as args?
+            # Let's check graph.py usage.
+            # find_shortest_path(self, start_coords: tuple, end_coords: tuple)
+            # _get_nearest_node returns (lat, lon) according to my review of graph.py
+    
+    route_nodes.append(home_pt)
+    
+    # 2. Build Geometry
+    full_coords = []
+    total_dist = 0.0
+    site_dists = []
+    
+    for i in range(len(route_nodes) - 1):
+        u_pt = route_nodes[i] # lat, lon from node
+        v_pt = route_nodes[i+1]
+        
+        # Find shortest path between these two points on graph
+        segment_geom, dist = network.find_shortest_path(u_pt, v_pt)
+        
+        if segment_geom:
+            total_dist += dist
+            coords = list(segment_geom.coords)
+            if len(full_coords) > 0:
+                full_coords.extend(coords[1:])
+            else:
+                full_coords.extend(coords)
+        
+        # Record distance for intermediate stops (exclude return to home)
+        if i < len(route_nodes) - 2:
+            site_dists.append(total_dist)
+                
+    if len(full_coords) < 2: return None
+    
+    return {
+        "geometry": LineString(full_coords),
+        "distance_km": total_dist / 1000.0,
+        "site_locations": site_dists # intermediate stops in meters
+    }
     return None
 
 def generate_mission_stops(mission):

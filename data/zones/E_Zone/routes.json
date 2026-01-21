@@ -1,0 +1,479 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_E_Zone_01",
+      "name": "Route 1: New Baiyyappanahalli Extension - Domlur 2nd Stage - Hoysala Nagar...",
+      "waypoints": [
+        [
+          77.6452345,
+          12.9865838
+        ],
+        [
+          77.63786759999999,
+          12.9635664
+        ],
+        [
+          77.6268767,
+          12.9797093
+        ],
+        [
+          77.63017770000002,
+          12.9770466
+        ]
+      ],
+      "stops": [
+        "New Baiyyappanahalli Extension",
+        "Domlur 2nd Stage",
+        "Hoysala Nagar",
+        "Lakshmipuram"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_02",
+      "name": "Route 2: Heerachand Layout - Indiranagar 3rd Stage - Krishna Reddy Colony...",
+      "waypoints": [
+        [
+          77.62627130000001,
+          12.995477800000003
+        ],
+        [
+          77.63831250000001,
+          12.9747555
+        ],
+        [
+          77.6366896,
+          12.955721800000001
+        ]
+      ],
+      "stops": [
+        "Heerachand Layout",
+        "Indiranagar 3rd Stage",
+        "Krishna Reddy Colony"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_03",
+      "name": "Route 3: Old Thippasandra - Indiranagar 2nd Stage - Gowthamapura...",
+      "waypoints": [
+        [
+          77.6459991,
+          12.9715823
+        ],
+        [
+          77.63819,
+          12.976585600000002
+        ],
+        [
+          77.6248437,
+          12.9684797
+        ]
+      ],
+      "stops": [
+        "Old Thippasandra",
+        "Indiranagar 2nd Stage",
+        "Gowthamapura"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_04",
+      "name": "Route 4: Indiranagar 1st Stage - Babasaheb Colony - Yellappa Chetty Layout...",
+      "waypoints": [
+        [
+          77.6386534,
+          12.978842
+        ],
+        [
+          77.6428621,
+          12.965424500000001
+        ],
+        [
+          77.6177694,
+          12.977073100000002
+        ],
+        [
+          77.6290796,
+          12.9817565
+        ],
+        [
+          77.64043339999999,
+          12.9938495
+        ],
+        [
+          77.63934069999999,
+          12.9569749
+        ]
+      ],
+      "stops": [
+        "Indiranagar 1st Stage",
+        "Babasaheb Colony",
+        "Yellappa Chetty Layout",
+        "Corporation Colony",
+        "Old Baiyappanahalli",
+        "Gowtham Colony"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_05",
+      "name": "Route 5: Gupta Layout - Heerachand Layout - HAL 2nd Stage...",
+      "waypoints": [
+        [
+          77.6242821,
+          12.979189499999999
+        ],
+        [
+          77.62627130000001,
+          12.995477800000003
+        ],
+        [
+          77.6432106,
+          12.9684409
+        ],
+        [
+          77.6460951,
+          12.980594
+        ],
+        [
+          77.6177694,
+          12.977073100000002
+        ]
+      ],
+      "stops": [
+        "Gupta Layout",
+        "Heerachand Layout",
+        "HAL 2nd Stage",
+        "Michaelpalya",
+        "Yellappa Chetty Layout"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_06",
+      "name": "Route 6: Puttappa Layout - Corporation Colony - LBS Nagar...",
+      "waypoints": [
+        [
+          77.6522383,
+          12.9704603
+        ],
+        [
+          77.6290796,
+          12.9817565
+        ],
+        [
+          77.63177160000001,
+          12.975975499999999
+        ],
+        [
+          77.6399672,
+          12.9727913
+        ]
+      ],
+      "stops": [
+        "Puttappa Layout",
+        "Corporation Colony",
+        "LBS Nagar",
+        "Indiranagar"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_07",
+      "name": "Route 7: Domlur Village - Jeevan Bhima Nagar - Shivalingaiah Colony...",
+      "waypoints": [
+        [
+          77.635302,
+          12.961934399999999
+        ],
+        [
+          77.6563367,
+          12.9673074
+        ],
+        [
+          77.6561232,
+          12.9632948
+        ],
+        [
+          77.6241697,
+          12.977379299999999
+        ],
+        [
+          77.6251751,
+          12.980563900000002
+        ]
+      ],
+      "stops": [
+        "Domlur Village",
+        "Jeevan Bhima Nagar",
+        "Shivalingaiah Colony",
+        "Halasuru",
+        "Jayaraj Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_08",
+      "name": "Route 8: Amarjyothi Layout - Defence Colony - Old Binnamangala...",
+      "waypoints": [
+        [
+          77.64224340000001,
+          12.956127900000002
+        ],
+        [
+          77.64303149999999,
+          12.975671
+        ],
+        [
+          77.64105090000001,
+          12.9790785
+        ],
+        [
+          77.639103,
+          12.9991366
+        ],
+        [
+          77.65162579999999,
+          12.9747334
+        ]
+      ],
+      "stops": [
+        "Amarjyothi Layout",
+        "Defence Colony",
+        "Old Binnamangala",
+        "Sathyanagara",
+        "Bhoomi Reddy Colony"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_09",
+      "name": "Route 9: Jeevan Bhima Nagar - Lakshmipuram - Indiranagar 2nd Stage...",
+      "waypoints": [
+        [
+          77.6563367,
+          12.9673074
+        ],
+        [
+          77.63017770000002,
+          12.9770466
+        ],
+        [
+          77.63819,
+          12.976585600000002
+        ]
+      ],
+      "stops": [
+        "Jeevan Bhima Nagar",
+        "Lakshmipuram",
+        "Indiranagar 2nd Stage"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_10",
+      "name": "Route 10: Gitanjali Layout - ISRO Colony - Dodakattappa...",
+      "waypoints": [
+        [
+          77.6532885,
+          12.9753758
+        ],
+        [
+          77.63311100000001,
+          12.967216299999999
+        ],
+        [
+          77.6250794,
+          12.977080899999999
+        ],
+        [
+          77.64224340000001,
+          12.956127900000002
+        ],
+        [
+          77.64105090000001,
+          12.9790785
+        ],
+        [
+          77.6251751,
+          12.980563900000002
+        ]
+      ],
+      "stops": [
+        "Gitanjali Layout",
+        "ISRO Colony",
+        "Dodakattappa",
+        "Amarjyothi Layout",
+        "Old Binnamangala",
+        "Jayaraj Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_11",
+      "name": "Route 11: Bhoomi Reddy Colony - Appareddipalaya - Puttappa Layout...",
+      "waypoints": [
+        [
+          77.65162579999999,
+          12.9747334
+        ],
+        [
+          77.636743,
+          12.973687900000002
+        ],
+        [
+          77.6522383,
+          12.9704603
+        ],
+        [
+          77.6428621,
+          12.965424500000001
+        ]
+      ],
+      "stops": [
+        "Bhoomi Reddy Colony",
+        "Appareddipalaya",
+        "Puttappa Layout",
+        "Babasaheb Colony"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_12",
+      "name": "Route 12: Indiranagar 3rd Stage - Indiranagar 1st Stage - Michaelpalya...",
+      "waypoints": [
+        [
+          77.63831250000001,
+          12.9747555
+        ],
+        [
+          77.6386534,
+          12.978842
+        ],
+        [
+          77.6460951,
+          12.980594
+        ],
+        [
+          77.6563367,
+          12.9673074
+        ],
+        [
+          77.6344677,
+          12.9639251
+        ]
+      ],
+      "stops": [
+        "Indiranagar 3rd Stage",
+        "Indiranagar 1st Stage",
+        "Michaelpalya",
+        "Jeevan Bhima Nagar",
+        "Domlur BDA Layout"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_13",
+      "name": "Route 13: Bhoomi Reddy Colony - Amarjyothi Layout - Hoysala Nagar...",
+      "waypoints": [
+        [
+          77.65162579999999,
+          12.9747334
+        ],
+        [
+          77.64224340000001,
+          12.956127900000002
+        ],
+        [
+          77.6268767,
+          12.9797093
+        ],
+        [
+          77.6460951,
+          12.980594
+        ],
+        [
+          77.6376958,
+          12.961966900000002
+        ],
+        [
+          77.6428621,
+          12.965424500000001
+        ]
+      ],
+      "stops": [
+        "Bhoomi Reddy Colony",
+        "Amarjyothi Layout",
+        "Hoysala Nagar",
+        "Michaelpalya",
+        "Domlur",
+        "Babasaheb Colony"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_14",
+      "name": "Route 14: Domlur - Kodihalli - Indiranagar 3rd Stage...",
+      "waypoints": [
+        [
+          77.6376958,
+          12.961966900000002
+        ],
+        [
+          77.6474018,
+          12.962345200000001
+        ],
+        [
+          77.63831250000001,
+          12.9747555
+        ],
+        [
+          77.6556147,
+          12.969594899999999
+        ],
+        [
+          77.6426419,
+          12.9809904
+        ],
+        [
+          77.6459991,
+          12.9715823
+        ]
+      ],
+      "stops": [
+        "Domlur",
+        "Kodihalli",
+        "Indiranagar 3rd Stage",
+        "Hanuman Nagar",
+        "Hutting Colony",
+        "Old Thippasandra"
+      ]
+    },
+    {
+      "route_id": "RT_E_Zone_15",
+      "name": "Route 15: Defence Colony - Kathalipalya - Jayaraj Nagar...",
+      "waypoints": [
+        [
+          77.64303149999999,
+          12.975671
+        ],
+        [
+          77.6376761,
+          12.991762600000001
+        ],
+        [
+          77.6251751,
+          12.980563900000002
+        ],
+        [
+          77.6296239,
+          12.997672900000001
+        ],
+        [
+          77.6563367,
+          12.9673074
+        ],
+        [
+          77.6522383,
+          12.9704603
+        ]
+      ],
+      "stops": [
+        "Defence Colony",
+        "Kathalipalya",
+        "Jayaraj Nagar",
+        "ITC Colony",
+        "Jeevan Bhima Nagar",
+        "Puttappa Layout"
+      ]
+    }
+  ]
+}

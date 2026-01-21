@@ -1,0 +1,424 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_N_Zone_01",
+      "name": "Route 1: Mathru Layout - Sharadhanagar - Prakruthi Nagar...",
+      "waypoints": [
+        [
+          77.5742438,
+          13.0964606
+        ],
+        [
+          77.57579410000001,
+          13.093639200000002
+        ],
+        [
+          77.6151367,
+          13.097296600000002
+        ],
+        [
+          77.58015950000001,
+          13.1098253
+        ],
+        [
+          77.59574540000001,
+          13.1000982
+        ]
+      ],
+      "stops": [
+        "Mathru Layout",
+        "Sharadhanagar",
+        "Prakruthi Nagar",
+        "Puttenahalli",
+        "Yelahanka"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_02",
+      "name": "Route 2: Venkatala - Sector B - Maruthi Nagara...",
+      "waypoints": [
+        [
+          77.6020475,
+          13.111607099999997
+        ],
+        [
+          77.581201,
+          13.097681099999999
+        ],
+        [
+          77.60645170000001,
+          13.107019900000001
+        ],
+        [
+          77.5974019,
+          13.082859899999999
+        ]
+      ],
+      "stops": [
+        "Venkatala",
+        "Sector B",
+        "Maruthi Nagara",
+        "Jakkur Plantation"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_03",
+      "name": "Route 3: Kogilu - Yelahanka New Town - Vinayaka Layout...",
+      "waypoints": [
+        [
+          77.6161721,
+          13.103373
+        ],
+        [
+          77.5805889,
+          13.0972039
+        ],
+        [
+          77.57741949999999,
+          13.113064699999999
+        ]
+      ],
+      "stops": [
+        "Kogilu",
+        "Yelahanka New Town",
+        "Vinayaka Layout"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_04",
+      "name": "Route 4: Yelahanka New Town - Sector A - Venkatala...",
+      "waypoints": [
+        [
+          77.5805889,
+          13.0972039
+        ],
+        [
+          77.58585300000001,
+          13.0962434
+        ],
+        [
+          77.6020475,
+          13.111607099999997
+        ],
+        [
+          77.6151367,
+          13.097296600000002
+        ],
+        [
+          77.5742438,
+          13.0964606
+        ],
+        [
+          77.574715,
+          13.104238200000001
+        ]
+      ],
+      "stops": [
+        "Yelahanka New Town",
+        "Sector A",
+        "Venkatala",
+        "Prakruthi Nagar",
+        "Mathru Layout",
+        "4th Phase"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_05",
+      "name": "Route 5: Yelahanka - Kogilu - Chikkabommasandra...",
+      "waypoints": [
+        [
+          77.59574540000001,
+          13.1000982
+        ],
+        [
+          77.6161721,
+          13.103373
+        ],
+        [
+          77.57979329999999,
+          13.0910685
+        ]
+      ],
+      "stops": [
+        "Yelahanka",
+        "Kogilu",
+        "Chikkabommasandra"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_06",
+      "name": "Route 6: Mathru Layout - Chikkabommasandra - Surabhi Layout...",
+      "waypoints": [
+        [
+          77.5742438,
+          13.0964606
+        ],
+        [
+          77.57979329999999,
+          13.0910685
+        ],
+        [
+          77.5996443,
+          13.0924374
+        ],
+        [
+          77.59574540000001,
+          13.1000982
+        ]
+      ],
+      "stops": [
+        "Mathru Layout",
+        "Chikkabommasandra",
+        "Surabhi Layout",
+        "Yelahanka"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_07",
+      "name": "Route 7: Kogilu - Judicial Layout - Venkatala...",
+      "waypoints": [
+        [
+          77.6161721,
+          13.103373
+        ],
+        [
+          77.5854438,
+          13.0831692
+        ],
+        [
+          77.6020475,
+          13.111607099999997
+        ],
+        [
+          77.5805889,
+          13.0972039
+        ]
+      ],
+      "stops": [
+        "Kogilu",
+        "Judicial Layout",
+        "Venkatala",
+        "Yelahanka New Town"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_08",
+      "name": "Route 8: Sector B - Mathru Layout - LIG 3rd Stage...",
+      "waypoints": [
+        [
+          77.581201,
+          13.097681099999999
+        ],
+        [
+          77.5742438,
+          13.0964606
+        ],
+        [
+          77.57706809999999,
+          13.095558
+        ]
+      ],
+      "stops": [
+        "Sector B",
+        "Mathru Layout",
+        "LIG 3rd Stage"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_09",
+      "name": "Route 9: Mathru Layout - Yelahanka New Town - Prakruthi Nagar...",
+      "waypoints": [
+        [
+          77.5742438,
+          13.0964606
+        ],
+        [
+          77.5805889,
+          13.0972039
+        ],
+        [
+          77.6151367,
+          13.097296600000002
+        ]
+      ],
+      "stops": [
+        "Mathru Layout",
+        "Yelahanka New Town",
+        "Prakruthi Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_10",
+      "name": "Route 10: Gandhinagar - Kenchenahalli - Mathru Layout...",
+      "waypoints": [
+        [
+          77.59468280000002,
+          13.098154599999997
+        ],
+        [
+          77.58433420000001,
+          13.119412399999998
+        ],
+        [
+          77.5742438,
+          13.0964606
+        ],
+        [
+          77.59574540000001,
+          13.1000982
+        ]
+      ],
+      "stops": [
+        "Gandhinagar",
+        "Kenchenahalli",
+        "Mathru Layout",
+        "Yelahanka"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_11",
+      "name": "Route 11: Maruthi Nagara - Kogilu - Yelahanka New Town...",
+      "waypoints": [
+        [
+          77.60645170000001,
+          13.107019900000001
+        ],
+        [
+          77.6161721,
+          13.103373
+        ],
+        [
+          77.5805889,
+          13.0972039
+        ],
+        [
+          77.57741949999999,
+          13.113064699999999
+        ]
+      ],
+      "stops": [
+        "Maruthi Nagara",
+        "Kogilu",
+        "Yelahanka New Town",
+        "Vinayaka Layout"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_12",
+      "name": "Route 12: Yelahanka New Town - Maruthi Nagara - Chikkabommasandra...",
+      "waypoints": [
+        [
+          77.5805889,
+          13.0972039
+        ],
+        [
+          77.60645170000001,
+          13.107019900000001
+        ],
+        [
+          77.57979329999999,
+          13.0910685
+        ]
+      ],
+      "stops": [
+        "Yelahanka New Town",
+        "Maruthi Nagara",
+        "Chikkabommasandra"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_13",
+      "name": "Route 13: Mathru Layout - Judicial Layout - Venkatala...",
+      "waypoints": [
+        [
+          77.5742438,
+          13.0964606
+        ],
+        [
+          77.5854438,
+          13.0831692
+        ],
+        [
+          77.6020475,
+          13.111607099999997
+        ],
+        [
+          77.59574540000001,
+          13.1000982
+        ]
+      ],
+      "stops": [
+        "Mathru Layout",
+        "Judicial Layout",
+        "Venkatala",
+        "Yelahanka"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_14",
+      "name": "Route 14: Vinayaka Layout - Sector A - Venkatala...",
+      "waypoints": [
+        [
+          77.57741949999999,
+          13.113064699999999
+        ],
+        [
+          77.58585300000001,
+          13.0962434
+        ],
+        [
+          77.6020475,
+          13.111607099999997
+        ],
+        [
+          77.59468280000002,
+          13.098154599999997
+        ],
+        [
+          77.58433420000001,
+          13.119412399999998
+        ],
+        [
+          77.581201,
+          13.097681099999999
+        ]
+      ],
+      "stops": [
+        "Vinayaka Layout",
+        "Sector A",
+        "Venkatala",
+        "Gandhinagar",
+        "Kenchenahalli",
+        "Sector B"
+      ]
+    },
+    {
+      "route_id": "RT_N_Zone_15",
+      "name": "Route 15: 4th Phase - Maruthi Nagara - Judicial Layout...",
+      "waypoints": [
+        [
+          77.574715,
+          13.104238200000001
+        ],
+        [
+          77.60645170000001,
+          13.107019900000001
+        ],
+        [
+          77.5854438,
+          13.0831692
+        ],
+        [
+          77.57741949999999,
+          13.113064699999999
+        ]
+      ],
+      "stops": [
+        "4th Phase",
+        "Maruthi Nagara",
+        "Judicial Layout",
+        "Vinayaka Layout"
+      ]
+    }
+  ]
+}

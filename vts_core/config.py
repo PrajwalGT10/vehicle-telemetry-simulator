@@ -12,7 +12,7 @@ class VehicleConfig:
     max_speed_knots: float # <--- Added this field
 
 def load_vehicle_config(yaml_path: str) -> VehicleConfig:
-    with open(yaml_path, "r") as f:
+    with open(yaml_path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
     
     # 1. Handle "Nested" Structure (Official VTS format)

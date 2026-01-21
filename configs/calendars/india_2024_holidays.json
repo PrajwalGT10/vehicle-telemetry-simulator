@@ -1,0 +1,128 @@
+{
+    "year": 2024,
+    "country": "India",
+    "state": "Karnataka",
+    "description": "Government holidays applicable to Karnataka state for the year 2024 based on the official notification for General Holidays. These dates are treated as non-operational days for dataset generation.",
+    "holidays": [
+        {
+            "date": "2024-01-15",
+            "name": "Makara Sankranti",
+            "type": "government"
+        },
+        {
+            "date": "2024-01-26",
+            "name": "Republic Day",
+            "type": "government"
+        },
+        {
+            "date": "2024-03-08",
+            "name": "Maha Shivaratri",
+            "type": "government"
+        },
+        {
+            "date": "2024-03-29",
+            "name": "Good Friday",
+            "type": "government"
+        },
+        {
+            "date": "2024-04-09",
+            "name": "Ugadi Festival",
+            "type": "government"
+        },
+        {
+            "date": "2024-04-11",
+            "name": "Khutub-E-Ramzan",
+            "type": "government"
+        },
+        {
+            "date": "2024-04-14",
+            "name": "Dr. B.R. Ambedkar Jayanti",
+            "type": "government"
+        },
+        {
+            "date": "2024-04-21",
+            "name": "Mahavir Jayanti",
+            "type": "government"
+        },
+        {
+            "date": "2024-05-01",
+            "name": "May Day",
+            "type": "government"
+        },
+        {
+            "date": "2024-05-10",
+            "name": "Basava Jayanti / Akshaya Tritiya",
+            "type": "government"
+        },
+        {
+            "date": "2024-06-17",
+            "name": "Bakrid",
+            "type": "government"
+        },
+        {
+            "date": "2024-07-17",
+            "name": "Muharram",
+            "type": "government"
+        },
+        {
+            "date": "2024-08-15",
+            "name": "Independence Day",
+            "type": "government"
+        },
+        {
+            "date": "2024-09-07",
+            "name": "Varasiddhi Vinayaka Vrata (Ganesh Chaturthi)",
+            "type": "government"
+        },
+        {
+            "date": "2024-09-16",
+            "name": "Eid-Milad",
+            "type": "government"
+        },
+        {
+            "date": "2024-10-02",
+            "name": "Gandhi Jayanti / Mahalaya Amavasye",
+            "type": "government"
+        },
+        {
+            "date": "2024-10-11",
+            "name": "Mahanavami / Ayudhapooja",
+            "type": "government"
+        },
+        {
+            "date": "2024-10-12",
+            "name": "Vijayadashami",
+            "type": "government"
+        },
+        {
+            "date": "2024-10-17",
+            "name": "Maharshi Valmiki Jayanti",
+            "type": "government"
+        },
+        {
+            "date": "2024-10-31",
+            "name": "Naraka Chaturdashi",
+            "type": "government"
+        },
+        {
+            "date": "2024-11-01",
+            "name": "Kannada Rajyotsava",
+            "type": "government"
+        },
+        {
+            "date": "2024-11-02",
+            "name": "Balipadyami / Deepavali",
+            "type": "government"
+        },
+        {
+            "date": "2024-11-18",
+            "name": "Kanakadasa Jayanti",
+            "type": "government"
+        },
+        {
+            "date": "2024-12-25",
+            "name": "Christmas",
+            "type": "government"
+        }
+    ]
+}

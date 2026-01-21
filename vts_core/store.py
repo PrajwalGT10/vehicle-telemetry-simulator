@@ -39,27 +39,29 @@ class SimulationStore:
         conn.commit()
         conn.close()
 
-    def write_telemetry(self, imei: str, date_str: str, records: list):
+    def write_telemetry(self, imei: str, date_str: str, records: list, vehicle_name: str):
         """
         Writes simulation data to:
         1. Parquet (Efficient binary format for maps/analytics)
-        2. Text Log (Custom format requested for device emulation)
+        2. Text Log (data/tracker/{VehicleName}/{Year}/{Month}/{Date}.txt)
         """
         if not records:
             return
 
         # --- 1. Setup File Paths ---
-        year, month = date_str.split("-")[:2]
+        year, month, _ = date_str.split("-")
         
         # Parquet Path: data/telemetry/year=2023/month=01/
         parquet_dir = self.telemetry_dir / f"year={year}" / f"month={month}"
         parquet_dir.mkdir(parents=True, exist_ok=True)
         parquet_path = parquet_dir / f"{imei}_{date_str}.parquet"
         
-        # Text Log Path: data/output/tracker/{imei}/
-        vehicle_log_dir = self.legacy_dir / imei
-        vehicle_log_dir.mkdir(parents=True, exist_ok=True)
-        log_path = vehicle_log_dir / f"{date_str}.txt"
+        # Text Log Path: data/tracker/{Vehicle Name}/{Year}/{Month}/
+        # User Req: "data - Vehicle Name - Year - Month"
+        # base_dir is "data", so we put "tracker" inside.
+        tracker_dir = self.base_dir / "tracker" / vehicle_name / year / month
+        tracker_dir.mkdir(parents=True, exist_ok=True)
+        log_path = tracker_dir / f"{date_str}.txt"
 
         # --- 2. Write Parquet (Source of Truth) ---
         df = pd.DataFrame(records)
@@ -99,14 +101,16 @@ class SimulationStore:
                 lon_nmea = decimal_to_nmea(lon, is_longitude=True)
                 lon_dir = get_hemisphere(lon, is_lon=True)
                 
-                # Speed: km/h -> Knots (1 km/h = 0.539957 knots)
-                speed_kmh = r.get("speed", 0.0)
-                speed_knots = speed_kmh * 0.539957
+                # Speed: Value is already in Knots from Agent
+                speed_knots = r.get("speed", 0.0)
+                # speed_kmh = r.get("speed", 0.0)
+                # speed_knots = speed_kmh * 0.539957
                 
                 # Heading
                 heading = r.get("heading", 0.0)
 
                 # B. Build Line
+                # imei:868...,tracker,packet_id,,F,time,A,lat_nmea,lat_dir,lon_nmea,lon_dir,speed,heading;
                 line = (
                     f"imei:{imei},tracker,{packet_id},,F,{time_str},A,"
                     f"{lat_nmea},{lat_dir},{lon_nmea},{lon_dir},"

@@ -1,0 +1,459 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_South_East_Bangalore_01",
+      "name": "Route 1: Ejipura - Koramangala_1st_Block - Neelasandra...",
+      "waypoints": [
+        [
+          77.6232,
+          12.9578
+        ],
+        [
+          77.6292,
+          12.9382
+        ],
+        [
+          77.61142000000001,
+          12.952580000000001
+        ],
+        [
+          77.62039999999999,
+          12.937999999999999
+        ],
+        [
+          77.64320000000001,
+          12.908199999999999
+        ]
+      ],
+      "stops": [
+        "Ejipura",
+        "Koramangala_1st_Block",
+        "Neelasandra",
+        "Bommanahalli_Road_Corridor",
+        "HSR_Layout_Sector_1"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_02",
+      "name": "Route 2: Lakkasandra - Adugodi - HSR_Layout_Sector_1...",
+      "waypoints": [
+        [
+          77.6065,
+          12.951400000000001
+        ],
+        [
+          77.6182,
+          12.943200000000001
+        ],
+        [
+          77.64320000000001,
+          12.908199999999999
+        ],
+        [
+          77.62039999999999,
+          12.937999999999999
+        ]
+      ],
+      "stops": [
+        "Lakkasandra",
+        "Adugodi",
+        "HSR_Layout_Sector_1",
+        "Bommanahalli_Road_Corridor"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_03",
+      "name": "Route 3: Wilson_Garden_East - Bommanahalli_Road_Corridor - Koramangala_1st_Block...",
+      "waypoints": [
+        [
+          77.59880000000001,
+          12.943200000000001
+        ],
+        [
+          77.62039999999999,
+          12.937999999999999
+        ],
+        [
+          77.6292,
+          12.9382
+        ],
+        [
+          77.64320000000001,
+          12.908199999999999
+        ]
+      ],
+      "stops": [
+        "Wilson_Garden_East",
+        "Bommanahalli_Road_Corridor",
+        "Koramangala_1st_Block",
+        "HSR_Layout_Sector_1"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_04",
+      "name": "Route 4: Bommanahalli_Road_Corridor - Lakkasandra - Ejipura...",
+      "waypoints": [
+        [
+          77.62039999999999,
+          12.937999999999999
+        ],
+        [
+          77.6065,
+          12.951400000000001
+        ],
+        [
+          77.6232,
+          12.9578
+        ],
+        [
+          77.64320000000001,
+          12.908199999999999
+        ]
+      ],
+      "stops": [
+        "Bommanahalli_Road_Corridor",
+        "Lakkasandra",
+        "Ejipura",
+        "HSR_Layout_Sector_1"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_05",
+      "name": "Route 5: Lakkasandra - HSR_Layout_Sector_1 - Ejipura...",
+      "waypoints": [
+        [
+          77.6065,
+          12.951400000000001
+        ],
+        [
+          77.64320000000001,
+          12.908199999999999
+        ],
+        [
+          77.6232,
+          12.9578
+        ],
+        [
+          77.59880000000001,
+          12.943200000000001
+        ],
+        [
+          77.62039999999999,
+          12.937999999999999
+        ],
+        [
+          77.6182,
+          12.943200000000001
+        ]
+      ],
+      "stops": [
+        "Lakkasandra",
+        "HSR_Layout_Sector_1",
+        "Ejipura",
+        "Wilson_Garden_East",
+        "Bommanahalli_Road_Corridor",
+        "Adugodi"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_06",
+      "name": "Route 6: Ejipura - HSR_Layout_Sector_1 - Wilson_Garden_East...",
+      "waypoints": [
+        [
+          77.6232,
+          12.9578
+        ],
+        [
+          77.64320000000001,
+          12.908199999999999
+        ],
+        [
+          77.59880000000001,
+          12.943200000000001
+        ],
+        [
+          77.62039999999999,
+          12.937999999999999
+        ],
+        [
+          77.6065,
+          12.951400000000001
+        ]
+      ],
+      "stops": [
+        "Ejipura",
+        "HSR_Layout_Sector_1",
+        "Wilson_Garden_East",
+        "Bommanahalli_Road_Corridor",
+        "Lakkasandra"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_07",
+      "name": "Route 7: HSR_Layout_Sector_1 - Koramangala_1st_Block - Ejipura...",
+      "waypoints": [
+        [
+          77.64320000000001,
+          12.908199999999999
+        ],
+        [
+          77.6292,
+          12.9382
+        ],
+        [
+          77.6232,
+          12.9578
+        ]
+      ],
+      "stops": [
+        "HSR_Layout_Sector_1",
+        "Koramangala_1st_Block",
+        "Ejipura"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_08",
+      "name": "Route 8: Adugodi - Wilson_Garden_East - Koramangala_1st_Block...",
+      "waypoints": [
+        [
+          77.6182,
+          12.943200000000001
+        ],
+        [
+          77.59880000000001,
+          12.943200000000001
+        ],
+        [
+          77.6292,
+          12.9382
+        ],
+        [
+          77.64320000000001,
+          12.908199999999999
+        ],
+        [
+          77.6232,
+          12.9578
+        ],
+        [
+          77.61142000000001,
+          12.952580000000001
+        ]
+      ],
+      "stops": [
+        "Adugodi",
+        "Wilson_Garden_East",
+        "Koramangala_1st_Block",
+        "HSR_Layout_Sector_1",
+        "Ejipura",
+        "Neelasandra"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_09",
+      "name": "Route 9: Adugodi - Koramangala_1st_Block - Lakkasandra...",
+      "waypoints": [
+        [
+          77.6182,
+          12.943200000000001
+        ],
+        [
+          77.6292,
+          12.9382
+        ],
+        [
+          77.6065,
+          12.951400000000001
+        ]
+      ],
+      "stops": [
+        "Adugodi",
+        "Koramangala_1st_Block",
+        "Lakkasandra"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_10",
+      "name": "Route 10: Adugodi - Bommanahalli_Road_Corridor - Ejipura...",
+      "waypoints": [
+        [
+          77.6182,
+          12.943200000000001
+        ],
+        [
+          77.62039999999999,
+          12.937999999999999
+        ],
+        [
+          77.6232,
+          12.9578
+        ],
+        [
+          77.59880000000001,
+          12.943200000000001
+        ]
+      ],
+      "stops": [
+        "Adugodi",
+        "Bommanahalli_Road_Corridor",
+        "Ejipura",
+        "Wilson_Garden_East"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_11",
+      "name": "Route 11: Bommanahalli_Road_Corridor - HSR_Layout_Sector_1 - Lakkasandra...",
+      "waypoints": [
+        [
+          77.62039999999999,
+          12.937999999999999
+        ],
+        [
+          77.64320000000001,
+          12.908199999999999
+        ],
+        [
+          77.6065,
+          12.951400000000001
+        ],
+        [
+          77.6232,
+          12.9578
+        ],
+        [
+          77.61142000000001,
+          12.952580000000001
+        ]
+      ],
+      "stops": [
+        "Bommanahalli_Road_Corridor",
+        "HSR_Layout_Sector_1",
+        "Lakkasandra",
+        "Ejipura",
+        "Neelasandra"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_12",
+      "name": "Route 12: HSR_Layout_Sector_1 - Bommanahalli_Road_Corridor - Koramangala_1st_Block...",
+      "waypoints": [
+        [
+          77.64320000000001,
+          12.908199999999999
+        ],
+        [
+          77.62039999999999,
+          12.937999999999999
+        ],
+        [
+          77.6292,
+          12.9382
+        ],
+        [
+          77.59880000000001,
+          12.943200000000001
+        ],
+        [
+          77.61142000000001,
+          12.952580000000001
+        ]
+      ],
+      "stops": [
+        "HSR_Layout_Sector_1",
+        "Bommanahalli_Road_Corridor",
+        "Koramangala_1st_Block",
+        "Wilson_Garden_East",
+        "Neelasandra"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_13",
+      "name": "Route 13: Lakkasandra - Adugodi - Koramangala_1st_Block...",
+      "waypoints": [
+        [
+          77.6065,
+          12.951400000000001
+        ],
+        [
+          77.6182,
+          12.943200000000001
+        ],
+        [
+          77.6292,
+          12.9382
+        ],
+        [
+          77.59880000000001,
+          12.943200000000001
+        ]
+      ],
+      "stops": [
+        "Lakkasandra",
+        "Adugodi",
+        "Koramangala_1st_Block",
+        "Wilson_Garden_East"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_14",
+      "name": "Route 14: Ejipura - Wilson_Garden_East - HSR_Layout_Sector_1...",
+      "waypoints": [
+        [
+          77.6232,
+          12.9578
+        ],
+        [
+          77.59880000000001,
+          12.943200000000001
+        ],
+        [
+          77.64320000000001,
+          12.908199999999999
+        ]
+      ],
+      "stops": [
+        "Ejipura",
+        "Wilson_Garden_East",
+        "HSR_Layout_Sector_1"
+      ]
+    },
+    {
+      "route_id": "RT_South_East_Bangalore_15",
+      "name": "Route 15: HSR_Layout_Sector_1 - Bommanahalli_Road_Corridor - Lakkasandra...",
+      "waypoints": [
+        [
+          77.64320000000001,
+          12.908199999999999
+        ],
+        [
+          77.62039999999999,
+          12.937999999999999
+        ],
+        [
+          77.6065,
+          12.951400000000001
+        ],
+        [
+          77.61142000000001,
+          12.952580000000001
+        ],
+        [
+          77.6292,
+          12.9382
+        ],
+        [
+          77.6232,
+          12.9578
+        ]
+      ],
+      "stops": [
+        "HSR_Layout_Sector_1",
+        "Bommanahalli_Road_Corridor",
+        "Lakkasandra",
+        "Neelasandra",
+        "Koramangala_1st_Block",
+        "Ejipura"
+      ]
+    }
+  ]
+}

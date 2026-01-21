@@ -1,0 +1,449 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_447063719",
+        "name": "Rajarajeshwari Nagar",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5130224,
+              12.9249413
+            ],
+            [
+              77.51802239999999,
+              12.9249413
+            ],
+            [
+              77.51802239999999,
+              12.9299413
+            ],
+            [
+              77.5130224,
+              12.9299413
+            ],
+            [
+              77.5130224,
+              12.9249413
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_8699676979",
+        "name": "Gattigere Extension",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5230006,
+              12.917707700000001
+            ],
+            [
+              77.5280006,
+              12.917707700000001
+            ],
+            [
+              77.5280006,
+              12.9227077
+            ],
+            [
+              77.5230006,
+              12.9227077
+            ],
+            [
+              77.5230006,
+              12.917707700000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_8699676981",
+        "name": "Aditya Layout",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5224278,
+              12.9241771
+            ],
+            [
+              77.5274278,
+              12.9241771
+            ],
+            [
+              77.5274278,
+              12.929177099999999
+            ],
+            [
+              77.5224278,
+              12.929177099999999
+            ],
+            [
+              77.5224278,
+              12.9241771
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_8699676982",
+        "name": "Marappa Layout",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5207906,
+              12.9267632
+            ],
+            [
+              77.5257906,
+              12.9267632
+            ],
+            [
+              77.5257906,
+              12.931763199999999
+            ],
+            [
+              77.5207906,
+              12.931763199999999
+            ],
+            [
+              77.5207906,
+              12.9267632
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_8699676983",
+        "name": "Javaranadoddi",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.52082920000001,
+              12.928494800000001
+            ],
+            [
+              77.5258292,
+              12.928494800000001
+            ],
+            [
+              77.5258292,
+              12.9334948
+            ],
+            [
+              77.52082920000001,
+              12.9334948
+            ],
+            [
+              77.52082920000001,
+              12.928494800000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_8699676984",
+        "name": "Ideal Homes Layout",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5157504,
+              12.9248325
+            ],
+            [
+              77.5207504,
+              12.9248325
+            ],
+            [
+              77.5207504,
+              12.9298325
+            ],
+            [
+              77.5157504,
+              12.9298325
+            ],
+            [
+              77.5157504,
+              12.9248325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_8699676985",
+        "name": "BEML Layout 3rd Stage",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5177202,
+              12.9171528
+            ],
+            [
+              77.5227202,
+              12.9171528
+            ],
+            [
+              77.5227202,
+              12.9221528
+            ],
+            [
+              77.5177202,
+              12.9221528
+            ],
+            [
+              77.5177202,
+              12.9171528
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_8700678298",
+        "name": "BHEL Layout",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5067496,
+              12.9159375
+            ],
+            [
+              77.5117496,
+              12.9159375
+            ],
+            [
+              77.5117496,
+              12.920937499999999
+            ],
+            [
+              77.5067496,
+              12.920937499999999
+            ],
+            [
+              77.5067496,
+              12.9159375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_8711415095",
+        "name": "Halagevaderahalli",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5117194,
+              12.9191416
+            ],
+            [
+              77.5167194,
+              12.9191416
+            ],
+            [
+              77.5167194,
+              12.924141599999999
+            ],
+            [
+              77.5117194,
+              12.924141599999999
+            ],
+            [
+              77.5117194,
+              12.9191416
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_11773440438",
+        "name": "Bangarappa Nagar",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5251422,
+              12.9225188
+            ],
+            [
+              77.5301422,
+              12.9225188
+            ],
+            [
+              77.5301422,
+              12.9275188
+            ],
+            [
+              77.5251422,
+              12.9275188
+            ],
+            [
+              77.5251422,
+              12.9225188
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_11987328050",
+        "name": "Kenchenahalli",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5107978,
+              12.9242912
+            ],
+            [
+              77.5157978,
+              12.9242912
+            ],
+            [
+              77.5157978,
+              12.9292912
+            ],
+            [
+              77.5107978,
+              12.9292912
+            ],
+            [
+              77.5107978,
+              12.9242912
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SW_LOC_11987347815",
+        "name": "Ideal Homes Layout",
+        "zone": "SW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5117956,
+              12.930188900000001
+            ],
+            [
+              77.5167956,
+              12.930188900000001
+            ],
+            [
+              77.5167956,
+              12.9351889
+            ],
+            [
+              77.5117956,
+              12.9351889
+            ],
+            [
+              77.5117956,
+              12.930188900000001
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

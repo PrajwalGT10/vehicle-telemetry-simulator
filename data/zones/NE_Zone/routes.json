@@ -1,0 +1,434 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_NE_Zone_01",
+      "name": "Route 1: Hennur Gardens - Babusabpalya - Prakruthi Township...",
+      "waypoints": [
+        [
+          77.6427902,
+          13.0371905
+        ],
+        [
+          77.649969,
+          13.027852300000001
+        ],
+        [
+          77.65165329999999,
+          13.0303767
+        ],
+        [
+          77.63887500000001,
+          13.0307889
+        ]
+      ],
+      "stops": [
+        "Hennur Gardens",
+        "Babusabpalya",
+        "Prakruthi Township",
+        "Meghanapalya"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_02",
+      "name": "Route 2: Sri Sai Layout - Arkavathy Layout 19th Block - Chelekere...",
+      "waypoints": [
+        [
+          77.64404,
+          13.039095900000001
+        ],
+        [
+          77.64588359999999,
+          13.032197400000001
+        ],
+        [
+          77.6419998,
+          13.0281557
+        ],
+        [
+          77.6430238,
+          13.0342892
+        ],
+        [
+          77.6408572,
+          13.036577
+        ]
+      ],
+      "stops": [
+        "Sri Sai Layout",
+        "Arkavathy Layout 19th Block",
+        "Chelekere",
+        "Poojappa Layout",
+        "Hennur"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_03",
+      "name": "Route 3: Meghanapalya - Babusabpalya - Arkavathy Layout 19th Block...",
+      "waypoints": [
+        [
+          77.63887500000001,
+          13.0307889
+        ],
+        [
+          77.649969,
+          13.027852300000001
+        ],
+        [
+          77.64588359999999,
+          13.032197400000001
+        ],
+        [
+          77.6519936,
+          13.024722599999999
+        ]
+      ],
+      "stops": [
+        "Meghanapalya",
+        "Babusabpalya",
+        "Arkavathy Layout 19th Block",
+        "CNR Layout"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_04",
+      "name": "Route 4: GNR Gardens - Prakruthi Township - Hennur...",
+      "waypoints": [
+        [
+          77.6458658,
+          13.029446199999999
+        ],
+        [
+          77.65165329999999,
+          13.0303767
+        ],
+        [
+          77.6408572,
+          13.036577
+        ],
+        [
+          77.6398368,
+          13.021641599999999
+        ]
+      ],
+      "stops": [
+        "GNR Gardens",
+        "Prakruthi Township",
+        "Hennur",
+        "Kalyan Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_05",
+      "name": "Route 5: Kammanahalli - GNR Gardens - Meghanapalya...",
+      "waypoints": [
+        [
+          77.6377029,
+          13.014354400000002
+        ],
+        [
+          77.6458658,
+          13.029446199999999
+        ],
+        [
+          77.63887500000001,
+          13.0307889
+        ],
+        [
+          77.64588359999999,
+          13.032197400000001
+        ],
+        [
+          77.6398368,
+          13.021641599999999
+        ],
+        [
+          77.64404,
+          13.039095900000001
+        ]
+      ],
+      "stops": [
+        "Kammanahalli",
+        "GNR Gardens",
+        "Meghanapalya",
+        "Arkavathy Layout 19th Block",
+        "Kalyan Nagar",
+        "Sri Sai Layout"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_06",
+      "name": "Route 6: Grace Town - Agara - Sri Sai Layout...",
+      "waypoints": [
+        [
+          77.6323707,
+          13.028502399999999
+        ],
+        [
+          77.6463085,
+          13.0381734
+        ],
+        [
+          77.64404,
+          13.039095900000001
+        ]
+      ],
+      "stops": [
+        "Grace Town",
+        "Agara",
+        "Sri Sai Layout"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_07",
+      "name": "Route 7: Chelekere - Grace Town - Sri Sai Layout...",
+      "waypoints": [
+        [
+          77.6419998,
+          13.0281557
+        ],
+        [
+          77.6323707,
+          13.028502399999999
+        ],
+        [
+          77.64404,
+          13.039095900000001
+        ],
+        [
+          77.6463085,
+          13.0381734
+        ],
+        [
+          77.6519936,
+          13.024722599999999
+        ]
+      ],
+      "stops": [
+        "Chelekere",
+        "Grace Town",
+        "Sri Sai Layout",
+        "Agara",
+        "CNR Layout"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_08",
+      "name": "Route 8: Babusabpalya - Chelekere - Malappa Layout...",
+      "waypoints": [
+        [
+          77.649969,
+          13.027852300000001
+        ],
+        [
+          77.6419998,
+          13.0281557
+        ],
+        [
+          77.6506525,
+          13.0265728
+        ],
+        [
+          77.6519936,
+          13.024722599999999
+        ],
+        [
+          77.6398368,
+          13.021641599999999
+        ],
+        [
+          77.64588359999999,
+          13.032197400000001
+        ]
+      ],
+      "stops": [
+        "Babusabpalya",
+        "Chelekere",
+        "Malappa Layout",
+        "CNR Layout",
+        "Kalyan Nagar",
+        "Arkavathy Layout 19th Block"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_09",
+      "name": "Route 9: Kalyan Nagar - Kammanahalli - Palm Grove...",
+      "waypoints": [
+        [
+          77.6398368,
+          13.021641599999999
+        ],
+        [
+          77.6377029,
+          13.014354400000002
+        ],
+        [
+          77.6374716,
+          13.029003500000002
+        ]
+      ],
+      "stops": [
+        "Kalyan Nagar",
+        "Kammanahalli",
+        "Palm Grove"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_10",
+      "name": "Route 10: Nanjappa Garden - CNR Layout - Prakruthi Township...",
+      "waypoints": [
+        [
+          77.6499121,
+          13.0229077
+        ],
+        [
+          77.6519936,
+          13.024722599999999
+        ],
+        [
+          77.65165329999999,
+          13.0303767
+        ]
+      ],
+      "stops": [
+        "Nanjappa Garden",
+        "CNR Layout",
+        "Prakruthi Township"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_11",
+      "name": "Route 11: CNR Layout - Prakruthi Township - HBR Layout...",
+      "waypoints": [
+        [
+          77.6519936,
+          13.024722599999999
+        ],
+        [
+          77.65165329999999,
+          13.0303767
+        ],
+        [
+          77.6275789,
+          13.031492
+        ],
+        [
+          77.64404,
+          13.039095900000001
+        ],
+        [
+          77.6323707,
+          13.028502399999999
+        ],
+        [
+          77.6408572,
+          13.036577
+        ]
+      ],
+      "stops": [
+        "CNR Layout",
+        "Prakruthi Township",
+        "HBR Layout",
+        "Sri Sai Layout",
+        "Grace Town",
+        "Hennur"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_12",
+      "name": "Route 12: Prakruthi Township - Arkavathy Layout 19th Block - Palm Grove...",
+      "waypoints": [
+        [
+          77.65165329999999,
+          13.0303767
+        ],
+        [
+          77.64588359999999,
+          13.032197400000001
+        ],
+        [
+          77.6374716,
+          13.029003500000002
+        ],
+        [
+          77.6458658,
+          13.029446199999999
+        ]
+      ],
+      "stops": [
+        "Prakruthi Township",
+        "Arkavathy Layout 19th Block",
+        "Palm Grove",
+        "GNR Gardens"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_13",
+      "name": "Route 13: CNR Layout - Chelekere - Agara...",
+      "waypoints": [
+        [
+          77.6519936,
+          13.024722599999999
+        ],
+        [
+          77.6419998,
+          13.0281557
+        ],
+        [
+          77.6463085,
+          13.0381734
+        ]
+      ],
+      "stops": [
+        "CNR Layout",
+        "Chelekere",
+        "Agara"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_14",
+      "name": "Route 14: Hennur Gardens - Hennur - Kammanahalli...",
+      "waypoints": [
+        [
+          77.6427902,
+          13.0371905
+        ],
+        [
+          77.6408572,
+          13.036577
+        ],
+        [
+          77.6377029,
+          13.014354400000002
+        ]
+      ],
+      "stops": [
+        "Hennur Gardens",
+        "Hennur",
+        "Kammanahalli"
+      ]
+    },
+    {
+      "route_id": "RT_NE_Zone_15",
+      "name": "Route 15: Hennur Gardens - Arkavathy Layout 19th Block - Kammanahalli...",
+      "waypoints": [
+        [
+          77.6427902,
+          13.0371905
+        ],
+        [
+          77.64588359999999,
+          13.032197400000001
+        ],
+        [
+          77.6377029,
+          13.014354400000002
+        ]
+      ],
+      "stops": [
+        "Hennur Gardens",
+        "Arkavathy Layout 19th Block",
+        "Kammanahalli"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_427595936",
+        "name": "Malleswaram",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5678253,
+              13.0002353
+            ],
+            [
+              77.57282529999999,
+              13.0002353
+            ],
+            [
+              77.57282529999999,
+              13.005235299999999
+            ],
+            [
+              77.5678253,
+              13.005235299999999
+            ],
+            [
+              77.5678253,
+              13.0002353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_1616772424",
+        "name": "Rajajinagar 1st Block",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5486533,
+              13.0006286
+            ],
+            [
+              77.5536533,
+              13.0006286
+            ],
+            [
+              77.5536533,
+              13.0056286
+            ],
+            [
+              77.5486533,
+              13.0056286
+            ],
+            [
+              77.5486533,
+              13.0006286
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_2026076829",
+        "name": "Maruthi Extension",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.56060120000001,
+              12.9951424
+            ],
+            [
+              77.5656012,
+              12.9951424
+            ],
+            [
+              77.5656012,
+              13.0001424
+            ],
+            [
+              77.56060120000001,
+              13.0001424
+            ],
+            [
+              77.56060120000001,
+              12.9951424
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_3422921187",
+        "name": "Vyalikaval",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5726704,
+              13.0017636
+            ],
+            [
+              77.5776704,
+              13.0017636
+            ],
+            [
+              77.5776704,
+              13.0067636
+            ],
+            [
+              77.5726704,
+              13.0067636
+            ],
+            [
+              77.5726704,
+              13.0017636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_7890840023",
+        "name": "Ketamaranahalli",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5494539,
+              12.998472300000001
+            ],
+            [
+              77.5544539,
+              12.998472300000001
+            ],
+            [
+              77.5544539,
+              13.0034723
+            ],
+            [
+              77.5494539,
+              13.0034723
+            ],
+            [
+              77.5494539,
+              12.998472300000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_8442191514",
+        "name": "Jooganahalli",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5534972,
+              12.990252700000001
+            ],
+            [
+              77.55849719999999,
+              12.990252700000001
+            ],
+            [
+              77.55849719999999,
+              12.9952527
+            ],
+            [
+              77.5534972,
+              12.9952527
+            ],
+            [
+              77.5534972,
+              12.990252700000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_10032974928",
+        "name": "Milk Colony",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5558026,
+              13.0068324
+            ],
+            [
+              77.5608026,
+              13.0068324
+            ],
+            [
+              77.5608026,
+              13.0118324
+            ],
+            [
+              77.5558026,
+              13.0118324
+            ],
+            [
+              77.5558026,
+              13.0068324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_10572417851",
+        "name": "Prakash Nagar",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.56104090000001,
+              12.9923984
+            ],
+            [
+              77.5660409,
+              12.9923984
+            ],
+            [
+              77.5660409,
+              12.9973984
+            ],
+            [
+              77.56104090000001,
+              12.9973984
+            ],
+            [
+              77.56104090000001,
+              12.9923984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_10831664286",
+        "name": "Swimming Pool Extension",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5721989,
+              12.9970765
+            ],
+            [
+              77.5771989,
+              12.9970765
+            ],
+            [
+              77.5771989,
+              13.0020765
+            ],
+            [
+              77.5721989,
+              13.0020765
+            ],
+            [
+              77.5721989,
+              12.9970765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_10833830941",
+        "name": "Valluvarpuram",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.565877,
+              12.9926048
+            ],
+            [
+              77.570877,
+              12.9926048
+            ],
+            [
+              77.570877,
+              12.9976048
+            ],
+            [
+              77.565877,
+              12.9976048
+            ],
+            [
+              77.565877,
+              12.9926048
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_10979969456",
+        "name": "Mariappanapalya",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5519858,
+              12.9947636
+            ],
+            [
+              77.55698579999999,
+              12.9947636
+            ],
+            [
+              77.55698579999999,
+              12.9997636
+            ],
+            [
+              77.5519858,
+              12.9997636
+            ],
+            [
+              77.5519858,
+              12.9947636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_11880571706",
+        "name": "Subramanya Nagar 2nd Stage",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5534556,
+              13.004676400000001
+            ],
+            [
+              77.5584556,
+              13.004676400000001
+            ],
+            [
+              77.5584556,
+              13.0096764
+            ],
+            [
+              77.5534556,
+              13.0096764
+            ],
+            [
+              77.5534556,
+              13.004676400000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "W_LOC_12107621914",
+        "name": "Rajajinagara 1st N Block",
+        "zone": "W_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.54980520000001,
+              13.0026771
+            ],
+            [
+              77.5548052,
+              13.0026771
+            ],
+            [
+              77.5548052,
+              13.007677099999999
+            ],
+            [
+              77.54980520000001,
+              13.007677099999999
+            ],
+            [
+              77.54980520000001,
+              13.0026771
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

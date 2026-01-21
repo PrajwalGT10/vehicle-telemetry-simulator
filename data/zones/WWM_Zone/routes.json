@@ -1,0 +1,464 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_WWM_Zone_01",
+      "name": "Route 1: Maistripalaya - Koramangala 1st Block - Venkatpura...",
+      "waypoints": [
+        [
+          77.6244486,
+          12.9325208
+        ],
+        [
+          77.63228219999999,
+          12.9272245
+        ],
+        [
+          77.63397379999999,
+          12.922058199999999
+        ],
+        [
+          77.6233477,
+          12.9385255
+        ],
+        [
+          77.6063291,
+          12.925888599999999
+        ],
+        [
+          77.61699630000001,
+          12.946137100000001
+        ]
+      ],
+      "stops": [
+        "Maistripalaya",
+        "Koramangala 1st Block",
+        "Venkatpura",
+        "Koramangala 6th Block",
+        "Balaji Layout",
+        "Rajendranagar"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_02",
+      "name": "Route 2: SBI Colony - Balaji Layout - Anepalya...",
+      "waypoints": [
+        [
+          77.63203539999999,
+          12.925418100000002
+        ],
+        [
+          77.6063291,
+          12.925888599999999
+        ],
+        [
+          77.61041879999999,
+          12.950516800000003
+        ]
+      ],
+      "stops": [
+        "SBI Colony",
+        "Balaji Layout",
+        "Anepalya"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_03",
+      "name": "Route 3: Balaji Layout - Venkatpura - Koramangala 6th Block...",
+      "waypoints": [
+        [
+          77.6063291,
+          12.925888599999999
+        ],
+        [
+          77.63397379999999,
+          12.922058199999999
+        ],
+        [
+          77.6233477,
+          12.9385255
+        ],
+        [
+          77.6028847,
+          12.925838500000001
+        ],
+        [
+          77.6190361,
+          12.917653699999999
+        ],
+        [
+          77.61339269999999,
+          12.921950100000004
+        ]
+      ],
+      "stops": [
+        "Balaji Layout",
+        "Venkatpura",
+        "Koramangala 6th Block",
+        "Bismillah Nagar",
+        "Dollar Scheme Colony",
+        "Maruthi Nagara"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_04",
+      "name": "Route 4: ST Bed Layout - Sidhartha Colony - Venkatpura...",
+      "waypoints": [
+        [
+          77.6319307,
+          12.934269899999999
+        ],
+        [
+          77.619893,
+          12.9225999
+        ],
+        [
+          77.63397379999999,
+          12.922058199999999
+        ],
+        [
+          77.6080468,
+          12.950301300000001
+        ],
+        [
+          77.6336185,
+          12.918326500000001
+        ]
+      ],
+      "stops": [
+        "ST Bed Layout",
+        "Sidhartha Colony",
+        "Venkatpura",
+        "Gajendra Nagara",
+        "Teacher's Colony"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_05",
+      "name": "Route 5: L.R. Nagar 1st Stage - Koramangala 3rd Block - Sector 6...",
+      "waypoints": [
+        [
+          77.61516929999999,
+          12.949345500000002
+        ],
+        [
+          77.6249034,
+          12.9277918
+        ],
+        [
+          77.631207,
+          12.913840500000001
+        ],
+        [
+          77.6080468,
+          12.950301300000001
+        ],
+        [
+          77.6169553,
+          12.949193500000002
+        ],
+        [
+          77.617129,
+          12.9233149
+        ]
+      ],
+      "stops": [
+        "L.R. Nagar 1st Stage",
+        "Koramangala 3rd Block",
+        "Sector 6",
+        "Gajendra Nagara",
+        "L.R. Nagar 2nd Stage",
+        "Madiwala"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_06",
+      "name": "Route 6: Indira Gandhi Colony - Sector 6 - Gajendra Nagara...",
+      "waypoints": [
+        [
+          77.6242597,
+          12.9455051
+        ],
+        [
+          77.631207,
+          12.913840500000001
+        ],
+        [
+          77.6080468,
+          12.950301300000001
+        ],
+        [
+          77.62596290000002,
+          12.9150733
+        ]
+      ],
+      "stops": [
+        "Indira Gandhi Colony",
+        "Sector 6",
+        "Gajendra Nagara",
+        "MCHS Colony"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_07",
+      "name": "Route 7: Jogi Colony - Koramangala 8th Block - Jai Bheema Nagar...",
+      "waypoints": [
+        [
+          77.6123131,
+          12.9304178
+        ],
+        [
+          77.616838,
+          12.9403685
+        ],
+        [
+          77.6164759,
+          12.9189294
+        ],
+        [
+          77.6244486,
+          12.9325208
+        ]
+      ],
+      "stops": [
+        "Jogi Colony",
+        "Koramangala 8th Block",
+        "Jai Bheema Nagar",
+        "Maistripalaya"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_08",
+      "name": "Route 8: Sadgunte Palya - Jai Bheema Nagar - Balaji Layout...",
+      "waypoints": [
+        [
+          77.6091252,
+          12.931045699999999
+        ],
+        [
+          77.6164759,
+          12.9189294
+        ],
+        [
+          77.6063291,
+          12.925888599999999
+        ],
+        [
+          77.6190361,
+          12.917653699999999
+        ],
+        [
+          77.6242597,
+          12.9455051
+        ],
+        [
+          77.6028847,
+          12.925838500000001
+        ]
+      ],
+      "stops": [
+        "Sadgunte Palya",
+        "Jai Bheema Nagar",
+        "Balaji Layout",
+        "Dollar Scheme Colony",
+        "Indira Gandhi Colony",
+        "Bismillah Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_09",
+      "name": "Route 9: Sadgunte Palya - Neelasandra - Viveknagar...",
+      "waypoints": [
+        [
+          77.6091252,
+          12.931045699999999
+        ],
+        [
+          77.6135918,
+          12.951679299999999
+        ],
+        [
+          77.6226374,
+          12.9524247
+        ],
+        [
+          77.6129783,
+          12.935984600000001
+        ],
+        [
+          77.60838670000001,
+          12.943523400000004
+        ]
+      ],
+      "stops": [
+        "Sadgunte Palya",
+        "Neelasandra",
+        "Viveknagar",
+        "Koramangala 7th Block",
+        "Adugodi"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_10",
+      "name": "Route 10: Teacher's Colony - L.R. Nagar 1st Stage - Sector 5...",
+      "waypoints": [
+        [
+          77.6336185,
+          12.918326500000001
+        ],
+        [
+          77.61516929999999,
+          12.949345500000002
+        ],
+        [
+          77.6347346,
+          12.917350299999999
+        ]
+      ],
+      "stops": [
+        "Teacher's Colony",
+        "L.R. Nagar 1st Stage",
+        "Sector 5"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_11",
+      "name": "Route 11: Jai Bheema Nagar - Indira Gandhi Colony - Koramangala 3rd Block...",
+      "waypoints": [
+        [
+          77.6164759,
+          12.9189294
+        ],
+        [
+          77.6242597,
+          12.9455051
+        ],
+        [
+          77.6249034,
+          12.9277918
+        ],
+        [
+          77.6091252,
+          12.931045699999999
+        ]
+      ],
+      "stops": [
+        "Jai Bheema Nagar",
+        "Indira Gandhi Colony",
+        "Koramangala 3rd Block",
+        "Sadgunte Palya"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_12",
+      "name": "Route 12: Bismillah Nagar - Viveknagar - Gajendra Nagara...",
+      "waypoints": [
+        [
+          77.6028847,
+          12.925838500000001
+        ],
+        [
+          77.6226374,
+          12.9524247
+        ],
+        [
+          77.6080468,
+          12.950301300000001
+        ]
+      ],
+      "stops": [
+        "Bismillah Nagar",
+        "Viveknagar",
+        "Gajendra Nagara"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_13",
+      "name": "Route 13: Gajendra Nagara - Indira Gandhi Colony - Anepalya...",
+      "waypoints": [
+        [
+          77.6080468,
+          12.950301300000001
+        ],
+        [
+          77.6242597,
+          12.9455051
+        ],
+        [
+          77.61041879999999,
+          12.950516800000003
+        ],
+        [
+          77.617129,
+          12.9233149
+        ]
+      ],
+      "stops": [
+        "Gajendra Nagara",
+        "Indira Gandhi Colony",
+        "Anepalya",
+        "Madiwala"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_14",
+      "name": "Route 14: Maruthi Nagara - Madiwala - Maistripalaya...",
+      "waypoints": [
+        [
+          77.61339269999999,
+          12.921950100000004
+        ],
+        [
+          77.617129,
+          12.9233149
+        ],
+        [
+          77.6244486,
+          12.9325208
+        ],
+        [
+          77.63203539999999,
+          12.925418100000002
+        ],
+        [
+          77.62890519999999,
+          12.9322778
+        ]
+      ],
+      "stops": [
+        "Maruthi Nagara",
+        "Madiwala",
+        "Maistripalaya",
+        "SBI Colony",
+        "Koramangala 4th Block"
+      ]
+    },
+    {
+      "route_id": "RT_WWM_Zone_15",
+      "name": "Route 15: Gajendra Nagara - Maruthi Nagara - Koramangala 2nd Block...",
+      "waypoints": [
+        [
+          77.6080468,
+          12.950301300000001
+        ],
+        [
+          77.61339269999999,
+          12.921950100000004
+        ],
+        [
+          77.6237433,
+          12.923869199999999
+        ],
+        [
+          77.6123131,
+          12.9304178
+        ]
+      ],
+      "stops": [
+        "Gajendra Nagara",
+        "Maruthi Nagara",
+        "Koramangala 2nd Block",
+        "Jogi Colony"
+      ]
+    }
+  ]
+}

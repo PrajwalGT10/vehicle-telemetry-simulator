@@ -1,0 +1,301 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_456016994",
+        "name": "HSR Layout",
+        "zone": "SE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.63636220000001,
+              12.9091225
+            ],
+            [
+              77.6413622,
+              12.9091225
+            ],
+            [
+              77.6413622,
+              12.9141225
+            ],
+            [
+              77.63636220000001,
+              12.9141225
+            ],
+            [
+              77.63636220000001,
+              12.9091225
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_3221362712",
+        "name": "Teacher's Colony",
+        "zone": "SE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6316185,
+              12.9163265
+            ],
+            [
+              77.6366185,
+              12.9163265
+            ],
+            [
+              77.6366185,
+              12.9213265
+            ],
+            [
+              77.6316185,
+              12.9213265
+            ],
+            [
+              77.6316185,
+              12.9163265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_3300149441",
+        "name": "Mangamannapalya",
+        "zone": "SE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6298745,
+              12.903311
+            ],
+            [
+              77.6348745,
+              12.903311
+            ],
+            [
+              77.6348745,
+              12.908311
+            ],
+            [
+              77.6298745,
+              12.908311
+            ],
+            [
+              77.6298745,
+              12.903311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_10220948578",
+        "name": "ITI Layout",
+        "zone": "SE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6384441,
+              12.8989999
+            ],
+            [
+              77.6434441,
+              12.8989999
+            ],
+            [
+              77.6434441,
+              12.903999899999999
+            ],
+            [
+              77.6384441,
+              12.903999899999999
+            ],
+            [
+              77.6384441,
+              12.8989999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_10296378588",
+        "name": "Agara",
+        "zone": "SE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6454366,
+              12.9196405
+            ],
+            [
+              77.65043659999999,
+              12.9196405
+            ],
+            [
+              77.65043659999999,
+              12.924640499999999
+            ],
+            [
+              77.6454366,
+              12.924640499999999
+            ],
+            [
+              77.6454366,
+              12.9196405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_10632956835",
+        "name": "Yellukunte",
+        "zone": "SE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6390825,
+              12.9019961
+            ],
+            [
+              77.6440825,
+              12.9019961
+            ],
+            [
+              77.6440825,
+              12.906996099999999
+            ],
+            [
+              77.6390825,
+              12.906996099999999
+            ],
+            [
+              77.6390825,
+              12.9019961
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_10978335945",
+        "name": "Parangipalya",
+        "zone": "SE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6485668,
+              12.9049791
+            ],
+            [
+              77.6535668,
+              12.9049791
+            ],
+            [
+              77.6535668,
+              12.9099791
+            ],
+            [
+              77.6485668,
+              12.9099791
+            ],
+            [
+              77.6485668,
+              12.9049791
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "SE_LOC_11726921124",
+        "name": "MCHS Colony",
+        "zone": "SE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6366631,
+              12.9113792
+            ],
+            [
+              77.6416631,
+              12.9113792
+            ],
+            [
+              77.6416631,
+              12.9163792
+            ],
+            [
+              77.6366631,
+              12.9163792
+            ],
+            [
+              77.6366631,
+              12.9113792
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

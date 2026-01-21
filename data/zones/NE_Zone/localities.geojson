@@ -1,0 +1,782 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_443615519",
+        "name": "Poojappa Layout",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6410238,
+              13.032289200000001
+            ],
+            [
+              77.6460238,
+              13.032289200000001
+            ],
+            [
+              77.6460238,
+              13.0372892
+            ],
+            [
+              77.6410238,
+              13.0372892
+            ],
+            [
+              77.6410238,
+              13.032289200000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_443634185",
+        "name": "Babusabpalya",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.647969,
+              13.0258523
+            ],
+            [
+              77.652969,
+              13.0258523
+            ],
+            [
+              77.652969,
+              13.0308523
+            ],
+            [
+              77.647969,
+              13.0308523
+            ],
+            [
+              77.647969,
+              13.0258523
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_443634193",
+        "name": "GNR Gardens",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6438658,
+              13.0274462
+            ],
+            [
+              77.6488658,
+              13.0274462
+            ],
+            [
+              77.6488658,
+              13.032446199999999
+            ],
+            [
+              77.6438658,
+              13.032446199999999
+            ],
+            [
+              77.6438658,
+              13.0274462
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_567770959",
+        "name": "Agara",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.64430850000001,
+              13.036173400000001
+            ],
+            [
+              77.6493085,
+              13.036173400000001
+            ],
+            [
+              77.6493085,
+              13.0411734
+            ],
+            [
+              77.64430850000001,
+              13.0411734
+            ],
+            [
+              77.64430850000001,
+              13.036173400000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_567771160",
+        "name": "Chelekere",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6399998,
+              13.0261557
+            ],
+            [
+              77.6449998,
+              13.0261557
+            ],
+            [
+              77.6449998,
+              13.0311557
+            ],
+            [
+              77.6399998,
+              13.0311557
+            ],
+            [
+              77.6399998,
+              13.0261557
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_567772575",
+        "name": "Kalyan Nagar",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6378368,
+              13.0196416
+            ],
+            [
+              77.6428368,
+              13.0196416
+            ],
+            [
+              77.6428368,
+              13.024641599999999
+            ],
+            [
+              77.6378368,
+              13.024641599999999
+            ],
+            [
+              77.6378368,
+              13.0196416
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_595301768",
+        "name": "CNR Layout",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6499936,
+              13.0227226
+            ],
+            [
+              77.6549936,
+              13.0227226
+            ],
+            [
+              77.6549936,
+              13.027722599999999
+            ],
+            [
+              77.6499936,
+              13.027722599999999
+            ],
+            [
+              77.6499936,
+              13.0227226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_595302508",
+        "name": "Malappa Layout",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6486525,
+              13.0245728
+            ],
+            [
+              77.65365249999999,
+              13.0245728
+            ],
+            [
+              77.65365249999999,
+              13.029572799999999
+            ],
+            [
+              77.6486525,
+              13.029572799999999
+            ],
+            [
+              77.6486525,
+              13.0245728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_595688375",
+        "name": "Hennur Gardens",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6407902,
+              13.0351905
+            ],
+            [
+              77.6457902,
+              13.0351905
+            ],
+            [
+              77.6457902,
+              13.0401905
+            ],
+            [
+              77.6407902,
+              13.0401905
+            ],
+            [
+              77.6407902,
+              13.0351905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_652356552",
+        "name": "Prakruthi Township",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6496533,
+              13.0283767
+            ],
+            [
+              77.65465329999999,
+              13.0283767
+            ],
+            [
+              77.65465329999999,
+              13.0333767
+            ],
+            [
+              77.6496533,
+              13.0333767
+            ],
+            [
+              77.6496533,
+              13.0283767
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_821795981",
+        "name": "Nanjappa Garden",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6479121,
+              13.0209077
+            ],
+            [
+              77.6529121,
+              13.0209077
+            ],
+            [
+              77.6529121,
+              13.0259077
+            ],
+            [
+              77.6479121,
+              13.0259077
+            ],
+            [
+              77.6479121,
+              13.0209077
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_3481707802",
+        "name": "Palm Grove",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6354716,
+              13.027003500000001
+            ],
+            [
+              77.6404716,
+              13.027003500000001
+            ],
+            [
+              77.6404716,
+              13.0320035
+            ],
+            [
+              77.6354716,
+              13.0320035
+            ],
+            [
+              77.6354716,
+              13.027003500000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_4531677090",
+        "name": "HBR Layout",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62557890000001,
+              13.029492000000001
+            ],
+            [
+              77.6305789,
+              13.029492000000001
+            ],
+            [
+              77.6305789,
+              13.034492
+            ],
+            [
+              77.62557890000001,
+              13.034492
+            ],
+            [
+              77.62557890000001,
+              13.029492000000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_6330202097",
+        "name": "Kammanahalli",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6357029,
+              13.012354400000001
+            ],
+            [
+              77.6407029,
+              13.012354400000001
+            ],
+            [
+              77.6407029,
+              13.0173544
+            ],
+            [
+              77.6357029,
+              13.0173544
+            ],
+            [
+              77.6357029,
+              13.012354400000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_7206360658",
+        "name": "Meghanapalya",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.636875,
+              13.0287889
+            ],
+            [
+              77.641875,
+              13.0287889
+            ],
+            [
+              77.641875,
+              13.0337889
+            ],
+            [
+              77.636875,
+              13.0337889
+            ],
+            [
+              77.636875,
+              13.0287889
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_7208904019",
+        "name": "Grace Town",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6303707,
+              13.0265024
+            ],
+            [
+              77.6353707,
+              13.0265024
+            ],
+            [
+              77.6353707,
+              13.031502399999999
+            ],
+            [
+              77.6303707,
+              13.031502399999999
+            ],
+            [
+              77.6303707,
+              13.0265024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_7658290169",
+        "name": "Kacharakanahalli",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6284556,
+              13.0190678
+            ],
+            [
+              77.63345559999999,
+              13.0190678
+            ],
+            [
+              77.63345559999999,
+              13.0240678
+            ],
+            [
+              77.6284556,
+              13.0240678
+            ],
+            [
+              77.6284556,
+              13.0190678
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_10235940568",
+        "name": "Arkavathy Layout 20th Block",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6409654,
+              13.0316921
+            ],
+            [
+              77.6459654,
+              13.0316921
+            ],
+            [
+              77.6459654,
+              13.0366921
+            ],
+            [
+              77.6409654,
+              13.0366921
+            ],
+            [
+              77.6409654,
+              13.0316921
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_10235940569",
+        "name": "Arkavathy Layout 19th Block",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6438836,
+              13.0301974
+            ],
+            [
+              77.64888359999999,
+              13.0301974
+            ],
+            [
+              77.64888359999999,
+              13.0351974
+            ],
+            [
+              77.6438836,
+              13.0351974
+            ],
+            [
+              77.6438836,
+              13.0301974
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_12468364695",
+        "name": "Hennur",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6388572,
+              13.034577
+            ],
+            [
+              77.6438572,
+              13.034577
+            ],
+            [
+              77.6438572,
+              13.039577
+            ],
+            [
+              77.6388572,
+              13.039577
+            ],
+            [
+              77.6388572,
+              13.034577
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NE_LOC_12850079672",
+        "name": "Sri Sai Layout",
+        "zone": "NE_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.64204000000001,
+              13.0370959
+            ],
+            [
+              77.64704,
+              13.0370959
+            ],
+            [
+              77.64704,
+              13.0420959
+            ],
+            [
+              77.64204000000001,
+              13.0420959
+            ],
+            [
+              77.64204000000001,
+              13.0370959
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

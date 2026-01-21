@@ -1,0 +1,37 @@
+vehicle:
+  name: W3_KA04D4156_Jetting
+  imei: '868683022810166'
+  device_id: W3_KA04D4156_Jetting
+  vehicle_type: Jetting
+  vehicle_number: KA04D4156
+  zone_id: W3
+  max_speed_knots: 25.0
+  depot_lat: 12.958319
+  depot_lon: 77.612422
+zone:
+  name: W_Zone
+  roads_geojson: data/zones/W_Zone/roads.geojson
+  localities_file: data/zones/W_Zone/localities.geojson
+shift:
+  timezone: Asia/Kolkata
+  start_time: 09:00
+  end_time: '19:00'
+  sampling_interval_seconds: 25
+  sampling_jitter_seconds: 5
+calendar:
+  working_days:
+  - MON
+  - TUE
+  - WED
+  - THU
+  - FRI
+  allow_saturdays: true
+  saturday_probability_per_month: 2
+  holidays_file: configs/calendars/india_2023_holidays.json
+routes:
+  templates:
+  - RT_DEFAULT
+generation:
+  random_seed: 12345
+  output_root: data/output
+  output_granularity: per_day

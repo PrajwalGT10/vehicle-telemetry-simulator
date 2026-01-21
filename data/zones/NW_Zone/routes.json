@@ -1,0 +1,459 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_NW_Zone_01",
+      "name": "Route 1: RMV 2nd Stage 2nd Block - MLA Layout - Nagapura...",
+      "waypoints": [
+        [
+          77.5745273,
+          13.028242899999999
+        ],
+        [
+          77.56334939999999,
+          13.041324900000001
+        ],
+        [
+          77.5457675,
+          13.0018468
+        ]
+      ],
+      "stops": [
+        "RMV 2nd Stage 2nd Block",
+        "MLA Layout",
+        "Nagapura"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_02",
+      "name": "Route 2: RMV 2nd Stage - Yeswanthpur - Milk Colony...",
+      "waypoints": [
+        [
+          77.5690288,
+          13.0355109
+        ],
+        [
+          77.55258239999999,
+          13.0216838
+        ],
+        [
+          77.5578026,
+          13.0088324
+        ],
+        [
+          77.56734589999999,
+          13.0333733
+        ],
+        [
+          77.5583323,
+          13.0400384
+        ],
+        [
+          77.5343261,
+          13.011474300000003
+        ]
+      ],
+      "stops": [
+        "RMV 2nd Stage",
+        "Yeswanthpur",
+        "Milk Colony",
+        "ITI Colony",
+        "Sundar Nagar",
+        "Nandini Layout"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_03",
+      "name": "Route 3: Jaladarshini Layout - MLA Layout - Shankar Nagar...",
+      "waypoints": [
+        [
+          77.5691419,
+          13.0302999
+        ],
+        [
+          77.56334939999999,
+          13.041324900000001
+        ],
+        [
+          77.5432301,
+          13.015412800000002
+        ],
+        [
+          77.5557302,
+          13.040469000000002
+        ]
+      ],
+      "stops": [
+        "Jaladarshini Layout",
+        "MLA Layout",
+        "Shankar Nagar",
+        "Gokula"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_04",
+      "name": "Route 4: MLA Layout - Goragunte Palya - MSR Nagar...",
+      "waypoints": [
+        [
+          77.56334939999999,
+          13.041324900000001
+        ],
+        [
+          77.5368998,
+          13.0262718
+        ],
+        [
+          77.5663197,
+          13.0328103
+        ]
+      ],
+      "stops": [
+        "MLA Layout",
+        "Goragunte Palya",
+        "MSR Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_05",
+      "name": "Route 5: Deewanarapalya - Subramanya Nagar 2nd Stage - ITI Colony...",
+      "waypoints": [
+        [
+          77.56061559999999,
+          13.022873899999999
+        ],
+        [
+          77.5554556,
+          13.006676400000003
+        ],
+        [
+          77.56734589999999,
+          13.0333733
+        ],
+        [
+          77.5583323,
+          13.0400384
+        ],
+        [
+          77.54914169999999,
+          13.007306199999999
+        ]
+      ],
+      "stops": [
+        "Deewanarapalya",
+        "Subramanya Nagar 2nd Stage",
+        "ITI Colony",
+        "Sundar Nagar",
+        "Rajajinagara 1st R Block"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_06",
+      "name": "Route 6: Goragunte Palya - MSR Nagar - Ashokapuram...",
+      "waypoints": [
+        [
+          77.5368998,
+          13.0262718
+        ],
+        [
+          77.5663197,
+          13.0328103
+        ],
+        [
+          77.5471086,
+          13.0143047
+        ],
+        [
+          77.55180520000002,
+          13.004677099999999
+        ],
+        [
+          77.5578026,
+          13.0088324
+        ]
+      ],
+      "stops": [
+        "Goragunte Palya",
+        "MSR Nagar",
+        "Ashokapuram",
+        "Rajajinagara 1st N Block",
+        "Milk Colony"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_07",
+      "name": "Route 7: Shankar Nagar - Nandini Layout - Mathikere...",
+      "waypoints": [
+        [
+          77.5432301,
+          13.015412800000002
+        ],
+        [
+          77.5343261,
+          13.011474300000003
+        ],
+        [
+          77.5576786,
+          13.0328587
+        ]
+      ],
+      "stops": [
+        "Shankar Nagar",
+        "Nandini Layout",
+        "Mathikere"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_08",
+      "name": "Route 8: RMV 2nd Stage - RMV 2nd Stage 2nd Block - Goragunte Palya...",
+      "waypoints": [
+        [
+          77.5690288,
+          13.0355109
+        ],
+        [
+          77.5745273,
+          13.028242899999999
+        ],
+        [
+          77.5368998,
+          13.0262718
+        ],
+        [
+          77.5457675,
+          13.0018468
+        ]
+      ],
+      "stops": [
+        "RMV 2nd Stage",
+        "RMV 2nd Stage 2nd Block",
+        "Goragunte Palya",
+        "Nagapura"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_09",
+      "name": "Route 9: Ashokapuram - Subrahmanya Nagar - Mohan Kumar Nagar...",
+      "waypoints": [
+        [
+          77.5471086,
+          13.0143047
+        ],
+        [
+          77.5562994,
+          13.003945400000001
+        ],
+        [
+          77.55063849999999,
+          13.0305241
+        ]
+      ],
+      "stops": [
+        "Ashokapuram",
+        "Subrahmanya Nagar",
+        "Mohan Kumar Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_10",
+      "name": "Route 10: Mathikere - RMV 2nd Stage 2nd Block - Jaladarshini Layout...",
+      "waypoints": [
+        [
+          77.5576786,
+          13.0328587
+        ],
+        [
+          77.5745273,
+          13.028242899999999
+        ],
+        [
+          77.5691419,
+          13.0302999
+        ],
+        [
+          77.5557302,
+          13.040469000000002
+        ]
+      ],
+      "stops": [
+        "Mathikere",
+        "RMV 2nd Stage 2nd Block",
+        "Jaladarshini Layout",
+        "Gokula"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_11",
+      "name": "Route 11: MLA Layout - Milk Colony - Yeswanthpur...",
+      "waypoints": [
+        [
+          77.56334939999999,
+          13.041324900000001
+        ],
+        [
+          77.5578026,
+          13.0088324
+        ],
+        [
+          77.55258239999999,
+          13.0216838
+        ],
+        [
+          77.5663197,
+          13.0328103
+        ],
+        [
+          77.56061559999999,
+          13.022873899999999
+        ],
+        [
+          77.55063849999999,
+          13.0305241
+        ]
+      ],
+      "stops": [
+        "MLA Layout",
+        "Milk Colony",
+        "Yeswanthpur",
+        "MSR Nagar",
+        "Deewanarapalya",
+        "Mohan Kumar Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_12",
+      "name": "Route 12: MSR Nagar - RMV 2nd Stage 2nd Block - Mathikere...",
+      "waypoints": [
+        [
+          77.5663197,
+          13.0328103
+        ],
+        [
+          77.5745273,
+          13.028242899999999
+        ],
+        [
+          77.5576786,
+          13.0328587
+        ],
+        [
+          77.5562994,
+          13.003945400000001
+        ]
+      ],
+      "stops": [
+        "MSR Nagar",
+        "RMV 2nd Stage 2nd Block",
+        "Mathikere",
+        "Subrahmanya Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_13",
+      "name": "Route 13: Rajajinagara 1st N Block - Gokula - Nagapura...",
+      "waypoints": [
+        [
+          77.55180520000002,
+          13.004677099999999
+        ],
+        [
+          77.5557302,
+          13.040469000000002
+        ],
+        [
+          77.5457675,
+          13.0018468
+        ],
+        [
+          77.5343261,
+          13.011474300000003
+        ],
+        [
+          77.56061559999999,
+          13.022873899999999
+        ],
+        [
+          77.56734589999999,
+          13.0333733
+        ]
+      ],
+      "stops": [
+        "Rajajinagara 1st N Block",
+        "Gokula",
+        "Nagapura",
+        "Nandini Layout",
+        "Deewanarapalya",
+        "ITI Colony"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_14",
+      "name": "Route 14: Rajajinagara 1st N Block - Mahalakshmi Layout - RMV 2nd Stage 2nd Block...",
+      "waypoints": [
+        [
+          77.55180520000002,
+          13.004677099999999
+        ],
+        [
+          77.54419720000001,
+          13.010815299999999
+        ],
+        [
+          77.5745273,
+          13.028242899999999
+        ],
+        [
+          77.55258239999999,
+          13.0216838
+        ],
+        [
+          77.56734589999999,
+          13.0333733
+        ],
+        [
+          77.56061559999999,
+          13.022873899999999
+        ]
+      ],
+      "stops": [
+        "Rajajinagara 1st N Block",
+        "Mahalakshmi Layout",
+        "RMV 2nd Stage 2nd Block",
+        "Yeswanthpur",
+        "ITI Colony",
+        "Deewanarapalya"
+      ]
+    },
+    {
+      "route_id": "RT_NW_Zone_15",
+      "name": "Route 15: ITI Colony - RMV 2nd Stage 2nd Block - Mahalakshmi Layout...",
+      "waypoints": [
+        [
+          77.56734589999999,
+          13.0333733
+        ],
+        [
+          77.5745273,
+          13.028242899999999
+        ],
+        [
+          77.54419720000001,
+          13.010815299999999
+        ],
+        [
+          77.5368998,
+          13.0262718
+        ],
+        [
+          77.5583323,
+          13.0400384
+        ]
+      ],
+      "stops": [
+        "ITI Colony",
+        "RMV 2nd Stage 2nd Block",
+        "Mahalakshmi Layout",
+        "Goragunte Palya",
+        "Sundar Nagar"
+      ]
+    }
+  ]
+}

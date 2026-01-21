@@ -1,0 +1,893 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_431530915",
+        "name": "Mathikere",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.55567860000001,
+              13.030858700000001
+            ],
+            [
+              77.5606786,
+              13.030858700000001
+            ],
+            [
+              77.5606786,
+              13.0358587
+            ],
+            [
+              77.55567860000001,
+              13.0358587
+            ],
+            [
+              77.55567860000001,
+              13.030858700000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_445363393",
+        "name": "Yeswanthpur",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5505824,
+              13.019683800000001
+            ],
+            [
+              77.55558239999999,
+              13.019683800000001
+            ],
+            [
+              77.55558239999999,
+              13.0246838
+            ],
+            [
+              77.5505824,
+              13.0246838
+            ],
+            [
+              77.5505824,
+              13.019683800000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_446812243",
+        "name": "Nandini Layout",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5323261,
+              13.0094743
+            ],
+            [
+              77.5373261,
+              13.0094743
+            ],
+            [
+              77.5373261,
+              13.0144743
+            ],
+            [
+              77.5323261,
+              13.0144743
+            ],
+            [
+              77.5323261,
+              13.0094743
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_448112477",
+        "name": "Goragunte Palya",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5348998,
+              13.024271800000001
+            ],
+            [
+              77.5398998,
+              13.024271800000001
+            ],
+            [
+              77.5398998,
+              13.0292718
+            ],
+            [
+              77.5348998,
+              13.0292718
+            ],
+            [
+              77.5348998,
+              13.024271800000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_461539223",
+        "name": "Subrahmanya Nagar",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5542994,
+              13.0019454
+            ],
+            [
+              77.5592994,
+              13.0019454
+            ],
+            [
+              77.5592994,
+              13.0069454
+            ],
+            [
+              77.5542994,
+              13.0069454
+            ],
+            [
+              77.5542994,
+              13.0019454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_529003770",
+        "name": "RMV 2nd Stage",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5670288,
+              13.033510900000001
+            ],
+            [
+              77.5720288,
+              13.033510900000001
+            ],
+            [
+              77.5720288,
+              13.0385109
+            ],
+            [
+              77.5670288,
+              13.0385109
+            ],
+            [
+              77.5670288,
+              13.033510900000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_529291184",
+        "name": "RMV 2nd Stage 2nd Block",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5725273,
+              13.0262429
+            ],
+            [
+              77.5775273,
+              13.0262429
+            ],
+            [
+              77.5775273,
+              13.031242899999999
+            ],
+            [
+              77.5725273,
+              13.031242899999999
+            ],
+            [
+              77.5725273,
+              13.0262429
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_529372193",
+        "name": "Sundar Nagar",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.55633230000001,
+              13.038038400000001
+            ],
+            [
+              77.5613323,
+              13.038038400000001
+            ],
+            [
+              77.5613323,
+              13.0430384
+            ],
+            [
+              77.55633230000001,
+              13.0430384
+            ],
+            [
+              77.55633230000001,
+              13.038038400000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_598947872",
+        "name": "Mohan Kumar Nagar",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5486385,
+              13.0285241
+            ],
+            [
+              77.55363849999999,
+              13.0285241
+            ],
+            [
+              77.55363849999999,
+              13.0335241
+            ],
+            [
+              77.5486385,
+              13.0335241
+            ],
+            [
+              77.5486385,
+              13.0285241
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_598947998",
+        "name": "Gokula",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5537302,
+              13.038469000000001
+            ],
+            [
+              77.5587302,
+              13.038469000000001
+            ],
+            [
+              77.5587302,
+              13.043469
+            ],
+            [
+              77.5537302,
+              13.043469
+            ],
+            [
+              77.5537302,
+              13.038469000000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_598948010",
+        "name": "MSR Nagar",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5643197,
+              13.0308103
+            ],
+            [
+              77.5693197,
+              13.0308103
+            ],
+            [
+              77.5693197,
+              13.0358103
+            ],
+            [
+              77.5643197,
+              13.0358103
+            ],
+            [
+              77.5643197,
+              13.0308103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_1616772424",
+        "name": "Rajajinagar 1st Block",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5486533,
+              13.0006286
+            ],
+            [
+              77.5536533,
+              13.0006286
+            ],
+            [
+              77.5536533,
+              13.0056286
+            ],
+            [
+              77.5486533,
+              13.0056286
+            ],
+            [
+              77.5486533,
+              13.0006286
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_2084115337",
+        "name": "Jaladarshini Layout",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5671419,
+              13.0282999
+            ],
+            [
+              77.57214189999999,
+              13.0282999
+            ],
+            [
+              77.57214189999999,
+              13.0332999
+            ],
+            [
+              77.5671419,
+              13.0332999
+            ],
+            [
+              77.5671419,
+              13.0282999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_2324491538",
+        "name": "Deewanarapalya",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5586156,
+              13.0208739
+            ],
+            [
+              77.56361559999999,
+              13.0208739
+            ],
+            [
+              77.56361559999999,
+              13.025873899999999
+            ],
+            [
+              77.5586156,
+              13.025873899999999
+            ],
+            [
+              77.5586156,
+              13.0208739
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_7257126381",
+        "name": "Mahalakshmi Layout",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5421972,
+              13.0088153
+            ],
+            [
+              77.5471972,
+              13.0088153
+            ],
+            [
+              77.5471972,
+              13.0138153
+            ],
+            [
+              77.5421972,
+              13.0138153
+            ],
+            [
+              77.5421972,
+              13.0088153
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_7291611547",
+        "name": "Rajajinagara 1st R Block",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5471417,
+              13.0053062
+            ],
+            [
+              77.55214169999999,
+              13.0053062
+            ],
+            [
+              77.55214169999999,
+              13.010306199999999
+            ],
+            [
+              77.5471417,
+              13.010306199999999
+            ],
+            [
+              77.5471417,
+              13.0053062
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_9780918392",
+        "name": "Nagapura",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5437675,
+              12.9998468
+            ],
+            [
+              77.5487675,
+              12.9998468
+            ],
+            [
+              77.5487675,
+              13.0048468
+            ],
+            [
+              77.5437675,
+              13.0048468
+            ],
+            [
+              77.5437675,
+              12.9998468
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_10032974928",
+        "name": "Milk Colony",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5558026,
+              13.0068324
+            ],
+            [
+              77.5608026,
+              13.0068324
+            ],
+            [
+              77.5608026,
+              13.0118324
+            ],
+            [
+              77.5558026,
+              13.0118324
+            ],
+            [
+              77.5558026,
+              13.0068324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_10302647654",
+        "name": "ITI Colony",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5653459,
+              13.0313733
+            ],
+            [
+              77.57034589999999,
+              13.0313733
+            ],
+            [
+              77.57034589999999,
+              13.0363733
+            ],
+            [
+              77.5653459,
+              13.0363733
+            ],
+            [
+              77.5653459,
+              13.0313733
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_10795162705",
+        "name": "Ashokapuram",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5451086,
+              13.0123047
+            ],
+            [
+              77.5501086,
+              13.0123047
+            ],
+            [
+              77.5501086,
+              13.017304699999999
+            ],
+            [
+              77.5451086,
+              13.017304699999999
+            ],
+            [
+              77.5451086,
+              13.0123047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_10795162722",
+        "name": "Shankar Nagar",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5412301,
+              13.013412800000001
+            ],
+            [
+              77.5462301,
+              13.013412800000001
+            ],
+            [
+              77.5462301,
+              13.0184128
+            ],
+            [
+              77.5412301,
+              13.0184128
+            ],
+            [
+              77.5412301,
+              13.013412800000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_11880571706",
+        "name": "Subramanya Nagar 2nd Stage",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5534556,
+              13.004676400000001
+            ],
+            [
+              77.5584556,
+              13.004676400000001
+            ],
+            [
+              77.5584556,
+              13.0096764
+            ],
+            [
+              77.5534556,
+              13.0096764
+            ],
+            [
+              77.5534556,
+              13.004676400000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_12107537237",
+        "name": "MLA Layout",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5613494,
+              13.0393249
+            ],
+            [
+              77.5663494,
+              13.0393249
+            ],
+            [
+              77.5663494,
+              13.0443249
+            ],
+            [
+              77.5613494,
+              13.0443249
+            ],
+            [
+              77.5613494,
+              13.0393249
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "NW_LOC_12107621914",
+        "name": "Rajajinagara 1st N Block",
+        "zone": "NW_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.54980520000001,
+              13.0026771
+            ],
+            [
+              77.5548052,
+              13.0026771
+            ],
+            [
+              77.5548052,
+              13.007677099999999
+            ],
+            [
+              77.54980520000001,
+              13.007677099999999
+            ],
+            [
+              77.54980520000001,
+              13.0026771
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

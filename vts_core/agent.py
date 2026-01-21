@@ -156,6 +156,10 @@ class VehicleAgent:
         self.current_heading = calculate_bearing_shapely(pt, pt_next)
 
     def _record_telemetry(self):
+        # User Requirement: Only log data during shift timings
+        if self.state == "OFF_SHIFT":
+            return
+
         rec = {
             "timestamp": self.current_time,
             "lat": self.current_location[0],
@@ -168,6 +172,27 @@ class VehicleAgent:
 
     def flush_memory(self):
         if not self.telemetry_buffer: return
+        
+        # Sort buffer by timestamp to ensure external events are in order
+        self.telemetry_buffer.sort(key=lambda x: x['timestamp'])
+        
         date_str = self.telemetry_buffer[0]['timestamp'].strftime("%Y-%m-%d")
-        self.store.write_telemetry(self.config.imei, date_str, self.telemetry_buffer)
+        self.store.write_telemetry(self.config.imei, date_str, self.telemetry_buffer, vehicle_name=self.config.name)
         self.telemetry_buffer = []
+
+    def inject_external_logs(self, events: List[Dict]):
+        """
+        Injects fixed points from external sources (e.g., Google Sheets).
+        These bypass the 'Shift Only' filter.
+        """
+        for e in events:
+            rec = {
+                "timestamp": e['timestamp'],
+                "lat": e['lat'],
+                "lon": e['lon'],
+                "speed": e.get('speed', 0.0),
+                "heading": e.get('heading', 0.0),
+                "device_id": self.config.device_id
+            }
+            self.telemetry_buffer.append(rec)
+            print(f"   💉 Injected External Log: {rec['timestamp'].time()}")

@@ -1,0 +1,454 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_C_Zone_01",
+      "name": "Route 1: Abshot Layout - Chamarajapete - Sultanpete...",
+      "waypoints": [
+        [
+          77.5861428,
+          12.9925728
+        ],
+        [
+          77.5624161,
+          12.9579184
+        ],
+        [
+          77.5733753,
+          12.969437900000003
+        ],
+        [
+          77.5626012,
+          12.997142400000001
+        ]
+      ],
+      "stops": [
+        "Abshot Layout",
+        "Chamarajapete",
+        "Sultanpete",
+        "Maruthi Extension"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_02",
+      "name": "Route 2: Old Tharagupete - Rajajinagar 4M Block - Cubbonpet...",
+      "waypoints": [
+        [
+          77.576127,
+          12.967315
+        ],
+        [
+          77.5573707,
+          12.981596999999999
+        ],
+        [
+          77.58472859999999,
+          12.9679991
+        ],
+        [
+          77.567877,
+          12.9946048
+        ]
+      ],
+      "stops": [
+        "Old Tharagupete",
+        "Rajajinagar 4M Block",
+        "Cubbonpet",
+        "Valluvarpuram"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_03",
+      "name": "Route 3: Maruthi Extension - Sriramapuram - Kumara Park East...",
+      "waypoints": [
+        [
+          77.5626012,
+          12.997142400000001
+        ],
+        [
+          77.56330919999999,
+          12.990487400000001
+        ],
+        [
+          77.5791279,
+          12.9881274
+        ],
+        [
+          77.5617224,
+          12.984684300000001
+        ],
+        [
+          77.5655317,
+          12.9827823
+        ]
+      ],
+      "stops": [
+        "Maruthi Extension",
+        "Sriramapuram",
+        "Kumara Park East",
+        "Ramachandra Pura",
+        "Okalipuram"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_04",
+      "name": "Route 4: Rajajinagar 4th Block - Rajajinagar 6th Block - Ramachandra Pura...",
+      "waypoints": [
+        [
+          77.5566278,
+          12.986918399999999
+        ],
+        [
+          77.5532486,
+          12.977835200000001
+        ],
+        [
+          77.5617224,
+          12.984684300000001
+        ],
+        [
+          77.55765509999999,
+          12.9636406
+        ],
+        [
+          77.55139849999999,
+          12.982826900000001
+        ]
+      ],
+      "stops": [
+        "Rajajinagar 4th Block",
+        "Rajajinagar 6th Block",
+        "Ramachandra Pura",
+        "K H Ranganath Colony",
+        "Rajajinagar 5th Block"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_05",
+      "name": "Route 5: Gandhinagar - Rajajinagar 6th Block - Ganigarpet...",
+      "waypoints": [
+        [
+          77.57953130000001,
+          12.976653400000004
+        ],
+        [
+          77.5532486,
+          12.977835200000001
+        ],
+        [
+          77.58281579999999,
+          12.9662841
+        ],
+        [
+          77.5655317,
+          12.9827823
+        ],
+        [
+          77.55139849999999,
+          12.982826900000001
+        ],
+        [
+          77.5791279,
+          12.9881274
+        ]
+      ],
+      "stops": [
+        "Gandhinagar",
+        "Rajajinagar 6th Block",
+        "Ganigarpet",
+        "Okalipuram",
+        "Rajajinagar 5th Block",
+        "Kumara Park East"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_06",
+      "name": "Route 6: Balepet - Gandhinagar - Sultanpete...",
+      "waypoints": [
+        [
+          77.57543230000002,
+          12.9726178
+        ],
+        [
+          77.57953130000001,
+          12.976653400000004
+        ],
+        [
+          77.5733753,
+          12.969437900000003
+        ]
+      ],
+      "stops": [
+        "Balepet",
+        "Gandhinagar",
+        "Sultanpete"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_07",
+      "name": "Route 7: Prakash Nagar - Kumara Park West - Kalasipalyam...",
+      "waypoints": [
+        [
+          77.5630409,
+          12.9943984
+        ],
+        [
+          77.577428,
+          12.990526500000001
+        ],
+        [
+          77.5763148,
+          12.957689000000002
+        ],
+        [
+          77.5624161,
+          12.9579184
+        ]
+      ],
+      "stops": [
+        "Prakash Nagar",
+        "Kumara Park West",
+        "Kalasipalyam",
+        "Chamarajapete"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_08",
+      "name": "Route 8: Rajajinagar - Nagamma Nagar - Cholourpalya...",
+      "waypoints": [
+        [
+          77.554383,
+          12.9877338
+        ],
+        [
+          77.5620271,
+          12.9689492
+        ],
+        [
+          77.5492115,
+          12.970342400000002
+        ],
+        [
+          77.567877,
+          12.9946048
+        ],
+        [
+          77.56538570000001,
+          12.965132700000002
+        ]
+      ],
+      "stops": [
+        "Rajajinagar",
+        "Nagamma Nagar",
+        "Cholourpalya",
+        "Valluvarpuram",
+        "Cottonpete"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_09",
+      "name": "Route 9: Chamarajapete - Gandhinagar - Maruthi Extension...",
+      "waypoints": [
+        [
+          77.5624161,
+          12.9579184
+        ],
+        [
+          77.57953130000001,
+          12.976653400000004
+        ],
+        [
+          77.5626012,
+          12.997142400000001
+        ],
+        [
+          77.56330919999999,
+          12.990487400000001
+        ]
+      ],
+      "stops": [
+        "Chamarajapete",
+        "Gandhinagar",
+        "Maruthi Extension",
+        "Sriramapuram"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_10",
+      "name": "Route 10: Old Tharagupete - Jooganahalli - Maruthi Extension...",
+      "waypoints": [
+        [
+          77.576127,
+          12.967315
+        ],
+        [
+          77.55549719999999,
+          12.9922527
+        ],
+        [
+          77.5626012,
+          12.997142400000001
+        ],
+        [
+          77.5532486,
+          12.977835200000001
+        ]
+      ],
+      "stops": [
+        "Old Tharagupete",
+        "Jooganahalli",
+        "Maruthi Extension",
+        "Rajajinagar 6th Block"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_11",
+      "name": "Route 11: Gandhinagar - Basappa Garden - Chikkapete...",
+      "waypoints": [
+        [
+          77.57953130000001,
+          12.976653400000004
+        ],
+        [
+          77.576397,
+          12.9954346
+        ],
+        [
+          77.57519010000001,
+          12.9692837
+        ],
+        [
+          77.5624161,
+          12.9579184
+        ],
+        [
+          77.5553644,
+          12.964863900000001
+        ]
+      ],
+      "stops": [
+        "Gandhinagar",
+        "Basappa Garden",
+        "Chikkapete",
+        "Chamarajapete",
+        "Jagajeevanram Nagara"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_12",
+      "name": "Route 12: Ganigarpet - Seshadripuram - Maruthi Extension...",
+      "waypoints": [
+        [
+          77.58281579999999,
+          12.9662841
+        ],
+        [
+          77.5748419,
+          12.9926876
+        ],
+        [
+          77.5626012,
+          12.997142400000001
+        ],
+        [
+          77.576127,
+          12.967315
+        ]
+      ],
+      "stops": [
+        "Ganigarpet",
+        "Seshadripuram",
+        "Maruthi Extension",
+        "Old Tharagupete"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_13",
+      "name": "Route 13: Ramachandra Pura - Sriramapuram - Jagajeevanram Nagara...",
+      "waypoints": [
+        [
+          77.5617224,
+          12.984684300000001
+        ],
+        [
+          77.56330919999999,
+          12.990487400000001
+        ],
+        [
+          77.5553644,
+          12.964863900000001
+        ],
+        [
+          77.5626012,
+          12.997142400000001
+        ]
+      ],
+      "stops": [
+        "Ramachandra Pura",
+        "Sriramapuram",
+        "Jagajeevanram Nagara",
+        "Maruthi Extension"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_14",
+      "name": "Route 14: Kalasipalyam - Chamarajapete - Jagajeevanram Nagara...",
+      "waypoints": [
+        [
+          77.5763148,
+          12.957689000000002
+        ],
+        [
+          77.5624161,
+          12.9579184
+        ],
+        [
+          77.5553644,
+          12.964863900000001
+        ]
+      ],
+      "stops": [
+        "Kalasipalyam",
+        "Chamarajapete",
+        "Jagajeevanram Nagara"
+      ]
+    },
+    {
+      "route_id": "RT_C_Zone_15",
+      "name": "Route 15: Rajajinagar 4M Block - Prakash Nagar - Sultanpete...",
+      "waypoints": [
+        [
+          77.5573707,
+          12.981596999999999
+        ],
+        [
+          77.5630409,
+          12.9943984
+        ],
+        [
+          77.5733753,
+          12.969437900000003
+        ],
+        [
+          77.56538570000001,
+          12.965132700000002
+        ],
+        [
+          77.5617224,
+          12.984684300000001
+        ],
+        [
+          77.5566278,
+          12.986918399999999
+        ]
+      ],
+      "stops": [
+        "Rajajinagar 4M Block",
+        "Prakash Nagar",
+        "Sultanpete",
+        "Cottonpete",
+        "Ramachandra Pura",
+        "Rajajinagar 4th Block"
+      ]
+    }
+  ]
+}

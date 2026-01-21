@@ -1,0 +1,454 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_W_Zone_01",
+      "name": "Route 1: Rajajinagara 1st N Block - Jooganahalli - Swimming Pool Extension...",
+      "waypoints": [
+        [
+          77.55180520000002,
+          13.004677099999999
+        ],
+        [
+          77.55549719999999,
+          12.9922527
+        ],
+        [
+          77.5741989,
+          12.999076500000001
+        ],
+        [
+          77.56982529999999,
+          13.002235299999999
+        ],
+        [
+          77.5554556,
+          13.006676400000003
+        ],
+        [
+          77.5578026,
+          13.0088324
+        ]
+      ],
+      "stops": [
+        "Rajajinagara 1st N Block",
+        "Jooganahalli",
+        "Swimming Pool Extension",
+        "Malleswaram",
+        "Subramanya Nagar 2nd Stage",
+        "Milk Colony"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_02",
+      "name": "Route 2: Vyalikaval - Mariappanapalya - Prakash Nagar...",
+      "waypoints": [
+        [
+          77.5746704,
+          13.0037636
+        ],
+        [
+          77.55398579999999,
+          12.9967636
+        ],
+        [
+          77.5630409,
+          12.9943984
+        ],
+        [
+          77.55180520000002,
+          13.004677099999999
+        ]
+      ],
+      "stops": [
+        "Vyalikaval",
+        "Mariappanapalya",
+        "Prakash Nagar",
+        "Rajajinagara 1st N Block"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_03",
+      "name": "Route 3: Vyalikaval - Valluvarpuram - Rajajinagara 1st N Block...",
+      "waypoints": [
+        [
+          77.5746704,
+          13.0037636
+        ],
+        [
+          77.567877,
+          12.9946048
+        ],
+        [
+          77.55180520000002,
+          13.004677099999999
+        ],
+        [
+          77.55549719999999,
+          12.9922527
+        ],
+        [
+          77.5626012,
+          12.997142400000001
+        ],
+        [
+          77.5630409,
+          12.9943984
+        ]
+      ],
+      "stops": [
+        "Vyalikaval",
+        "Valluvarpuram",
+        "Rajajinagara 1st N Block",
+        "Jooganahalli",
+        "Maruthi Extension",
+        "Prakash Nagar"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_04",
+      "name": "Route 4: Swimming Pool Extension - Ketamaranahalli - Subramanya Nagar 2nd Stage...",
+      "waypoints": [
+        [
+          77.5741989,
+          12.999076500000001
+        ],
+        [
+          77.5514539,
+          13.000472300000002
+        ],
+        [
+          77.5554556,
+          13.006676400000003
+        ]
+      ],
+      "stops": [
+        "Swimming Pool Extension",
+        "Ketamaranahalli",
+        "Subramanya Nagar 2nd Stage"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_05",
+      "name": "Route 5: Prakash Nagar - Subramanya Nagar 2nd Stage - Jooganahalli...",
+      "waypoints": [
+        [
+          77.5630409,
+          12.9943984
+        ],
+        [
+          77.5554556,
+          13.006676400000003
+        ],
+        [
+          77.55549719999999,
+          12.9922527
+        ]
+      ],
+      "stops": [
+        "Prakash Nagar",
+        "Subramanya Nagar 2nd Stage",
+        "Jooganahalli"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_06",
+      "name": "Route 6: Valluvarpuram - Milk Colony - Rajajinagar 1st Block...",
+      "waypoints": [
+        [
+          77.567877,
+          12.9946048
+        ],
+        [
+          77.5578026,
+          13.0088324
+        ],
+        [
+          77.5506533,
+          13.0026286
+        ],
+        [
+          77.55398579999999,
+          12.9967636
+        ],
+        [
+          77.5554556,
+          13.006676400000003
+        ]
+      ],
+      "stops": [
+        "Valluvarpuram",
+        "Milk Colony",
+        "Rajajinagar 1st Block",
+        "Mariappanapalya",
+        "Subramanya Nagar 2nd Stage"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_07",
+      "name": "Route 7: Vyalikaval - Swimming Pool Extension - Jooganahalli...",
+      "waypoints": [
+        [
+          77.5746704,
+          13.0037636
+        ],
+        [
+          77.5741989,
+          12.999076500000001
+        ],
+        [
+          77.55549719999999,
+          12.9922527
+        ]
+      ],
+      "stops": [
+        "Vyalikaval",
+        "Swimming Pool Extension",
+        "Jooganahalli"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_08",
+      "name": "Route 8: Valluvarpuram - Rajajinagar 1st Block - Milk Colony...",
+      "waypoints": [
+        [
+          77.567877,
+          12.9946048
+        ],
+        [
+          77.5506533,
+          13.0026286
+        ],
+        [
+          77.5578026,
+          13.0088324
+        ]
+      ],
+      "stops": [
+        "Valluvarpuram",
+        "Rajajinagar 1st Block",
+        "Milk Colony"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_09",
+      "name": "Route 9: Jooganahalli - Prakash Nagar - Milk Colony...",
+      "waypoints": [
+        [
+          77.55549719999999,
+          12.9922527
+        ],
+        [
+          77.5630409,
+          12.9943984
+        ],
+        [
+          77.5578026,
+          13.0088324
+        ]
+      ],
+      "stops": [
+        "Jooganahalli",
+        "Prakash Nagar",
+        "Milk Colony"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_10",
+      "name": "Route 10: Milk Colony - Valluvarpuram - Mariappanapalya...",
+      "waypoints": [
+        [
+          77.5578026,
+          13.0088324
+        ],
+        [
+          77.567877,
+          12.9946048
+        ],
+        [
+          77.55398579999999,
+          12.9967636
+        ],
+        [
+          77.5741989,
+          12.999076500000001
+        ],
+        [
+          77.56982529999999,
+          13.002235299999999
+        ]
+      ],
+      "stops": [
+        "Milk Colony",
+        "Valluvarpuram",
+        "Mariappanapalya",
+        "Swimming Pool Extension",
+        "Malleswaram"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_11",
+      "name": "Route 11: Jooganahalli - Ketamaranahalli - Rajajinagar 1st Block...",
+      "waypoints": [
+        [
+          77.55549719999999,
+          12.9922527
+        ],
+        [
+          77.5514539,
+          13.000472300000002
+        ],
+        [
+          77.5506533,
+          13.0026286
+        ],
+        [
+          77.5741989,
+          12.999076500000001
+        ]
+      ],
+      "stops": [
+        "Jooganahalli",
+        "Ketamaranahalli",
+        "Rajajinagar 1st Block",
+        "Swimming Pool Extension"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_12",
+      "name": "Route 12: Jooganahalli - Maruthi Extension - Swimming Pool Extension...",
+      "waypoints": [
+        [
+          77.55549719999999,
+          12.9922527
+        ],
+        [
+          77.5626012,
+          12.997142400000001
+        ],
+        [
+          77.5741989,
+          12.999076500000001
+        ],
+        [
+          77.5506533,
+          13.0026286
+        ],
+        [
+          77.5746704,
+          13.0037636
+        ]
+      ],
+      "stops": [
+        "Jooganahalli",
+        "Maruthi Extension",
+        "Swimming Pool Extension",
+        "Rajajinagar 1st Block",
+        "Vyalikaval"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_13",
+      "name": "Route 13: Rajajinagara 1st N Block - Mariappanapalya - Milk Colony...",
+      "waypoints": [
+        [
+          77.55180520000002,
+          13.004677099999999
+        ],
+        [
+          77.55398579999999,
+          12.9967636
+        ],
+        [
+          77.5578026,
+          13.0088324
+        ],
+        [
+          77.5514539,
+          13.000472300000002
+        ],
+        [
+          77.5741989,
+          12.999076500000001
+        ]
+      ],
+      "stops": [
+        "Rajajinagara 1st N Block",
+        "Mariappanapalya",
+        "Milk Colony",
+        "Ketamaranahalli",
+        "Swimming Pool Extension"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_14",
+      "name": "Route 14: Milk Colony - Prakash Nagar - Rajajinagar 1st Block...",
+      "waypoints": [
+        [
+          77.5578026,
+          13.0088324
+        ],
+        [
+          77.5630409,
+          12.9943984
+        ],
+        [
+          77.5506533,
+          13.0026286
+        ],
+        [
+          77.55180520000002,
+          13.004677099999999
+        ],
+        [
+          77.55549719999999,
+          12.9922527
+        ],
+        [
+          77.5626012,
+          12.997142400000001
+        ]
+      ],
+      "stops": [
+        "Milk Colony",
+        "Prakash Nagar",
+        "Rajajinagar 1st Block",
+        "Rajajinagara 1st N Block",
+        "Jooganahalli",
+        "Maruthi Extension"
+      ]
+    },
+    {
+      "route_id": "RT_W_Zone_15",
+      "name": "Route 15: Ketamaranahalli - Prakash Nagar - Swimming Pool Extension...",
+      "waypoints": [
+        [
+          77.5514539,
+          13.000472300000002
+        ],
+        [
+          77.5630409,
+          12.9943984
+        ],
+        [
+          77.5741989,
+          12.999076500000001
+        ],
+        [
+          77.5506533,
+          13.0026286
+        ],
+        [
+          77.5626012,
+          12.997142400000001
+        ]
+      ],
+      "stops": [
+        "Ketamaranahalli",
+        "Prakash Nagar",
+        "Swimming Pool Extension",
+        "Rajajinagar 1st Block",
+        "Maruthi Extension"
+      ]
+    }
+  ]
+}

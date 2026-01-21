@@ -1,0 +1,484 @@
+{
+  "routes": [
+    {
+      "route_id": "RT_SE_Zone_01",
+      "name": "Route 1: Parangipalya - Agara - HSR Layout...",
+      "waypoints": [
+        [
+          77.65056680000001,
+          12.906979100000001
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.6383622,
+          12.9111225
+        ],
+        [
+          77.63187450000001,
+          12.905311000000001
+        ],
+        [
+          77.6336185,
+          12.918326500000001
+        ]
+      ],
+      "stops": [
+        "Parangipalya",
+        "Agara",
+        "HSR Layout",
+        "Mangamannapalya",
+        "Teacher's Colony"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_02",
+      "name": "Route 2: Mangamannapalya - Teacher's Colony - Agara...",
+      "waypoints": [
+        [
+          77.63187450000001,
+          12.905311000000001
+        ],
+        [
+          77.6336185,
+          12.918326500000001
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ]
+      ],
+      "stops": [
+        "Mangamannapalya",
+        "Teacher's Colony",
+        "Agara"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_03",
+      "name": "Route 3: Parangipalya - Yellukunte - Teacher's Colony...",
+      "waypoints": [
+        [
+          77.65056680000001,
+          12.906979100000001
+        ],
+        [
+          77.6410825,
+          12.9039961
+        ],
+        [
+          77.6336185,
+          12.918326500000001
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.6386631,
+          12.9133792
+        ],
+        [
+          77.6404441,
+          12.900999899999999
+        ]
+      ],
+      "stops": [
+        "Parangipalya",
+        "Yellukunte",
+        "Teacher's Colony",
+        "Agara",
+        "MCHS Colony",
+        "ITI Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_04",
+      "name": "Route 4: HSR Layout - Teacher's Colony - MCHS Colony...",
+      "waypoints": [
+        [
+          77.6383622,
+          12.9111225
+        ],
+        [
+          77.6336185,
+          12.918326500000001
+        ],
+        [
+          77.6386631,
+          12.9133792
+        ],
+        [
+          77.6410825,
+          12.9039961
+        ],
+        [
+          77.63187450000001,
+          12.905311000000001
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ]
+      ],
+      "stops": [
+        "HSR Layout",
+        "Teacher's Colony",
+        "MCHS Colony",
+        "Yellukunte",
+        "Mangamannapalya",
+        "Agara"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_05",
+      "name": "Route 5: Mangamannapalya - Yellukunte - Agara...",
+      "waypoints": [
+        [
+          77.63187450000001,
+          12.905311000000001
+        ],
+        [
+          77.6410825,
+          12.9039961
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.6404441,
+          12.900999899999999
+        ],
+        [
+          77.6383622,
+          12.9111225
+        ],
+        [
+          77.65056680000001,
+          12.906979100000001
+        ]
+      ],
+      "stops": [
+        "Mangamannapalya",
+        "Yellukunte",
+        "Agara",
+        "ITI Layout",
+        "HSR Layout",
+        "Parangipalya"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_06",
+      "name": "Route 6: Parangipalya - HSR Layout - Teacher's Colony...",
+      "waypoints": [
+        [
+          77.65056680000001,
+          12.906979100000001
+        ],
+        [
+          77.6383622,
+          12.9111225
+        ],
+        [
+          77.6336185,
+          12.918326500000001
+        ]
+      ],
+      "stops": [
+        "Parangipalya",
+        "HSR Layout",
+        "Teacher's Colony"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_07",
+      "name": "Route 7: Teacher's Colony - Mangamannapalya - HSR Layout...",
+      "waypoints": [
+        [
+          77.6336185,
+          12.918326500000001
+        ],
+        [
+          77.63187450000001,
+          12.905311000000001
+        ],
+        [
+          77.6383622,
+          12.9111225
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.6410825,
+          12.9039961
+        ],
+        [
+          77.65056680000001,
+          12.906979100000001
+        ]
+      ],
+      "stops": [
+        "Teacher's Colony",
+        "Mangamannapalya",
+        "HSR Layout",
+        "Agara",
+        "Yellukunte",
+        "Parangipalya"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_08",
+      "name": "Route 8: Agara - ITI Layout - HSR Layout...",
+      "waypoints": [
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.6404441,
+          12.900999899999999
+        ],
+        [
+          77.6383622,
+          12.9111225
+        ],
+        [
+          77.6410825,
+          12.9039961
+        ],
+        [
+          77.6386631,
+          12.9133792
+        ]
+      ],
+      "stops": [
+        "Agara",
+        "ITI Layout",
+        "HSR Layout",
+        "Yellukunte",
+        "MCHS Colony"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_09",
+      "name": "Route 9: Teacher's Colony - HSR Layout - Agara...",
+      "waypoints": [
+        [
+          77.6336185,
+          12.918326500000001
+        ],
+        [
+          77.6383622,
+          12.9111225
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ]
+      ],
+      "stops": [
+        "Teacher's Colony",
+        "HSR Layout",
+        "Agara"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_10",
+      "name": "Route 10: Agara - Mangamannapalya - Parangipalya...",
+      "waypoints": [
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.63187450000001,
+          12.905311000000001
+        ],
+        [
+          77.65056680000001,
+          12.906979100000001
+        ]
+      ],
+      "stops": [
+        "Agara",
+        "Mangamannapalya",
+        "Parangipalya"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_11",
+      "name": "Route 11: Agara - MCHS Colony - Yellukunte...",
+      "waypoints": [
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.6386631,
+          12.9133792
+        ],
+        [
+          77.6410825,
+          12.9039961
+        ],
+        [
+          77.6383622,
+          12.9111225
+        ],
+        [
+          77.6336185,
+          12.918326500000001
+        ]
+      ],
+      "stops": [
+        "Agara",
+        "MCHS Colony",
+        "Yellukunte",
+        "HSR Layout",
+        "Teacher's Colony"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_12",
+      "name": "Route 12: HSR Layout - Parangipalya - Agara...",
+      "waypoints": [
+        [
+          77.6383622,
+          12.9111225
+        ],
+        [
+          77.65056680000001,
+          12.906979100000001
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.63187450000001,
+          12.905311000000001
+        ],
+        [
+          77.6410825,
+          12.9039961
+        ]
+      ],
+      "stops": [
+        "HSR Layout",
+        "Parangipalya",
+        "Agara",
+        "Mangamannapalya",
+        "Yellukunte"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_13",
+      "name": "Route 13: Mangamannapalya - Parangipalya - Agara...",
+      "waypoints": [
+        [
+          77.63187450000001,
+          12.905311000000001
+        ],
+        [
+          77.65056680000001,
+          12.906979100000001
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.6336185,
+          12.918326500000001
+        ],
+        [
+          77.6383622,
+          12.9111225
+        ]
+      ],
+      "stops": [
+        "Mangamannapalya",
+        "Parangipalya",
+        "Agara",
+        "Teacher's Colony",
+        "HSR Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_14",
+      "name": "Route 14: Yellukunte - Mangamannapalya - Parangipalya...",
+      "waypoints": [
+        [
+          77.6410825,
+          12.9039961
+        ],
+        [
+          77.63187450000001,
+          12.905311000000001
+        ],
+        [
+          77.65056680000001,
+          12.906979100000001
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.6383622,
+          12.9111225
+        ]
+      ],
+      "stops": [
+        "Yellukunte",
+        "Mangamannapalya",
+        "Parangipalya",
+        "Agara",
+        "HSR Layout"
+      ]
+    },
+    {
+      "route_id": "RT_SE_Zone_15",
+      "name": "Route 15: Teacher's Colony - Parangipalya - HSR Layout...",
+      "waypoints": [
+        [
+          77.6336185,
+          12.918326500000001
+        ],
+        [
+          77.65056680000001,
+          12.906979100000001
+        ],
+        [
+          77.6383622,
+          12.9111225
+        ],
+        [
+          77.64743659999999,
+          12.921640499999999
+        ],
+        [
+          77.6410825,
+          12.9039961
+        ],
+        [
+          77.6404441,
+          12.900999899999999
+        ]
+      ],
+      "stops": [
+        "Teacher's Colony",
+        "Parangipalya",
+        "HSR Layout",
+        "Agara",
+        "Yellukunte",
+        "ITI Layout"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1485 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_427531067",
+        "name": "Seshadripuram",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5728419,
+              12.990687600000001
+            ],
+            [
+              77.5778419,
+              12.990687600000001
+            ],
+            [
+              77.5778419,
+              12.9956876
+            ],
+            [
+              77.5728419,
+              12.9956876
+            ],
+            [
+              77.5728419,
+              12.990687600000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429697299",
+        "name": "Gandhinagar",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5775313,
+              12.974653400000001
+            ],
+            [
+              77.5825313,
+              12.974653400000001
+            ],
+            [
+              77.5825313,
+              12.9796534
+            ],
+            [
+              77.5775313,
+              12.9796534
+            ],
+            [
+              77.5775313,
+              12.974653400000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429853694",
+        "name": "Chamarajapete",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5604161,
+              12.9559184
+            ],
+            [
+              77.5654161,
+              12.9559184
+            ],
+            [
+              77.5654161,
+              12.960918399999999
+            ],
+            [
+              77.5604161,
+              12.960918399999999
+            ],
+            [
+              77.5604161,
+              12.9559184
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429857521",
+        "name": "Sriramapuram",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5613092,
+              12.9884874
+            ],
+            [
+              77.56630919999999,
+              12.9884874
+            ],
+            [
+              77.56630919999999,
+              12.9934874
+            ],
+            [
+              77.5613092,
+              12.9934874
+            ],
+            [
+              77.5613092,
+              12.9884874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429857523",
+        "name": "Rajajinagar",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.552383,
+              12.9857338
+            ],
+            [
+              77.557383,
+              12.9857338
+            ],
+            [
+              77.557383,
+              12.9907338
+            ],
+            [
+              77.552383,
+              12.9907338
+            ],
+            [
+              77.552383,
+              12.9857338
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429921856",
+        "name": "Cubbonpet",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5827286,
+              12.965999100000001
+            ],
+            [
+              77.58772859999999,
+              12.965999100000001
+            ],
+            [
+              77.58772859999999,
+              12.9709991
+            ],
+            [
+              77.5827286,
+              12.9709991
+            ],
+            [
+              77.5827286,
+              12.965999100000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429921857",
+        "name": "Old Tharagupete",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.574127,
+              12.965315
+            ],
+            [
+              77.579127,
+              12.965315
+            ],
+            [
+              77.579127,
+              12.970315
+            ],
+            [
+              77.574127,
+              12.970315
+            ],
+            [
+              77.574127,
+              12.965315
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429921859",
+        "name": "Sultanpete",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5713753,
+              12.9674379
+            ],
+            [
+              77.5763753,
+              12.9674379
+            ],
+            [
+              77.5763753,
+              12.9724379
+            ],
+            [
+              77.5713753,
+              12.9724379
+            ],
+            [
+              77.5713753,
+              12.9674379
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429921860",
+        "name": "Ranasingpete",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.56995880000001,
+              12.965044200000001
+            ],
+            [
+              77.5749588,
+              12.965044200000001
+            ],
+            [
+              77.5749588,
+              12.9700442
+            ],
+            [
+              77.56995880000001,
+              12.9700442
+            ],
+            [
+              77.56995880000001,
+              12.965044200000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429921862",
+        "name": "Chikkapete",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5731901,
+              12.967283700000001
+            ],
+            [
+              77.5781901,
+              12.967283700000001
+            ],
+            [
+              77.5781901,
+              12.9722837
+            ],
+            [
+              77.5731901,
+              12.9722837
+            ],
+            [
+              77.5731901,
+              12.967283700000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429921863",
+        "name": "Balepet",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.57343230000001,
+              12.970617800000001
+            ],
+            [
+              77.5784323,
+              12.970617800000001
+            ],
+            [
+              77.5784323,
+              12.9756178
+            ],
+            [
+              77.57343230000001,
+              12.9756178
+            ],
+            [
+              77.57343230000001,
+              12.970617800000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_429921864",
+        "name": "Kalasipalyam",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5743148,
+              12.955689000000001
+            ],
+            [
+              77.57931479999999,
+              12.955689000000001
+            ],
+            [
+              77.57931479999999,
+              12.960689
+            ],
+            [
+              77.5743148,
+              12.960689
+            ],
+            [
+              77.5743148,
+              12.955689000000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_456112031",
+        "name": "Okalipuram",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5635317,
+              12.980782300000001
+            ],
+            [
+              77.5685317,
+              12.980782300000001
+            ],
+            [
+              77.5685317,
+              12.9857823
+            ],
+            [
+              77.5635317,
+              12.9857823
+            ],
+            [
+              77.5635317,
+              12.980782300000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_456112035",
+        "name": "Ramachandra Pura",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5597224,
+              12.9826843
+            ],
+            [
+              77.5647224,
+              12.9826843
+            ],
+            [
+              77.5647224,
+              12.9876843
+            ],
+            [
+              77.5597224,
+              12.9876843
+            ],
+            [
+              77.5597224,
+              12.9826843
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_648975553",
+        "name": "Cottonpete",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5633857,
+              12.963132700000001
+            ],
+            [
+              77.5683857,
+              12.963132700000001
+            ],
+            [
+              77.5683857,
+              12.9681327
+            ],
+            [
+              77.5633857,
+              12.9681327
+            ],
+            [
+              77.5633857,
+              12.963132700000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_665045361",
+        "name": "High Grounds",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5805766,
+              12.9840133
+            ],
+            [
+              77.5855766,
+              12.9840133
+            ],
+            [
+              77.5855766,
+              12.9890133
+            ],
+            [
+              77.5805766,
+              12.9890133
+            ],
+            [
+              77.5805766,
+              12.9840133
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_1616772428",
+        "name": "Rajajinagar 5th Block",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5493985,
+              12.9808269
+            ],
+            [
+              77.55439849999999,
+              12.9808269
+            ],
+            [
+              77.55439849999999,
+              12.9858269
+            ],
+            [
+              77.5493985,
+              12.9858269
+            ],
+            [
+              77.5493985,
+              12.9808269
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_1616772430",
+        "name": "Rajajinagar 3rd Block",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5501874,
+              12.985678700000001
+            ],
+            [
+              77.5551874,
+              12.985678700000001
+            ],
+            [
+              77.5551874,
+              12.9906787
+            ],
+            [
+              77.5501874,
+              12.9906787
+            ],
+            [
+              77.5501874,
+              12.985678700000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_1813501240",
+        "name": "Rajajinagar 6th Block",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.55124860000001,
+              12.9758352
+            ],
+            [
+              77.5562486,
+              12.9758352
+            ],
+            [
+              77.5562486,
+              12.9808352
+            ],
+            [
+              77.55124860000001,
+              12.9808352
+            ],
+            [
+              77.55124860000001,
+              12.9758352
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_2026076829",
+        "name": "Maruthi Extension",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.56060120000001,
+              12.9951424
+            ],
+            [
+              77.5656012,
+              12.9951424
+            ],
+            [
+              77.5656012,
+              13.0001424
+            ],
+            [
+              77.56060120000001,
+              13.0001424
+            ],
+            [
+              77.56060120000001,
+              12.9951424
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_4209390935",
+        "name": "Ganigarpet",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5808158,
+              12.9642841
+            ],
+            [
+              77.58581579999999,
+              12.9642841
+            ],
+            [
+              77.58581579999999,
+              12.9692841
+            ],
+            [
+              77.5808158,
+              12.9692841
+            ],
+            [
+              77.5808158,
+              12.9642841
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_4209420893",
+        "name": "Mamulpete",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5753022,
+              12.9662279
+            ],
+            [
+              77.58030219999999,
+              12.9662279
+            ],
+            [
+              77.58030219999999,
+              12.971227899999999
+            ],
+            [
+              77.5753022,
+              12.971227899999999
+            ],
+            [
+              77.5753022,
+              12.9662279
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_4353477843",
+        "name": "Abshot Layout",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.58414280000001,
+              12.9905728
+            ],
+            [
+              77.5891428,
+              12.9905728
+            ],
+            [
+              77.5891428,
+              12.9955728
+            ],
+            [
+              77.58414280000001,
+              12.9955728
+            ],
+            [
+              77.58414280000001,
+              12.9905728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_7301358178",
+        "name": "Fair Field Layout",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5837887,
+              12.9828876
+            ],
+            [
+              77.5887887,
+              12.9828876
+            ],
+            [
+              77.5887887,
+              12.987887599999999
+            ],
+            [
+              77.5837887,
+              12.987887599999999
+            ],
+            [
+              77.5837887,
+              12.9828876
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_7391586672",
+        "name": "Nagamma Nagar",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5600271,
+              12.9669492
+            ],
+            [
+              77.5650271,
+              12.9669492
+            ],
+            [
+              77.5650271,
+              12.9719492
+            ],
+            [
+              77.5600271,
+              12.9719492
+            ],
+            [
+              77.5600271,
+              12.9669492
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_7391586675",
+        "name": "Cholourpalya",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5472115,
+              12.968342400000001
+            ],
+            [
+              77.5522115,
+              12.968342400000001
+            ],
+            [
+              77.5522115,
+              12.9733424
+            ],
+            [
+              77.5472115,
+              12.9733424
+            ],
+            [
+              77.5472115,
+              12.968342400000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_7391606105",
+        "name": "Kempapura Agrahara",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.55287630000001,
+              12.9681228
+            ],
+            [
+              77.5578763,
+              12.9681228
+            ],
+            [
+              77.5578763,
+              12.973122799999999
+            ],
+            [
+              77.55287630000001,
+              12.973122799999999
+            ],
+            [
+              77.55287630000001,
+              12.9681228
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_7391606106",
+        "name": "K H Ranganath Colony",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5556551,
+              12.9616406
+            ],
+            [
+              77.56065509999999,
+              12.9616406
+            ],
+            [
+              77.56065509999999,
+              12.9666406
+            ],
+            [
+              77.5556551,
+              12.9666406
+            ],
+            [
+              77.5556551,
+              12.9616406
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_7391606107",
+        "name": "Jagajeevanram Nagara",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5533644,
+              12.9628639
+            ],
+            [
+              77.5583644,
+              12.9628639
+            ],
+            [
+              77.5583644,
+              12.9678639
+            ],
+            [
+              77.5533644,
+              12.9678639
+            ],
+            [
+              77.5533644,
+              12.9628639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_7658290106",
+        "name": "Madhav Nagar",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5748021,
+              12.9826431
+            ],
+            [
+              77.5798021,
+              12.9826431
+            ],
+            [
+              77.5798021,
+              12.9876431
+            ],
+            [
+              77.5748021,
+              12.9876431
+            ],
+            [
+              77.5748021,
+              12.9826431
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_7944583325",
+        "name": "Rajajinagar 4th Block",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5546278,
+              12.9849184
+            ],
+            [
+              77.5596278,
+              12.9849184
+            ],
+            [
+              77.5596278,
+              12.989918399999999
+            ],
+            [
+              77.5546278,
+              12.989918399999999
+            ],
+            [
+              77.5546278,
+              12.9849184
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_8442191514",
+        "name": "Jooganahalli",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5534972,
+              12.990252700000001
+            ],
+            [
+              77.55849719999999,
+              12.990252700000001
+            ],
+            [
+              77.55849719999999,
+              12.9952527
+            ],
+            [
+              77.5534972,
+              12.9952527
+            ],
+            [
+              77.5534972,
+              12.990252700000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_10253179995",
+        "name": "Kumara Park West",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.575428,
+              12.9885265
+            ],
+            [
+              77.580428,
+              12.9885265
+            ],
+            [
+              77.580428,
+              12.9935265
+            ],
+            [
+              77.575428,
+              12.9935265
+            ],
+            [
+              77.575428,
+              12.9885265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_10253179996",
+        "name": "Kumara Park East",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.57712790000001,
+              12.9861274
+            ],
+            [
+              77.5821279,
+              12.9861274
+            ],
+            [
+              77.5821279,
+              12.9911274
+            ],
+            [
+              77.57712790000001,
+              12.9911274
+            ],
+            [
+              77.57712790000001,
+              12.9861274
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_10572417851",
+        "name": "Prakash Nagar",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.56104090000001,
+              12.9923984
+            ],
+            [
+              77.5660409,
+              12.9923984
+            ],
+            [
+              77.5660409,
+              12.9973984
+            ],
+            [
+              77.56104090000001,
+              12.9973984
+            ],
+            [
+              77.56104090000001,
+              12.9923984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_10833830941",
+        "name": "Valluvarpuram",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.565877,
+              12.9926048
+            ],
+            [
+              77.570877,
+              12.9926048
+            ],
+            [
+              77.570877,
+              12.9976048
+            ],
+            [
+              77.565877,
+              12.9976048
+            ],
+            [
+              77.565877,
+              12.9926048
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_11096782368",
+        "name": "Basappa Garden",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.574397,
+              12.9934346
+            ],
+            [
+              77.579397,
+              12.9934346
+            ],
+            [
+              77.579397,
+              12.9984346
+            ],
+            [
+              77.574397,
+              12.9984346
+            ],
+            [
+              77.574397,
+              12.9934346
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_11652617766",
+        "name": "Rajajinagar 4M Block",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5553707,
+              12.979597
+            ],
+            [
+              77.56037069999999,
+              12.979597
+            ],
+            [
+              77.56037069999999,
+              12.984596999999999
+            ],
+            [
+              77.5553707,
+              12.984596999999999
+            ],
+            [
+              77.5553707,
+              12.979597
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_12120352167",
+        "name": "Srikantan Layout",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.57950530000001,
+              12.9855639
+            ],
+            [
+              77.5845053,
+              12.9855639
+            ],
+            [
+              77.5845053,
+              12.9905639
+            ],
+            [
+              77.57950530000001,
+              12.9905639
+            ],
+            [
+              77.57950530000001,
+              12.9855639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "C_LOC_12944083413",
+        "name": "Nehru Nagar",
+        "zone": "C_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.57305840000001,
+              12.984463400000001
+            ],
+            [
+              77.5780584,
+              12.984463400000001
+            ],
+            [
+              77.5780584,
+              12.9894634
+            ],
+            [
+              77.57305840000001,
+              12.9894634
+            ],
+            [
+              77.57305840000001,
+              12.984463400000001
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1596 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_429918281",
+        "name": "Madiwala",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.615129,
+              12.9213149
+            ],
+            [
+              77.62012899999999,
+              12.9213149
+            ],
+            [
+              77.62012899999999,
+              12.9263149
+            ],
+            [
+              77.615129,
+              12.9263149
+            ],
+            [
+              77.615129,
+              12.9213149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_429918282",
+        "name": "Koramangala",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.621581,
+              12.9332366
+            ],
+            [
+              77.626581,
+              12.9332366
+            ],
+            [
+              77.626581,
+              12.9382366
+            ],
+            [
+              77.621581,
+              12.9382366
+            ],
+            [
+              77.621581,
+              12.9332366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_429921850",
+        "name": "Adugodi",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6063867,
+              12.941523400000001
+            ],
+            [
+              77.6113867,
+              12.941523400000001
+            ],
+            [
+              77.6113867,
+              12.9465234
+            ],
+            [
+              77.6063867,
+              12.9465234
+            ],
+            [
+              77.6063867,
+              12.941523400000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_429921854",
+        "name": "Viveknagar",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6206374,
+              12.950424700000001
+            ],
+            [
+              77.6256374,
+              12.950424700000001
+            ],
+            [
+              77.6256374,
+              12.9554247
+            ],
+            [
+              77.6206374,
+              12.9554247
+            ],
+            [
+              77.6206374,
+              12.950424700000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_429921855",
+        "name": "Ejipura",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62497760000001,
+              12.942745
+            ],
+            [
+              77.6299776,
+              12.942745
+            ],
+            [
+              77.6299776,
+              12.947745
+            ],
+            [
+              77.62497760000001,
+              12.947745
+            ],
+            [
+              77.62497760000001,
+              12.942745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_459781784",
+        "name": "Neelasandra",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6115918,
+              12.9496793
+            ],
+            [
+              77.6165918,
+              12.9496793
+            ],
+            [
+              77.6165918,
+              12.954679299999999
+            ],
+            [
+              77.6115918,
+              12.954679299999999
+            ],
+            [
+              77.6115918,
+              12.9496793
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_459782030",
+        "name": "Rajendranagar",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6149963,
+              12.9441371
+            ],
+            [
+              77.6199963,
+              12.9441371
+            ],
+            [
+              77.6199963,
+              12.9491371
+            ],
+            [
+              77.6149963,
+              12.9491371
+            ],
+            [
+              77.6149963,
+              12.9441371
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_493530617",
+        "name": "Bismillah Nagar",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.60088470000001,
+              12.9238385
+            ],
+            [
+              77.6058847,
+              12.9238385
+            ],
+            [
+              77.6058847,
+              12.9288385
+            ],
+            [
+              77.60088470000001,
+              12.9288385
+            ],
+            [
+              77.60088470000001,
+              12.9238385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_503050594",
+        "name": "Koramangala 2nd Block",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6217433,
+              12.9218692
+            ],
+            [
+              77.6267433,
+              12.9218692
+            ],
+            [
+              77.6267433,
+              12.926869199999999
+            ],
+            [
+              77.6217433,
+              12.926869199999999
+            ],
+            [
+              77.6217433,
+              12.9218692
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_666849453",
+        "name": "L.R. Nagar 1st Stage",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6131693,
+              12.9473455
+            ],
+            [
+              77.61816929999999,
+              12.9473455
+            ],
+            [
+              77.61816929999999,
+              12.9523455
+            ],
+            [
+              77.6131693,
+              12.9523455
+            ],
+            [
+              77.6131693,
+              12.9473455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_666849455",
+        "name": "L.R. Nagar 2nd Stage",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6149553,
+              12.947193500000001
+            ],
+            [
+              77.6199553,
+              12.947193500000001
+            ],
+            [
+              77.6199553,
+              12.9521935
+            ],
+            [
+              77.6149553,
+              12.9521935
+            ],
+            [
+              77.6149553,
+              12.947193500000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_666849457",
+        "name": "Ambedkar Nagar",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6159873,
+              12.9465851
+            ],
+            [
+              77.6209873,
+              12.9465851
+            ],
+            [
+              77.6209873,
+              12.951585099999999
+            ],
+            [
+              77.6159873,
+              12.951585099999999
+            ],
+            [
+              77.6159873,
+              12.9465851
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_1278162245",
+        "name": "Venkatpura",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6319738,
+              12.9200582
+            ],
+            [
+              77.63697379999999,
+              12.9200582
+            ],
+            [
+              77.63697379999999,
+              12.925058199999999
+            ],
+            [
+              77.6319738,
+              12.925058199999999
+            ],
+            [
+              77.6319738,
+              12.9200582
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_1278162259",
+        "name": "ST Bed Layout",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6299307,
+              12.9322699
+            ],
+            [
+              77.6349307,
+              12.9322699
+            ],
+            [
+              77.6349307,
+              12.937269899999999
+            ],
+            [
+              77.6299307,
+              12.937269899999999
+            ],
+            [
+              77.6299307,
+              12.9322699
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_1757013241",
+        "name": "BTM 2nd Stage",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.61638620000001,
+              12.911578800000001
+            ],
+            [
+              77.6213862,
+              12.911578800000001
+            ],
+            [
+              77.6213862,
+              12.9165788
+            ],
+            [
+              77.61638620000001,
+              12.9165788
+            ],
+            [
+              77.61638620000001,
+              12.911578800000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_2941483809",
+        "name": "BTM Layout 1st Stage",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6087906,
+              12.9165004
+            ],
+            [
+              77.6137906,
+              12.9165004
+            ],
+            [
+              77.6137906,
+              12.9215004
+            ],
+            [
+              77.6087906,
+              12.9215004
+            ],
+            [
+              77.6087906,
+              12.9165004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_3221362711",
+        "name": "Jakkasandra",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.635103,
+              12.9218496
+            ],
+            [
+              77.640103,
+              12.9218496
+            ],
+            [
+              77.640103,
+              12.926849599999999
+            ],
+            [
+              77.635103,
+              12.926849599999999
+            ],
+            [
+              77.635103,
+              12.9218496
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_3221362712",
+        "name": "Teacher's Colony",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6316185,
+              12.9163265
+            ],
+            [
+              77.6366185,
+              12.9163265
+            ],
+            [
+              77.6366185,
+              12.9213265
+            ],
+            [
+              77.6316185,
+              12.9213265
+            ],
+            [
+              77.6316185,
+              12.9163265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_3240677957",
+        "name": "Sector 6",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62920700000001,
+              12.9118405
+            ],
+            [
+              77.634207,
+              12.9118405
+            ],
+            [
+              77.634207,
+              12.9168405
+            ],
+            [
+              77.62920700000001,
+              12.9168405
+            ],
+            [
+              77.62920700000001,
+              12.9118405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_3304756734",
+        "name": "Maruthi Nagara",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6113927,
+              12.919950100000001
+            ],
+            [
+              77.61639269999999,
+              12.919950100000001
+            ],
+            [
+              77.61639269999999,
+              12.9249501
+            ],
+            [
+              77.6113927,
+              12.9249501
+            ],
+            [
+              77.6113927,
+              12.919950100000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_3415500221",
+        "name": "Sadgunte Palya",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6071252,
+              12.9290457
+            ],
+            [
+              77.6121252,
+              12.9290457
+            ],
+            [
+              77.6121252,
+              12.934045699999999
+            ],
+            [
+              77.6071252,
+              12.934045699999999
+            ],
+            [
+              77.6071252,
+              12.9290457
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_4044099875",
+        "name": "Gajendra Nagara",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6060468,
+              12.9483013
+            ],
+            [
+              77.6110468,
+              12.9483013
+            ],
+            [
+              77.6110468,
+              12.9533013
+            ],
+            [
+              77.6060468,
+              12.9533013
+            ],
+            [
+              77.6060468,
+              12.9483013
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_4267702329",
+        "name": "Maistripalaya",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6224486,
+              12.9305208
+            ],
+            [
+              77.6274486,
+              12.9305208
+            ],
+            [
+              77.6274486,
+              12.935520799999999
+            ],
+            [
+              77.6224486,
+              12.935520799999999
+            ],
+            [
+              77.6224486,
+              12.9305208
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_5537275042",
+        "name": "Koramangala 7th Block",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6109783,
+              12.9339846
+            ],
+            [
+              77.6159783,
+              12.9339846
+            ],
+            [
+              77.6159783,
+              12.9389846
+            ],
+            [
+              77.6109783,
+              12.9389846
+            ],
+            [
+              77.6109783,
+              12.9339846
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_7293708126",
+        "name": "Anepalya",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6084188,
+              12.9485168
+            ],
+            [
+              77.61341879999999,
+              12.9485168
+            ],
+            [
+              77.61341879999999,
+              12.9535168
+            ],
+            [
+              77.6084188,
+              12.9535168
+            ],
+            [
+              77.6084188,
+              12.9485168
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_9790284732",
+        "name": "Koramangala 8th Block",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.614838,
+              12.938368500000001
+            ],
+            [
+              77.619838,
+              12.938368500000001
+            ],
+            [
+              77.619838,
+              12.9433685
+            ],
+            [
+              77.614838,
+              12.9433685
+            ],
+            [
+              77.614838,
+              12.938368500000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_9790284747",
+        "name": "Koramangala 5th Block",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6164768,
+              12.9323429
+            ],
+            [
+              77.6214768,
+              12.9323429
+            ],
+            [
+              77.6214768,
+              12.937342899999999
+            ],
+            [
+              77.6164768,
+              12.937342899999999
+            ],
+            [
+              77.6164768,
+              12.9323429
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_9790284766",
+        "name": "Koramangala 6th Block",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6213477,
+              12.9365255
+            ],
+            [
+              77.6263477,
+              12.9365255
+            ],
+            [
+              77.6263477,
+              12.9415255
+            ],
+            [
+              77.6213477,
+              12.9415255
+            ],
+            [
+              77.6213477,
+              12.9365255
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_9790284767",
+        "name": "Koramangala 4th Block",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6269052,
+              12.9302778
+            ],
+            [
+              77.63190519999999,
+              12.9302778
+            ],
+            [
+              77.63190519999999,
+              12.9352778
+            ],
+            [
+              77.6269052,
+              12.9352778
+            ],
+            [
+              77.6269052,
+              12.9302778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_9790284768",
+        "name": "Koramangala 3rd Block",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6229034,
+              12.9257918
+            ],
+            [
+              77.6279034,
+              12.9257918
+            ],
+            [
+              77.6279034,
+              12.9307918
+            ],
+            [
+              77.6229034,
+              12.9307918
+            ],
+            [
+              77.6229034,
+              12.9257918
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_9790284784",
+        "name": "Koramangala 1st Block",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6302822,
+              12.9252245
+            ],
+            [
+              77.63528219999999,
+              12.9252245
+            ],
+            [
+              77.63528219999999,
+              12.9302245
+            ],
+            [
+              77.6302822,
+              12.9302245
+            ],
+            [
+              77.6302822,
+              12.9252245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_9828605791",
+        "name": "SBI Colony",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6300354,
+              12.923418100000001
+            ],
+            [
+              77.63503539999999,
+              12.923418100000001
+            ],
+            [
+              77.63503539999999,
+              12.9284181
+            ],
+            [
+              77.6300354,
+              12.9284181
+            ],
+            [
+              77.6300354,
+              12.923418100000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_10295524807",
+        "name": "Jakkasandra Block",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6278011,
+              12.9263251
+            ],
+            [
+              77.6328011,
+              12.9263251
+            ],
+            [
+              77.6328011,
+              12.931325099999999
+            ],
+            [
+              77.6278011,
+              12.931325099999999
+            ],
+            [
+              77.6278011,
+              12.9263251
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_10295532281",
+        "name": "Sidhartha Colony",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.61789300000001,
+              12.920599900000001
+            ],
+            [
+              77.622893,
+              12.920599900000001
+            ],
+            [
+              77.622893,
+              12.9255999
+            ],
+            [
+              77.61789300000001,
+              12.9255999
+            ],
+            [
+              77.61789300000001,
+              12.920599900000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_10729766608",
+        "name": "Munniswamy Garden",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.620645,
+              12.9472693
+            ],
+            [
+              77.62564499999999,
+              12.9472693
+            ],
+            [
+              77.62564499999999,
+              12.9522693
+            ],
+            [
+              77.620645,
+              12.9522693
+            ],
+            [
+              77.620645,
+              12.9472693
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_10760556149",
+        "name": "Indira Gandhi Colony",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6222597,
+              12.943505100000001
+            ],
+            [
+              77.6272597,
+              12.943505100000001
+            ],
+            [
+              77.6272597,
+              12.9485051
+            ],
+            [
+              77.6222597,
+              12.9485051
+            ],
+            [
+              77.6222597,
+              12.943505100000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_11594237409",
+        "name": "Sector 5",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6327346,
+              12.9153503
+            ],
+            [
+              77.6377346,
+              12.9153503
+            ],
+            [
+              77.6377346,
+              12.920350299999999
+            ],
+            [
+              77.6327346,
+              12.920350299999999
+            ],
+            [
+              77.6327346,
+              12.9153503
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_11726861076",
+        "name": "MCHS Colony",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.62396290000001,
+              12.9130733
+            ],
+            [
+              77.6289629,
+              12.9130733
+            ],
+            [
+              77.6289629,
+              12.9180733
+            ],
+            [
+              77.62396290000001,
+              12.9180733
+            ],
+            [
+              77.62396290000001,
+              12.9130733
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_12095364735",
+        "name": "SHBCS Layout",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.637103,
+              12.926163
+            ],
+            [
+              77.64210299999999,
+              12.926163
+            ],
+            [
+              77.64210299999999,
+              12.931163
+            ],
+            [
+              77.637103,
+              12.931163
+            ],
+            [
+              77.637103,
+              12.926163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_12511444266",
+        "name": "Jai Bheema Nagar",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6144759,
+              12.9169294
+            ],
+            [
+              77.6194759,
+              12.9169294
+            ],
+            [
+              77.6194759,
+              12.9219294
+            ],
+            [
+              77.6144759,
+              12.9219294
+            ],
+            [
+              77.6144759,
+              12.9169294
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_12850046729",
+        "name": "Dollar Scheme Colony",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6170361,
+              12.9156537
+            ],
+            [
+              77.6220361,
+              12.9156537
+            ],
+            [
+              77.6220361,
+              12.920653699999999
+            ],
+            [
+              77.6170361,
+              12.920653699999999
+            ],
+            [
+              77.6170361,
+              12.9156537
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_12875676574",
+        "name": "Balaji Layout",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6043291,
+              12.9238886
+            ],
+            [
+              77.6093291,
+              12.9238886
+            ],
+            [
+              77.6093291,
+              12.928888599999999
+            ],
+            [
+              77.6043291,
+              12.928888599999999
+            ],
+            [
+              77.6043291,
+              12.9238886
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "locality_id": "WWM_LOC_12948806709",
+        "name": "Jogi Colony",
+        "zone": "WWM_Zone",
+        "locality_type": "residential",
+        "generated": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6103131,
+              12.9284178
+            ],
+            [
+              77.6153131,
+              12.9284178
+            ],
+            [
+              77.6153131,
+              12.933417799999999
+            ],
+            [
+              77.6103131,
+              12.933417799999999
+            ],
+            [
+              77.6103131,
+              12.9284178
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
