@@ -1,1027 +1,1977 @@
 {
-  "868683022806388": {
-    "imei": "868683022806388",
-    "vehicle_name": "NE1_KA02AC5939_Jetting",
+  "383370389511280": {
+    "imei": "383370389511280",
+    "vehicle_name": "C1_KA01D7292_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022808483": {
-    "imei": "868683022808483",
-    "vehicle_name": "C1_KA041A7291_Jetting",
+  "611215611568822": {
+    "imei": "611215611568822",
+    "vehicle_name": "C1_KA02AC5939_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022806990": {
-    "imei": "868683022806990",
-    "vehicle_name": "C1_KA04850_Tanker",
+  "723756960876467": {
+    "imei": "723756960876467",
+    "vehicle_name": "C1_KA04850_TANKER",
     "equipment_type": "Tanker"
   },
-  "864895033188689": {
-    "imei": "864895033188689",
-    "vehicle_name": "C1_KA04AA9013_desilting",
-    "equipment_type": "desilting"
-  },
-  "868683022790160": {
-    "imei": "868683022790160",
-    "vehicle_name": "C1_KA04C5126_Jetting",
+  "310984617266518": {
+    "imei": "310984617266518",
+    "vehicle_name": "C1_KA04A7291_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022810091": {
-    "imei": "868683022810091",
-    "vehicle_name": "C1_KA04D5123_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022786754": {
-    "imei": "868683022786754",
-    "vehicle_name": "C2_KA04C5127_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022788198": {
-    "imei": "868683022788198",
-    "vehicle_name": "C2_KA04D4107_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022802015": {
-    "imei": "868683022802015",
-    "vehicle_name": "C2_KA04D5121_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022797280": {
-    "imei": "868683022797280",
-    "vehicle_name": "C2_ KA04AD2944_Desilting",
+  "183131999064348": {
+    "imei": "183131999064348",
+    "vehicle_name": "C1_KA04AA9013_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022490233": {
-    "imei": "868683022490233",
-    "vehicle_name": "C3_KA02AC5935_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022809655": {
-    "imei": "868683022809655",
-    "vehicle_name": "C3_KA02AC5950_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864180032712791": {
-    "imei": "864180032712791",
-    "vehicle_name": "C3_KA03B965_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022795151": {
-    "imei": "868683022795151",
-    "vehicle_name": "C3 KA03C5048_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022997435": {
-    "imei": "868683022997435",
-    "vehicle_name": "C3_KA03C5064_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022407500": {
-    "imei": "868683022407500",
-    "vehicle_name": "C3_KA04AA7688_Desilting",
+  "203750004872131": {
+    "imei": "203750004872131",
+    "vehicle_name": "C1_KA04AD2944_DESILTING",
     "equipment_type": "Desilting"
   },
-  "864895033188358": {
-    "imei": "864895033188358",
-    "vehicle_name": "C3_KA04AA9028_Desilting",
+  "969913905713983": {
+    "imei": "969913905713983",
+    "vehicle_name": "C1_KA04C5126_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "269981297228418": {
+    "imei": "269981297228418",
+    "vehicle_name": "C1_KA04C5127_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "492404205484185": {
+    "imei": "492404205484185",
+    "vehicle_name": "C1_KA04D4107_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "243238825469727": {
+    "imei": "243238825469727",
+    "vehicle_name": "C1_KA04D5121_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "681286628315499": {
+    "imei": "681286628315499",
+    "vehicle_name": "C1_KA04D5123_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "492153533541371": {
+    "imei": "492153533541371",
+    "vehicle_name": "C2_KA01D7292_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "155486086476496": {
+    "imei": "155486086476496",
+    "vehicle_name": "C2_KA02AC5935_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "809854595826366": {
+    "imei": "809854595826366",
+    "vehicle_name": "C2_KA02AC5950_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "360918316005103": {
+    "imei": "360918316005103",
+    "vehicle_name": "C2_KA02AH5781_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "778903076766270": {
+    "imei": "778903076766270",
+    "vehicle_name": "C2_KA03B965_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "531993079982272": {
+    "imei": "531993079982272",
+    "vehicle_name": "C2_KA03C5048_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "541589848419537": {
+    "imei": "541589848419537",
+    "vehicle_name": "C2_KA03C5064_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "841562317856736": {
+    "imei": "841562317856736",
+    "vehicle_name": "C2_KA04AA7688_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022789915": {
-    "imei": "868683022789915",
-    "vehicle_name": "C3_KA04C3716 Jetting",
-    "equipment_type": "KA04C3716 Jetting"
+  "462113062697955": {
+    "imei": "462113062697955",
+    "vehicle_name": "C2_KA04AA9028_DESILTING",
+    "equipment_type": "Desilting"
   },
-  "868683022792992": {
-    "imei": "868683022792992",
-    "vehicle_name": "C3_KA04C5156_Jetting",
+  "384206792056802": {
+    "imei": "384206792056802",
+    "vehicle_name": "C2_KA04AD2944_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "945004823741420": {
+    "imei": "945004823741420",
+    "vehicle_name": "C2_KA04C5127_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022807170": {
-    "imei": "868683022807170",
-    "vehicle_name": "C3_KA04C5160_Jetting",
+  "133575352459449": {
+    "imei": "133575352459449",
+    "vehicle_name": "C2_KA04C5160_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022801629": {
-    "imei": "868683022801629",
-    "vehicle_name": "C3_KA04D4276_Jetting",
+  "818918117867269": {
+    "imei": "818918117867269",
+    "vehicle_name": "C2_KA04D4107_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022810364": {
-    "imei": "868683022810364",
-    "vehicle_name": "C3_KA05D8078_Tanker",
+  "911107693365239": {
+    "imei": "911107693365239",
+    "vehicle_name": "C2_KA04D5121_TANKER",
     "equipment_type": "Tanker"
   },
-  "868683022790319": {
-    "imei": "868683022790319",
-    "vehicle_name": "E1_KA02AC4521_Jetting",
+  "113210624887626": {
+    "imei": "113210624887626",
+    "vehicle_name": "C3_KA02AC5935_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022800472": {
-    "imei": "868683022800472",
-    "vehicle_name": "E1_KA03C5060_Tanker",
+  "666497955565378": {
+    "imei": "666497955565378",
+    "vehicle_name": "C3_KA02AC5950_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "632244044911334": {
+    "imei": "632244044911334",
+    "vehicle_name": "C3_KA03B965_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "585843251008590": {
+    "imei": "585843251008590",
+    "vehicle_name": "C3_KA03C5048_TANKER",
     "equipment_type": "Tanker"
   },
-  "868683022830115": {
-    "imei": "868683022830115",
-    "vehicle_name": "E1_KA04A3281_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864895033187632": {
-    "imei": "864895033187632",
-    "vehicle_name": "E1_KA04AA9026_desilting",
-    "equipment_type": "desilting"
-  },
-  "864895033187848": {
-    "imei": "864895033187848",
-    "vehicle_name": "E1_KA04AB6024_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683022790111": {
-    "imei": "868683022790111",
-    "vehicle_name": "E1_KA04C5153_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022846319": {
-    "imei": "868683022846319",
-    "vehicle_name": "E1_KA04D4862_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022806925": {
-    "imei": "868683022806925",
-    "vehicle_name": "E1_KA04D5122_Tanker",
+  "759334238461113": {
+    "imei": "759334238461113",
+    "vehicle_name": "C3_KA03C5064_TANKER",
     "equipment_type": "Tanker"
   },
-  "868683022830537": {
-    "imei": "868683022830537",
-    "vehicle_name": "E1_KA04D5294_Tanker",
+  "216471126663643": {
+    "imei": "216471126663643",
+    "vehicle_name": "C3_KA04AA7688_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "205565461404667": {
+    "imei": "205565461404667",
+    "vehicle_name": "C3_KA04AA9028_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "963543355309519": {
+    "imei": "963543355309519",
+    "vehicle_name": "C3_KA04C3716 JETTING",
+    "equipment_type": "Jetting"
+  },
+  "456255778682409": {
+    "imei": "456255778682409",
+    "vehicle_name": "C3_KA04C5156_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "981240804514789": {
+    "imei": "981240804514789",
+    "vehicle_name": "C3_KA04C5160_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "666557237490569": {
+    "imei": "666557237490569",
+    "vehicle_name": "C3_KA04D4276_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "633642009407114": {
+    "imei": "633642009407114",
+    "vehicle_name": "C3_KA05D8078_TANKER",
     "equipment_type": "Tanker"
   },
-  "864895033187608": {
-    "imei": "864895033187608",
-    "vehicle_name": "E2_KA04AA9023_desilting",
-    "equipment_type": "desilting"
-  },
-  "864895033187541": {
-    "imei": "864895033187541",
-    "vehicle_name": "E2_KA04AB6020_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683022805422": {
-    "imei": "868683022805422",
-    "vehicle_name": "E2_KA04D5163_Jetting",
+  "573970475170875": {
+    "imei": "573970475170875",
+    "vehicle_name": "E11_KA02AH5784_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022792505": {
-    "imei": "868683022792505",
-    "vehicle_name": "E2_KA04D5289_tanker",
-    "equipment_type": "tanker"
+  "565938125891872": {
+    "imei": "565938125891872",
+    "vehicle_name": "E11_KA04C5158_JETTING",
+    "equipment_type": "Jetting"
   },
-  "864895033187186": {
-    "imei": "864895033187186",
-    "vehicle_name": "E3_KA02AF6874_Tanker",
+  "149911604531366": {
+    "imei": "149911604531366",
+    "vehicle_name": "E11_KA04D5163_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "992350353406479": {
+    "imei": "992350353406479",
+    "vehicle_name": "E11_KA04D5289_TANKER",
     "equipment_type": "Tanker"
   },
-  "864895033187244": {
-    "imei": "864895033187244",
-    "vehicle_name": "E3_KA04AA9032_desilting",
-    "equipment_type": "desilting"
-  },
-  "864895033187962": {
-    "imei": "864895033187962",
-    "vehicle_name": "E3_KA04AB6023_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683022788388": {
-    "imei": "868683022788388",
-    "vehicle_name": "E3_KA04C5159_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022786507": {
-    "imei": "868683022786507",
-    "vehicle_name": "E3_KA04D5127_Tanker",
+  "945376661466242": {
+    "imei": "945376661466242",
+    "vehicle_name": "E11_KA04D5291_TANKER",
     "equipment_type": "Tanker"
   },
-  "868683022818896": {
-    "imei": "868683022818896",
-    "vehicle_name": "E3_KA04SD4157_Jetting",
+  "770688216854323": {
+    "imei": "770688216854323",
+    "vehicle_name": "E12_KA03AJ4270_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022800233": {
-    "imei": "868683022800233",
-    "vehicle_name": "E4_KA02AC4534_Jetting",
+  "768410780278802": {
+    "imei": "768410780278802",
+    "vehicle_name": "E12_KA04D6648_JETTING",
     "equipment_type": "Jetting"
   },
-  "864895033188382": {
-    "imei": "864895033188382",
-    "vehicle_name": "E4_KA04AA7684_desilting",
-    "equipment_type": "desilting"
-  },
-  "864895033188085": {
-    "imei": "864895033188085",
-    "vehicle_name": "E4_KA04AB6022_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683022806313": {
-    "imei": "868683022806313",
-    "vehicle_name": "E4_KA04D5309_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022810588": {
-    "imei": "868683022810588",
-    "vehicle_name": "E4_KA04D6648_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022791861": {
-    "imei": "868683022791861",
-    "vehicle_name": "E4_KA04D6650_Jetling",
+  "877084964389959": {
+    "imei": "877084964389959",
+    "vehicle_name": "E12_KA04D6650_JETTING",
     "equipment_type": "Jetling"
   },
-  "864895033187277": {
-    "imei": "864895033187277",
-    "vehicle_name": "N1_KA04AA9031_desilting",
-    "equipment_type": "desilting"
-  },
-  "864180032927530": {
-    "imei": "864180032927530",
-    "vehicle_name": "N1_KA04AB6025_JETTING",
-    "equipment_type": "JETTING"
-  },
-  "868683022802379": {
-    "imei": "868683022802379",
-    "vehicle_name": "N1_KA04C5141_Jetting",
+  "965566847316087": {
+    "imei": "965566847316087",
+    "vehicle_name": "E13_KA02AC4534_JETTING",
     "equipment_type": "Jetting"
   },
-  "864180032711678": {
-    "imei": "864180032711678",
-    "vehicle_name": "N1_KA04D4274_Jetting",
+  "284075766017535": {
+    "imei": "284075766017535",
+    "vehicle_name": "E1_KA02AC4521_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022791127": {
-    "imei": "868683022791127",
-    "vehicle_name": "N1_KA04D5126_Tanker",
+  "211508158408456": {
+    "imei": "211508158408456",
+    "vehicle_name": "E1_KA03C5060_TANKER",
     "equipment_type": "Tanker"
   },
-  "864895033187756": {
-    "imei": "864895033187756",
-    "vehicle_name": "N2_KA04AA9015_Desitting",
+  "616204437678467": {
+    "imei": "616204437678467",
+    "vehicle_name": "E1_KA04A3281_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "426588349133744": {
+    "imei": "426588349133744",
+    "vehicle_name": "E1_KA04AA9026_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "861132836836465": {
+    "imei": "861132836836465",
+    "vehicle_name": "E1_KA04AB6024_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "128590121107430": {
+    "imei": "128590121107430",
+    "vehicle_name": "E1_KA04C5153_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "467668444657041": {
+    "imei": "467668444657041",
+    "vehicle_name": "E1_KA04D4862_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "201181812486026": {
+    "imei": "201181812486026",
+    "vehicle_name": "E1_KA04D5122_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "651994948740865": {
+    "imei": "651994948740865",
+    "vehicle_name": "E1_KA04D5294_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "445946798536679": {
+    "imei": "445946798536679",
+    "vehicle_name": "E21_KA02AC4521_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "867413210701660": {
+    "imei": "867413210701660",
+    "vehicle_name": "E21_KA03C5060_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "456533419834274": {
+    "imei": "456533419834274",
+    "vehicle_name": "E21_KA04D4862_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "813055257757859": {
+    "imei": "813055257757859",
+    "vehicle_name": "E22_KA04C5153_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "241565418589096": {
+    "imei": "241565418589096",
+    "vehicle_name": "E23_KA04C3716_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "661529397063491": {
+    "imei": "661529397063491",
+    "vehicle_name": "E24_KA03C5056_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "634172091050516": {
+    "imei": "634172091050516",
+    "vehicle_name": "E24_KA04C5159_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "668826588911525": {
+    "imei": "668826588911525",
+    "vehicle_name": "E24_KA04D4157_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "339391589201096": {
+    "imei": "339391589201096",
+    "vehicle_name": "E24_KA04D5127_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "679372085212966": {
+    "imei": "679372085212966",
+    "vehicle_name": "E2_KA04AA9023_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "755424678955697": {
+    "imei": "755424678955697",
+    "vehicle_name": "E2_KA04AB6020_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "341850104149682": {
+    "imei": "341850104149682",
+    "vehicle_name": "E2_KA04C5158_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "258620275743365": {
+    "imei": "258620275743365",
+    "vehicle_name": "E2_KA04D5163_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "552226060861092": {
+    "imei": "552226060861092",
+    "vehicle_name": "E2_KA04D5289_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "506901315721278": {
+    "imei": "506901315721278",
+    "vehicle_name": "E2_KA04D5291_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "935647917515124": {
+    "imei": "935647917515124",
+    "vehicle_name": "E3_KA02AC5938_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "668527348598672": {
+    "imei": "668527348598672",
+    "vehicle_name": "E3_KA02AF6874_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "794223673751410": {
+    "imei": "794223673751410",
+    "vehicle_name": "E3_KA03C5056_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "846359488769200": {
+    "imei": "846359488769200",
+    "vehicle_name": "E3_KA04AA9032_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "341061501148172": {
+    "imei": "341061501148172",
+    "vehicle_name": "E3_KA04AB6023_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "372798534467496": {
+    "imei": "372798534467496",
+    "vehicle_name": "E3_KA04C5159_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "474504807051509": {
+    "imei": "474504807051509",
+    "vehicle_name": "E3_KA04D4157_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "145965167722777": {
+    "imei": "145965167722777",
+    "vehicle_name": "E3_KA04D5127_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "534634360458891": {
+    "imei": "534634360458891",
+    "vehicle_name": "E4_KA02AC4534_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "962701250932478": {
+    "imei": "962701250932478",
+    "vehicle_name": "E4_KA04AA7684_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "163669905711113": {
+    "imei": "163669905711113",
+    "vehicle_name": "E4_KA04AB6022_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "646480593946404": {
+    "imei": "646480593946404",
+    "vehicle_name": "E4_KA04D5309_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "476156824888622": {
+    "imei": "476156824888622",
+    "vehicle_name": "E4_KA04D6648_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "594650236628277": {
+    "imei": "594650236628277",
+    "vehicle_name": "E4_KA04D6650_JETLING",
+    "equipment_type": "Jetling"
+  },
+  "902537983649057": {
+    "imei": "902537983649057",
+    "vehicle_name": "EEW2_KA02AH4423_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "721738645298416": {
+    "imei": "721738645298416",
+    "vehicle_name": "EEWWMSTPVV1_KA04D3155_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "617251172642144": {
+    "imei": "617251172642144",
+    "vehicle_name": "EE_WWMNH_A_V_KA53B3470_SUCTION",
+    "equipment_type": "Suction"
+  },
+  "189374065968502": {
+    "imei": "189374065968502",
+    "vehicle_name": "EE_WWMNH_A_V_KA53B3471_SUCTION",
+    "equipment_type": "Suction"
+  },
+  "986768883491294": {
+    "imei": "986768883491294",
+    "vehicle_name": "EE_WWMNK_T_V_KA53B3469_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "107586617250418": {
+    "imei": "107586617250418",
+    "vehicle_name": "N11_KA04AA7682_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "786673269742238": {
+    "imei": "786673269742238",
+    "vehicle_name": "N11_KA04C5142_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "850372483480463": {
+    "imei": "850372483480463",
+    "vehicle_name": "N11_KA04D6659_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "137500415048084": {
+    "imei": "137500415048084",
+    "vehicle_name": "N11_KA50A9853_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "917119912962891": {
+    "imei": "917119912962891",
+    "vehicle_name": "N12_KA04A6215_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "336241635164973": {
+    "imei": "336241635164973",
+    "vehicle_name": "N12_KA04AA1780_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "661402914732407": {
+    "imei": "661402914732407",
+    "vehicle_name": "N12_KA04AA1781_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "167476530573691": {
+    "imei": "167476530573691",
+    "vehicle_name": "N12_KA04AA1783_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "858890963586759": {
+    "imei": "858890963586759",
+    "vehicle_name": "N12_KA04AA1784_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "898585635899266": {
+    "imei": "898585635899266",
+    "vehicle_name": "N12_KA04B7114_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "562680455331803": {
+    "imei": "562680455331803",
+    "vehicle_name": "N12_KA04C3715_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "719406313229980": {
+    "imei": "719406313229980",
+    "vehicle_name": "N12_KA04D4115_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "112635595373071": {
+    "imei": "112635595373071",
+    "vehicle_name": "N1_KA04AA9031_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "636004108295903": {
+    "imei": "636004108295903",
+    "vehicle_name": "N1_KA04AB6025_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "186316458489810": {
+    "imei": "186316458489810",
+    "vehicle_name": "N1_KA04C5141_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "715180360479445": {
+    "imei": "715180360479445",
+    "vehicle_name": "N1_KA04D4274_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "378936561136968": {
+    "imei": "378936561136968",
+    "vehicle_name": "N1_KA04D5126_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "917951569067862": {
+    "imei": "917951569067862",
+    "vehicle_name": "N21_KA02AC4524_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "241951890689867": {
+    "imei": "241951890689867",
+    "vehicle_name": "N21_KA04C2201_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "848649859789710": {
+    "imei": "848649859789710",
+    "vehicle_name": "N21_KA04D5125_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "598052681890151": {
+    "imei": "598052681890151",
+    "vehicle_name": "N22_KA02AC4516_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "773548711712193": {
+    "imei": "773548711712193",
+    "vehicle_name": "N22_KA04D4102_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "945820521494492": {
+    "imei": "945820521494492",
+    "vehicle_name": "N22_KA50B0070_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "547773942819665": {
+    "imei": "547773942819665",
+    "vehicle_name": "N2_KA04AA9015_DESITTING",
     "equipment_type": "Desitting"
   },
-  "864895033187814": {
-    "imei": "864895033187814",
-    "vehicle_name": "N2_KA04AB5791_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683022811453": {
-    "imei": "868683022811453",
-    "vehicle_name": "N2_KA04C2201_Jetting",
+  "568241609158367": {
+    "imei": "568241609158367",
+    "vehicle_name": "N2_KA04AB5791_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022793727": {
-    "imei": "868683022793727",
-    "vehicle_name": "N2_KA04D5125_Tanker",
+  "202140587204966": {
+    "imei": "202140587204966",
+    "vehicle_name": "N2_KA04C2201_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "736656595622434": {
+    "imei": "736656595622434",
+    "vehicle_name": "N2_KA04D5125_TANKER",
     "equipment_type": "Tanker"
   },
-  "868683022153823": {
-    "imei": "868683022153823",
-    "vehicle_name": "N3_KA02AC4516_Jetting",
+  "419476974754704": {
+    "imei": "419476974754704",
+    "vehicle_name": "N3_KA02AC4516_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022871317": {
-    "imei": "868683022871317",
-    "vehicle_name": "N3_KA02AC4524_Jetting",
+  "231785769411599": {
+    "imei": "231785769411599",
+    "vehicle_name": "N3_KA02AC4524_JETTING",
     "equipment_type": "Jetting"
   },
-  "8991000903999319608": {
-    "imei": "8991000903999319608",
-    "vehicle_name": "N3_KA04AA7682_desilting",
-    "equipment_type": "desilting"
-  },
-  "864895033186550": {
-    "imei": "864895033186550",
-    "vehicle_name": "N3_KA04AD5792_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683022488278": {
-    "imei": "868683022488278",
-    "vehicle_name": "N3_KA04C5142_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "359710040534845": {
-    "imei": "359710040534845",
-    "vehicle_name": "N3_KA04D4102_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022833291": {
-    "imei": "868683022833291",
-    "vehicle_name": "N3_KA04D5128_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022490530": {
-    "imei": "868683022490530",
-    "vehicle_name": "N3_KA04D6659_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864180032935368": {
-    "imei": "864180032935368",
-    "vehicle_name": "NE1_KA04A6216_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022153708": {
-    "imei": "868683022153708",
-    "vehicle_name": "NE1_KA04A9516_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022154987": {
-    "imei": "868683022154987",
-    "vehicle_name": "NE1_KA04B7111_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022489854": {
-    "imei": "868683022489854",
-    "vehicle_name": "NE1_KA04B7112_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022416212": {
-    "imei": "868683022416212",
-    "vehicle_name": "NE1_KA04C5136_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022871705": {
-    "imei": "868683022871705",
-    "vehicle_name": "S2_KA04D5161_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022810646": {
-    "imei": "868683022810646",
-    "vehicle_name": "NE2_KA04A9517_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864895033188507": {
-    "imei": "864895033188507",
-    "vehicle_name": "NE2_KA04AB5800_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683020517144": {
-    "imei": "868683020517144",
-    "vehicle_name": "NE2_KA04B7110_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022489599": {
-    "imei": "868683022489599",
-    "vehicle_name": "NE2_KA04C5137_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022152890": {
-    "imei": "868683022152890",
-    "vehicle_name": "NE2_KA04D4272_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864895033188655": {
-    "imei": "864895033188655",
-    "vehicle_name": "NE2_KA05AD2943_desilting",
-    "equipment_type": "desilting"
-  },
-  "868683022482057": {
-    "imei": "868683022482057",
-    "vehicle_name": "NE3_KA02AC5944_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022155752": {
-    "imei": "868683022155752",
-    "vehicle_name": "NE3_KA049930_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "864180032931144": {
-    "imei": "864180032931144",
-    "vehicle_name": "NE3_KA04A3042_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864895033188473": {
-    "imei": "864895033188473",
-    "vehicle_name": "NE3_KA04A6215_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022808491": {
-    "imei": "868683022808491",
-    "vehicle_name": "NE3_KA04AA1780_Desilting",
+  "241344461592308": {
+    "imei": "241344461592308",
+    "vehicle_name": "N3_KA04AA7682_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022807105": {
-    "imei": "868683022807105",
-    "vehicle_name": "NE3_KA04AA1781_Desilting",
+  "845515257565851": {
+    "imei": "845515257565851",
+    "vehicle_name": "N3_KA04AD5792_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "170113393542996": {
+    "imei": "170113393542996",
+    "vehicle_name": "N3_KA04C5142_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "582529700045102": {
+    "imei": "582529700045102",
+    "vehicle_name": "N3_KA04D4102_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "870857938790836": {
+    "imei": "870857938790836",
+    "vehicle_name": "N3_KA04D5128_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "262303808467635": {
+    "imei": "262303808467635",
+    "vehicle_name": "N3_KA04D6659_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "198033526196617": {
+    "imei": "198033526196617",
+    "vehicle_name": "NE1_CAA3313_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "773870887703250": {
+    "imei": "773870887703250",
+    "vehicle_name": "NE1_KA02AH5856_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "873434026517885": {
+    "imei": "873434026517885",
+    "vehicle_name": "NE1_KA03C5068_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "124486133924369": {
+    "imei": "124486133924369",
+    "vehicle_name": "NE1_KA04A6216_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "341985876125443": {
+    "imei": "341985876125443",
+    "vehicle_name": "NE1_KA04A9515_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "405460662554118": {
+    "imei": "405460662554118",
+    "vehicle_name": "NE1_KA04A9516_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "416127500185744": {
+    "imei": "416127500185744",
+    "vehicle_name": "NE1_KA04AA7689_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "269525991713204": {
+    "imei": "269525991713204",
+    "vehicle_name": "NE1_KA04B7111_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "305271255050651": {
+    "imei": "305271255050651",
+    "vehicle_name": "NE1_KA04B7112_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "585096238938509": {
+    "imei": "585096238938509",
+    "vehicle_name": "NE1_KA04C5136_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "449299279025964": {
+    "imei": "449299279025964",
+    "vehicle_name": "NE1_KA04D5158_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "241747852200930": {
+    "imei": "241747852200930",
+    "vehicle_name": "NE1_KA04D5161_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "216840669697990": {
+    "imei": "216840669697990",
+    "vehicle_name": "NE1_KA04N1245_JEEP",
+    "equipment_type": "Jeep"
+  },
+  "512771069514816": {
+    "imei": "512771069514816",
+    "vehicle_name": "NE2_KA02AC5944_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "451766186589475": {
+    "imei": "451766186589475",
+    "vehicle_name": "NE2_KA049930_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "776285688722209": {
+    "imei": "776285688722209",
+    "vehicle_name": "NE2_KA04A3048_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "345499640486978": {
+    "imei": "345499640486978",
+    "vehicle_name": "NE2_KA04A9517_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "280171008468684": {
+    "imei": "280171008468684",
+    "vehicle_name": "NE2_KA04AA1782_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022802221": {
-    "imei": "868683022802221",
-    "vehicle_name": "NE3_KA04AA1782_Desilting",
+  "497436710115793": {
+    "imei": "497436710115793",
+    "vehicle_name": "NE2_KA04AB5800_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "499330160382084": {
+    "imei": "499330160382084",
+    "vehicle_name": "NE2_KA04B7110_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "647449938834129": {
+    "imei": "647449938834129",
+    "vehicle_name": "NE2_KA04C5137_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "746530053564177": {
+    "imei": "746530053564177",
+    "vehicle_name": "NE2_KA04D4272_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "141804117630162": {
+    "imei": "141804117630162",
+    "vehicle_name": "NE2_KA04D5294_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "758716807127928": {
+    "imei": "758716807127928",
+    "vehicle_name": "NE2_KA05AD2943_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022805455": {
-    "imei": "868683022805455",
-    "vehicle_name": "NE3_KA04AA1783_Desilting",
+  "266210930847540": {
+    "imei": "266210930847540",
+    "vehicle_name": "NE3_KA02AC5944_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "827117070472877": {
+    "imei": "827117070472877",
+    "vehicle_name": "NE3_KA04A3042_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "422842992257451": {
+    "imei": "422842992257451",
+    "vehicle_name": "NE3_KA04A6215_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "494590583807787": {
+    "imei": "494590583807787",
+    "vehicle_name": "NE3_KA04AA1780_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022883700": {
-    "imei": "868683022883700",
-    "vehicle_name": "NE3_KA04AA1784_Desilting",
+  "699837688067782": {
+    "imei": "699837688067782",
+    "vehicle_name": "NE3_KA04AA1781_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022407427": {
-    "imei": "868683022407427",
-    "vehicle_name": "NE3_KA04B7114_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022153252": {
-    "imei": "868683022153252",
-    "vehicle_name": "NE3_KA04C3715_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022541209": {
-    "imei": "868683022541209",
-    "vehicle_name": "NE3_KA04C5140_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022492866": {
-    "imei": "868683022492866",
-    "vehicle_name": "NE3_KA04D4115_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022870905": {
-    "imei": "868683022870905",
-    "vehicle_name": "NW1_KA042D3161_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022799666": {
-    "imei": "868683022799666",
-    "vehicle_name": "NW1_KA04A9519_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022797413": {
-    "imei": "868683022797413",
-    "vehicle_name": "NW1_KA04C5131_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022791408": {
-    "imei": "868683022791408",
-    "vehicle_name": "NW1_KA04D4278_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022789576": {
-    "imei": "868683022789576",
-    "vehicle_name": "NW1_KA04D6656_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022790566": {
-    "imei": "868683022790566",
-    "vehicle_name": "NW2_KA04A3043_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864895033187392": {
-    "imei": "864895033187392",
-    "vehicle_name": "NW2_/KA04AA9025_desilting",
-    "equipment_type": "desilting"
-  },
-  "868683022837615": {
-    "imei": "868683022837615",
-    "vehicle_name": "NW2_KA04C5133_jetting",
-    "equipment_type": "jetting"
-  },
-  "868683022789519": {
-    "imei": "868683022789519",
-    "vehicle_name": "NW2_KA04D4113_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022812196": {
-    "imei": "868683022812196",
-    "vehicle_name": "NW2_KA04D5235_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022864460": {
-    "imei": "868683022864460",
-    "vehicle_name": "NW3_KA04AA7686_Desilting",
+  "749594547039879": {
+    "imei": "749594547039879",
+    "vehicle_name": "NE3_KA04AA1782_DESILTING",
     "equipment_type": "Desilting"
   },
-  "864895033187301": {
-    "imei": "864895033187301",
-    "vehicle_name": "NW3_KA04AB6028_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683022799567": {
-    "imei": "868683022799567",
-    "vehicle_name": "NW3_KA04C2197_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022828838": {
-    "imei": "868683022828838",
-    "vehicle_name": "NW3_KA04C5135_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022801355": {
-    "imei": "868683022801355",
-    "vehicle_name": "NW3_KA04D5165_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022789287": {
-    "imei": "868683022789287",
-    "vehicle_name": "S1_KA03C5043_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022789683": {
-    "imei": "868683022789683",
-    "vehicle_name": "S1_KA04C5144_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022789865": {
-    "imei": "868683022789865",
-    "vehicle_name": "S1_KA04D4270_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022791093": {
-    "imei": "868683022791093",
-    "vehicle_name": "S1_KA04D5233_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022806321": {
-    "imei": "868683022806321",
-    "vehicle_name": "S1_KA04D5428_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "864180032935095": {
-    "imei": "864180032935095",
-    "vehicle_name": "S1_KA05AD2936_Desilting",
+  "144235362106497": {
+    "imei": "144235362106497",
+    "vehicle_name": "NE3_KA04AA1783_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022788222": {
-    "imei": "868683022788222",
-    "vehicle_name": "S1_KA05B6541_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864180032937844": {
-    "imei": "864180032937844",
-    "vehicle_name": "S2_KA04AA7680_Desilting",
+  "425963472729276": {
+    "imei": "425963472729276",
+    "vehicle_name": "NE3_KA04AA1784_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022802304": {
-    "imei": "868683022802304",
-    "vehicle_name": "S2_KA04C5149_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022800639": {
-    "imei": "868683022800639",
-    "vehicle_name": "S2_KA04D4104_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022808400": {
-    "imei": "868683022808400",
-    "vehicle_name": "S2_KA04D5124_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022805448": {
-    "imei": "868683022805448",
-    "vehicle_name": "S2_KA04D5296_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022805992": {
-    "imei": "868683022805992",
-    "vehicle_name": "S2_KA04D5299_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022786770": {
-    "imei": "868683022786770",
-    "vehicle_name": "S3_KA04A9518_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022801686": {
-    "imei": "868683022801686",
-    "vehicle_name": "S3_KA04AA9017_Desilting",
+  "636042971858676": {
+    "imei": "636042971858676",
+    "vehicle_name": "NE3_KA04AA1789_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022800498": {
-    "imei": "868683022800498",
-    "vehicle_name": "S3_KA04C5146_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022798148": {
-    "imei": "868683022798148",
-    "vehicle_name": "S3_KA04D6654_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022802148": {
-    "imei": "868683022802148",
-    "vehicle_name": "S3_KA04D8086_Tanker",
+  "319331671939470": {
+    "imei": "319331671939470",
+    "vehicle_name": "NE3_KA04B7114_TANKER",
     "equipment_type": "Tanker"
   },
-  "864895033187905": {
-    "imei": "864895033187905",
-    "vehicle_name": "S4_KA04AA7683_desilting",
-    "equipment_type": "desilting"
-  },
-  "864895033187871": {
-    "imei": "864895033187871",
-    "vehicle_name": "S4_KA04AB5798_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683022795904": {
-    "imei": "868683022795904",
-    "vehicle_name": "S4_KA04C4868_Jetting",
+  "779053298674352": {
+    "imei": "779053298674352",
+    "vehicle_name": "NE3_KA04C3715_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022795698": {
-    "imei": "868683022795698",
-    "vehicle_name": "S4_KA04C5145_Jetting",
+  "882439559071755": {
+    "imei": "882439559071755",
+    "vehicle_name": "NE3_KA04C5140_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022792125": {
-    "imei": "868683022792125",
-    "vehicle_name": "S4_KA04C5152_Jetting",
+  "159852611432772": {
+    "imei": "159852611432772",
+    "vehicle_name": "NE3_KA04D4115_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022786374": {
-    "imei": "868683022786374",
-    "vehicle_name": "S4_KA04D4603_Jetting",
+  "871722682117716": {
+    "imei": "871722682117716",
+    "vehicle_name": "NW11_KA02B6769_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022791846": {
-    "imei": "868683022791846",
-    "vehicle_name": "S4_KA05D8083_Tanker",
+  "976627229049062": {
+    "imei": "976627229049062",
+    "vehicle_name": "NW11_KA04A3047_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "165671555241979": {
+    "imei": "165671555241979",
+    "vehicle_name": "NW11_KA04D6653_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "492690990768573": {
+    "imei": "492690990768573",
+    "vehicle_name": "NW11_KA05AD2945_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "811012908581357": {
+    "imei": "811012908581357",
+    "vehicle_name": "NW12_KA02AH5776_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "365217437546970": {
+    "imei": "365217437546970",
+    "vehicle_name": "NW12_KA04AH4916_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "660632870812972": {
+    "imei": "660632870812972",
+    "vehicle_name": "NW12_KA04D4601_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "100298893347324": {
+    "imei": "100298893347324",
+    "vehicle_name": "NW1_KA04A9519_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "113124530874463": {
+    "imei": "113124530874463",
+    "vehicle_name": "NW1_KA04B6770_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "986992298473906": {
+    "imei": "986992298473906",
+    "vehicle_name": "NW1_KA04C5131_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "894521380812906": {
+    "imei": "894521380812906",
+    "vehicle_name": "NW1_KA04D3161_TANKER",
     "equipment_type": "Tanker"
   },
-  "864180032743481": {
-    "imei": "864180032743481",
-    "vehicle_name": "SE1_KA03B964_Jetting",
+  "875860531449457": {
+    "imei": "875860531449457",
+    "vehicle_name": "NW1_KA04D4278_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022807089": {
-    "imei": "868683022807089",
-    "vehicle_name": "SE1_KA049409_Jetting",
+  "911082854342773": {
+    "imei": "911082854342773",
+    "vehicle_name": "NW1_KA04D6656_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022806701": {
-    "imei": "868683022806701",
-    "vehicle_name": "SE1_KA04A3046_Jetting",
+  "216662828647623": {
+    "imei": "216662828647623",
+    "vehicle_name": "NW2_KA04A3043_JETTING",
     "equipment_type": "Jetting"
   },
-  "864895033188051": {
-    "imei": "864895033188051",
-    "vehicle_name": "SE1_KA04AA9030_Desiting",
+  "169993438519758": {
+    "imei": "169993438519758",
+    "vehicle_name": "NW2_KA04AA9025_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "123665925433911": {
+    "imei": "123665925433911",
+    "vehicle_name": "NW2_KA04C5133_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "251115034388375": {
+    "imei": "251115034388375",
+    "vehicle_name": "NW2_KA04D4113_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "689156979004134": {
+    "imei": "689156979004134",
+    "vehicle_name": "NW2_KA04D5235_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "436025315194089": {
+    "imei": "436025315194089",
+    "vehicle_name": "NW3_KA04A3043_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "389994118821176": {
+    "imei": "389994118821176",
+    "vehicle_name": "NW3_KA04AA7686_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "684974529094893": {
+    "imei": "684974529094893",
+    "vehicle_name": "NW3_KA04AB6025_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "341008051583201": {
+    "imei": "341008051583201",
+    "vehicle_name": "NW3_KA04AB6028_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "109945976245751": {
+    "imei": "109945976245751",
+    "vehicle_name": "NW3_KA04AC5936_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "699675135796367": {
+    "imei": "699675135796367",
+    "vehicle_name": "NW3_KA04C2197_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "451059950748165": {
+    "imei": "451059950748165",
+    "vehicle_name": "NW3_KA04C5133_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "365700292524262": {
+    "imei": "365700292524262",
+    "vehicle_name": "NW3_KA04C5135_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "271426987416204": {
+    "imei": "271426987416204",
+    "vehicle_name": "NW3_KA04D4113_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "327172242842001": {
+    "imei": "327172242842001",
+    "vehicle_name": "NW3_KA04D5126_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "497270844681585": {
+    "imei": "497270844681585",
+    "vehicle_name": "NW3_KA04D5165_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "497555913864457": {
+    "imei": "497555913864457",
+    "vehicle_name": "NW3_KA04D5235_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "672056717392630": {
+    "imei": "672056717392630",
+    "vehicle_name": "NW3_KA50A9854_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "536484722076619": {
+    "imei": "536484722076619",
+    "vehicle_name": "NW4_KA02AH5783_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "331264596671576": {
+    "imei": "331264596671576",
+    "vehicle_name": "NW4_KA04AC5936_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "702572685449048": {
+    "imei": "702572685449048",
+    "vehicle_name": "NW4_KA04C5135_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "210883774277506": {
+    "imei": "210883774277506",
+    "vehicle_name": "NW5_KA03AJ1453_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "555087229296612": {
+    "imei": "555087229296612",
+    "vehicle_name": "S11_KA04C2198_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "718913577790280": {
+    "imei": "718913577790280",
+    "vehicle_name": "S11_KA04C2203_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "461133533166924": {
+    "imei": "461133533166924",
+    "vehicle_name": "S11_KA04C5151_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "986542189472324": {
+    "imei": "986542189472324",
+    "vehicle_name": "S11_KA04D4104_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "123242157621684": {
+    "imei": "123242157621684",
+    "vehicle_name": "S11_KA04D4106_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "310524831711074": {
+    "imei": "310524831711074",
+    "vehicle_name": "S11_KA04D5124_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "841312522700821": {
+    "imei": "841312522700821",
+    "vehicle_name": "S11_KA04D5161_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "329911835637198": {
+    "imei": "329911835637198",
+    "vehicle_name": "S11_KA04D5298_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "880379856097287": {
+    "imei": "880379856097287",
+    "vehicle_name": "S11_KA05AJ3582_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "848236376717656": {
+    "imei": "848236376717656",
+    "vehicle_name": "S11_KA05AK3138_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "797778893145772": {
+    "imei": "797778893145772",
+    "vehicle_name": "S11_KA05AK3271_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "437521934680927": {
+    "imei": "437521934680927",
+    "vehicle_name": "S11_KA05AK3583_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "198812828422851": {
+    "imei": "198812828422851",
+    "vehicle_name": "S12_KA03AJ1454_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "582787462031994": {
+    "imei": "582787462031994",
+    "vehicle_name": "S12_KA04AA7683_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "319604096369775": {
+    "imei": "319604096369775",
+    "vehicle_name": "S12_KA04C4868_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "720782912846789": {
+    "imei": "720782912846789",
+    "vehicle_name": "S12_KA04C5145_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "750722469946905": {
+    "imei": "750722469946905",
+    "vehicle_name": "S12_KA04C5152_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "841163159083592": {
+    "imei": "841163159083592",
+    "vehicle_name": "S12_KA04D4603_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "408552304054935": {
+    "imei": "408552304054935",
+    "vehicle_name": "S12_KA05AK3578_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "292988805221882": {
+    "imei": "292988805221882",
+    "vehicle_name": "S12_KA05AK3579_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "653974142937940": {
+    "imei": "653974142937940",
+    "vehicle_name": "S12_KA05D8083_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "122052472844331": {
+    "imei": "122052472844331",
+    "vehicle_name": "S13_KA02AH5780_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "970096226976522": {
+    "imei": "970096226976522",
+    "vehicle_name": "S13_KA04C5149_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "710581371505725": {
+    "imei": "710581371505725",
+    "vehicle_name": "S1_KA03C5043_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "232322235358607": {
+    "imei": "232322235358607",
+    "vehicle_name": "S1_KA04C5144_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "635196673175977": {
+    "imei": "635196673175977",
+    "vehicle_name": "S1_KA04D4270_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "897523833529116": {
+    "imei": "897523833529116",
+    "vehicle_name": "S1_KA04D5233_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "935967976788356": {
+    "imei": "935967976788356",
+    "vehicle_name": "S1_KA04D5428_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "111260865404464": {
+    "imei": "111260865404464",
+    "vehicle_name": "S1_KA05AD2936_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "876314060389183": {
+    "imei": "876314060389183",
+    "vehicle_name": "S1_KA05B6541_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "962511539010590": {
+    "imei": "962511539010590",
+    "vehicle_name": "S2_KA04AA7680_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "471288512131531": {
+    "imei": "471288512131531",
+    "vehicle_name": "S2_KA04C5149_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "609097209170827": {
+    "imei": "609097209170827",
+    "vehicle_name": "S2_KA04D4104_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "652177220083431": {
+    "imei": "652177220083431",
+    "vehicle_name": "S2_KA04D5124_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "812625969577974": {
+    "imei": "812625969577974",
+    "vehicle_name": "S2_KA04D5296_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "525855280934006": {
+    "imei": "525855280934006",
+    "vehicle_name": "S2_KA04D5299_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "216479673343602": {
+    "imei": "216479673343602",
+    "vehicle_name": "S3_KA04A9518_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "756105058064596": {
+    "imei": "756105058064596",
+    "vehicle_name": "S3_KA04AA9017_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "944228400603287": {
+    "imei": "944228400603287",
+    "vehicle_name": "S3_KA04C5146_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "405963488817344": {
+    "imei": "405963488817344",
+    "vehicle_name": "S3_KA04D6654_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "649537663235578": {
+    "imei": "649537663235578",
+    "vehicle_name": "S3_KA04D8086_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "556600942717490": {
+    "imei": "556600942717490",
+    "vehicle_name": "S4_KA04AA7683_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "288258247853423": {
+    "imei": "288258247853423",
+    "vehicle_name": "S4_KA04AB5798_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "623580691088794": {
+    "imei": "623580691088794",
+    "vehicle_name": "S4_KA04C4868_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "978552641502823": {
+    "imei": "978552641502823",
+    "vehicle_name": "S4_KA04C5145_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "178945171222406": {
+    "imei": "178945171222406",
+    "vehicle_name": "S4_KA04C5152_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "836444450754518": {
+    "imei": "836444450754518",
+    "vehicle_name": "S4_KA04D4603_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "291459862836765": {
+    "imei": "291459862836765",
+    "vehicle_name": "S4_KA05D8083_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "531933743600039": {
+    "imei": "531933743600039",
+    "vehicle_name": "SE1_CAW210_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "154112738985386": {
+    "imei": "154112738985386",
+    "vehicle_name": "SE1_CAW313_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "682292869437051": {
+    "imei": "682292869437051",
+    "vehicle_name": "SE1_KA03AJ4267_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "471263266804022": {
+    "imei": "471263266804022",
+    "vehicle_name": "SE1_KA03AJ4268_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "809429890048345": {
+    "imei": "809429890048345",
+    "vehicle_name": "SE1_KA03B964_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "360306186835691": {
+    "imei": "360306186835691",
+    "vehicle_name": "SE1_KA049409_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "365111991317263": {
+    "imei": "365111991317263",
+    "vehicle_name": "SE1_KA04A3046_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "451430010024159": {
+    "imei": "451430010024159",
+    "vehicle_name": "SE1_KA04AA9030_DESILTING",
     "equipment_type": "Desiting"
   },
-  "864895033188028": {
-    "imei": "864895033188028",
-    "vehicle_name": "SE1_KA04AB5793_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864895033188200": {
-    "imei": "864895033188200",
-    "vehicle_name": "SE1_KA04AB5794_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022800779": {
-    "imei": "868683022800779",
-    "vehicle_name": "SE1_KA04C5150_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022810604": {
-    "imei": "868683022810604",
-    "vehicle_name": "SE1_KA04D4110_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022831857": {
-    "imei": "868683022831857",
-    "vehicle_name": "SE1_KA04D5303_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022806834": {
-    "imei": "868683022806834",
-    "vehicle_name": "SE1_KA04D6651_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864895033187459": {
-    "imei": "864895033187459",
-    "vehicle_name": "SE1_KA05AD2948_desilting",
-    "equipment_type": "desilting"
-  },
-  "868683022791184": {
-    "imei": "868683022791184",
-    "vehicle_name": "SE1_KA05D8227_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "864180032935525": {
-    "imei": "864180032935525",
-    "vehicle_name": "SE2_KA03C5068_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "864895033187426": {
-    "imei": "864895033187426",
-    "vehicle_name": "SE2_KA04AA7681_desilting",
-    "equipment_type": "desilting"
-  },
-  "868683022806677": {
-    "imei": "868683022806677",
-    "vehicle_name": "SE2_KA04C2090_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022797769": {
-    "imei": "868683022797769",
-    "vehicle_name": "SE2_KA04D4611_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022791069": {
-    "imei": "868683022791069",
-    "vehicle_name": "SE3_KA02AC5940_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022806032": {
-    "imei": "868683022806032",
-    "vehicle_name": "SE3_KA04A3044_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "864895033187368": {
-    "imei": "864895033187368",
-    "vehicle_name": "SE3_KA04AA7687_desilting",
-    "equipment_type": "desilting"
-  },
-  "864895033187723": {
-    "imei": "864895033187723",
-    "vehicle_name": "SE3_KA04AB5801_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683022796605": {
-    "imei": "868683022796605",
-    "vehicle_name": "SE3_KA04D4155_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022798155": {
-    "imei": "868683022798155",
-    "vehicle_name": "SE3_KA04D5311_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022811289": {
-    "imei": "868683022811289",
-    "vehicle_name": "SE3_KA05B8084_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "TK_868683022800662": {
-    "imei": "TK_868683022800662",
-    "vehicle_name": "SW1_KA01B9896_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022796886": {
-    "imei": "868683022796886",
-    "vehicle_name": "SW1_KA04A9520_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022788487": {
-    "imei": "868683022788487",
-    "vehicle_name": "SW1_KA04A9522_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022810349": {
-    "imei": "868683022810349",
-    "vehicle_name": "SW1_KA04AA7685_Desiting",
+  "228658309248414": {
+    "imei": "228658309248414",
+    "vehicle_name": "SE1_KA04AA9030_DESITING",
     "equipment_type": "Desiting"
   },
-  "868683022811206": {
-    "imei": "868683022811206",
-    "vehicle_name": "SW1_KA04D4607_Jetting",
+  "715752754095052": {
+    "imei": "715752754095052",
+    "vehicle_name": "SE1_KA04AB5793_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022805919": {
-    "imei": "868683022805919",
-    "vehicle_name": "SW1_KA04D4872_jetting",
-    "equipment_type": "jetting"
-  },
-  "864180032709409": {
-    "imei": "864180032709409",
-    "vehicle_name": "SW2_CAW236_Jetting",
+  "449945355478488": {
+    "imei": "449945355478488",
+    "vehicle_name": "SE1_KA04AB5794_JETTING",
     "equipment_type": "Jetting"
   },
-  "864895033186469": {
-    "imei": "864895033186469",
-    "vehicle_name": "SW2_KA04AB5797_jetting machine",
-    "equipment_type": "jetting machine"
-  },
-  "868683022791705": {
-    "imei": "868683022791705",
-    "vehicle_name": "SW2_KA04C5143_Jetting",
+  "364859926723289": {
+    "imei": "364859926723289",
+    "vehicle_name": "SE1_KA04C5150_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022786416": {
-    "imei": "868683022786416",
-    "vehicle_name": "SW2_KA04D4605_Jetting",
+  "582669257417512": {
+    "imei": "582669257417512",
+    "vehicle_name": "SE1_KA04C5154_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022798700": {
-    "imei": "868683022798700",
-    "vehicle_name": "SW2_KA04D5285_Tanker",
+  "597820635714143": {
+    "imei": "597820635714143",
+    "vehicle_name": "SE1_KA04D4110_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "187577372667912": {
+    "imei": "187577372667912",
+    "vehicle_name": "SE1_KA04D5303_TANKER",
     "equipment_type": "Tanker"
   },
-  "868683022809770": {
-    "imei": "868683022809770",
-    "vehicle_name": "SW3_KA04A9513_Jetting",
+  "409154840609800": {
+    "imei": "409154840609800",
+    "vehicle_name": "SE1_KA04D6651_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022806693": {
-    "imei": "868683022806693",
-    "vehicle_name": "SW3_KA04C5147_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022800043": {
-    "imei": "868683022800043",
-    "vehicle_name": "SW3_KA05A8077_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022791820": {
-    "imei": "868683022791820",
-    "vehicle_name": "SW3_KA05AD2942_Desilting",
+  "934991936080375": {
+    "imei": "934991936080375",
+    "vehicle_name": "SE1_KA05AD2948_DESILTING",
     "equipment_type": "Desilting"
   },
-  "864895033187780": {
-    "imei": "864895033187780",
-    "vehicle_name": "SW4_KA04AA9016_desilting",
-    "equipment_type": "desilting"
-  },
-  "864895033186790": {
-    "imei": "864895033186790",
-    "vehicle_name": "SW4_KA04AA9021_desilting",
-    "equipment_type": "desilting"
-  },
-  "868683022801777": {
-    "imei": "868683022801777",
-    "vehicle_name": "SW4_KA04C5151_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022797850": {
-    "imei": "868683022797850",
-    "vehicle_name": "SW4_KA04D4106_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022787109": {
-    "imei": "868683022787109",
-    "vehicle_name": "SW4_KA04D5298_Tanker",
+  "228431149940571": {
+    "imei": "228431149940571",
+    "vehicle_name": "SE1_KA05D8227_TANKER",
     "equipment_type": "Tanker"
   },
-  "868683022801348": {
-    "imei": "868683022801348",
-    "vehicle_name": "SW4_KA05D6540_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022791200": {
-    "imei": "868683022791200",
-    "vehicle_name": "SW4_KA05D8079_Tanker",
+  "182221056999715": {
+    "imei": "182221056999715",
+    "vehicle_name": "SE2_KA03C5068_TANKER",
     "equipment_type": "Tanker"
   },
-  "868683022502086": {
-    "imei": "868683022502086",
-    "vehicle_name": "W1_KA02B6769_Jetting",
+  "413197329060515": {
+    "imei": "413197329060515",
+    "vehicle_name": "SE2_KA049409_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022830289": {
-    "imei": "868683022830289",
-    "vehicle_name": "W1_KA02D3148_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "864180032710613": {
-    "imei": "864180032710613",
-    "vehicle_name": "W1_KA04C9408_Jetting",
+  "269290616303004": {
+    "imei": "269290616303004",
+    "vehicle_name": "SE2_KA04A3282_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022790244": {
-    "imei": "868683022790244",
-    "vehicle_name": "W1_KA05AD2945_Desilting",
+  "433944910678944": {
+    "imei": "433944910678944",
+    "vehicle_name": "SE2_KA04A7681_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022800837": {
-    "imei": "868683022800837",
-    "vehicle_name": "W2_KA04C5134_Jetting",
+  "105332478102457": {
+    "imei": "105332478102457",
+    "vehicle_name": "SE2_KA04C2090_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022797256": {
-    "imei": "868683022797256",
-    "vehicle_name": "W2_KA04D4864_Jetting",
+  "864970680840451": {
+    "imei": "864970680840451",
+    "vehicle_name": "SE2_KA04C5154_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022997898": {
-    "imei": "868683022997898",
-    "vehicle_name": "W3_KA04A9521_Jetting",
+  "121665043114649": {
+    "imei": "121665043114649",
+    "vehicle_name": "SE2_KA04D4611_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022803435": {
-    "imei": "868683022803435",
-    "vehicle_name": "W3_KA04C5237_Tanker",
+  "513384983935626": {
+    "imei": "513384983935626",
+    "vehicle_name": "SE2_KA04D6651_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "856463420252221": {
+    "imei": "856463420252221",
+    "vehicle_name": "SE2_KA05D8227_TANKER",
     "equipment_type": "Tanker"
   },
-  "868683022810166": {
-    "imei": "868683022810166",
-    "vehicle_name": "W3_KA04D4156_Jetting",
+  "724994435058447": {
+    "imei": "724994435058447",
+    "vehicle_name": "SE3_KA02AC5940_JETTING",
     "equipment_type": "Jetting"
   },
-  "864180032617719": {
-    "imei": "864180032617719",
-    "vehicle_name": "W3_KA04D5156_Jetting",
+  "337795983534726": {
+    "imei": "337795983534726",
+    "vehicle_name": "SE3_KA04A3044_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022796183": {
-    "imei": "868683022796183",
-    "vehicle_name": "W3_KA04D5305_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "864180032741162": {
-    "imei": "864180032741162",
-    "vehicle_name": "W4_KA02D3152_Tanker",
-    "equipment_type": "Tanker"
-  },
-  "868683022790178": {
-    "imei": "868683022790178",
-    "vehicle_name": "W4_KA04C5129_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022795888": {
-    "imei": "868683022795888",
-    "vehicle_name": "W4_KA04D4601_Jetting",
-    "equipment_type": "Jetting"
-  },
-  "868683022488682": {
-    "imei": "868683022488682",
-    "vehicle_name": "Wwm_KA53B3470_Suction",
-    "equipment_type": "Suction"
-  },
-  "868683022800670": {
-    "imei": "868683022800670",
-    "vehicle_name": "Wwm_KA53B3471_Suction",
-    "equipment_type": "Suction"
-  },
-  "868683022787893": {
-    "imei": "868683022787893",
-    "vehicle_name": "Wwm_KA53B3474_Dumping",
-    "equipment_type": "Dumping"
-  },
-  "868683022786689": {
-    "imei": "868683022786689",
-    "vehicle_name": "WWM_KA53B3475_Dumping",
-    "equipment_type": "Dumping"
-  },
-  "868683022809861": {
-    "imei": "868683022809861",
-    "vehicle_name": "Wwm_KA53B3476_Dumping",
-    "equipment_type": "Dumping"
-  },
-  "868683022790533": {
-    "imei": "868683022790533",
-    "vehicle_name": "Wwm_KA53B3477_Dumping",
-    "equipment_type": "Dumping"
-  },
-  "868683022788990": {
-    "imei": "868683022788990",
-    "vehicle_name": "Wwm_KC1_KA04AA5948_Desilting",
+  "765067192476989": {
+    "imei": "765067192476989",
+    "vehicle_name": "SE3_KA04AA7687_DESILTING",
     "equipment_type": "Desilting"
   },
-  "868683022786671": {
-    "imei": "868683022786671",
-    "vehicle_name": "Wwm_KC1_KA04AA9020_Desiting",
+  "668440821772555": {
+    "imei": "668440821772555",
+    "vehicle_name": "SE3_KA04AB5801_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "998961406886344": {
+    "imei": "998961406886344",
+    "vehicle_name": "SE3_KA04D4155_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "356137241316615": {
+    "imei": "356137241316615",
+    "vehicle_name": "SE3_KA04D5311_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "643789107644410": {
+    "imei": "643789107644410",
+    "vehicle_name": "SE3_KA05B8084_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "802717947396343": {
+    "imei": "802717947396343",
+    "vehicle_name": "SE4_KA03AJ4269_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "767791613538726": {
+    "imei": "767791613538726",
+    "vehicle_name": "SE4_KA04A3282_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "345650695914666": {
+    "imei": "345650695914666",
+    "vehicle_name": "SE5_KA04A3044_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "502216695023814": {
+    "imei": "502216695023814",
+    "vehicle_name": "SE5_KA04AA7687_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "248018708167994": {
+    "imei": "248018708167994",
+    "vehicle_name": "SE5_KA04D4155_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "468457528830850": {
+    "imei": "468457528830850",
+    "vehicle_name": "SE5_KA04D5311_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "207373589407855": {
+    "imei": "207373589407855",
+    "vehicle_name": "SE5_KA05AK3581_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "289297196788957": {
+    "imei": "289297196788957",
+    "vehicle_name": "SE5_KA05B8084_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "932072357726060": {
+    "imei": "932072357726060",
+    "vehicle_name": "SE6_KA04A9518_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "781280291354581": {
+    "imei": "781280291354581",
+    "vehicle_name": "SE6_KA04AA9017_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "516892740747609": {
+    "imei": "516892740747609",
+    "vehicle_name": "SE6_KA04D6654_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "151711647856288": {
+    "imei": "151711647856288",
+    "vehicle_name": "SE6_KA05AK3580_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "378517051528669": {
+    "imei": "378517051528669",
+    "vehicle_name": "STP_CUBBON_PARK_KA05D8079_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "908945965857958": {
+    "imei": "908945965857958",
+    "vehicle_name": "SW1_KA01B9896_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "604109221542816": {
+    "imei": "604109221542816",
+    "vehicle_name": "SW1_KA02AC5939_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "120440050275987": {
+    "imei": "120440050275987",
+    "vehicle_name": "SW1_KA02AH5779_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "538453837476992": {
+    "imei": "538453837476992",
+    "vehicle_name": "SW1_KA04A3045_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "934171534247951": {
+    "imei": "934171534247951",
+    "vehicle_name": "SW1_KA04A7291_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "224092720891422": {
+    "imei": "224092720891422",
+    "vehicle_name": "SW1_KA04A9520_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "214949524174688": {
+    "imei": "214949524174688",
+    "vehicle_name": "SW1_KA04A9522_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "415785780544537": {
+    "imei": "415785780544537",
+    "vehicle_name": "SW1_KA04AA7685_DESITING",
     "equipment_type": "Desiting"
   },
-  "868683022824142": {
-    "imei": "868683022824142",
-    "vehicle_name": "Wwm_KC1_KA53B3463_Dumptanker",
+  "283029505188680": {
+    "imei": "283029505188680",
+    "vehicle_name": "SW1_KA04C5126_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "318928226568110": {
+    "imei": "318928226568110",
+    "vehicle_name": "SW1_KA04D4607_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "996554491528070": {
+    "imei": "996554491528070",
+    "vehicle_name": "SW1_KA04D4872_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "278102012670370": {
+    "imei": "278102012670370",
+    "vehicle_name": "SW1_KA04D5123_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "900724934136663": {
+    "imei": "900724934136663",
+    "vehicle_name": "SW2_CAW236_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "877718474533431": {
+    "imei": "877718474533431",
+    "vehicle_name": "SW2_CAW311_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "524750268635450": {
+    "imei": "524750268635450",
+    "vehicle_name": "SW2_KA02AH5778_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "357014069783009": {
+    "imei": "357014069783009",
+    "vehicle_name": "SW2_KA04A3045_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "550974658471868": {
+    "imei": "550974658471868",
+    "vehicle_name": "SW2_KA04A9520_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "932963020046178": {
+    "imei": "932963020046178",
+    "vehicle_name": "SW2_KA04A9522_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "351835907793181": {
+    "imei": "351835907793181",
+    "vehicle_name": "SW2_KA04AA7685_DESILTING",
+    "equipment_type": "Desiting"
+  },
+  "942417288589399": {
+    "imei": "942417288589399",
+    "vehicle_name": "SW2_KA04AB5797_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "840862371216886": {
+    "imei": "840862371216886",
+    "vehicle_name": "SW2_KA04C5143_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "344885851395383": {
+    "imei": "344885851395383",
+    "vehicle_name": "SW2_KA04C5161_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "834228959763692": {
+    "imei": "834228959763692",
+    "vehicle_name": "SW2_KA04D4605_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "370576663260660": {
+    "imei": "370576663260660",
+    "vehicle_name": "SW2_KA04D4607_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "437699551959750": {
+    "imei": "437699551959750",
+    "vehicle_name": "SW2_KA04D5285_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "583748081860641": {
+    "imei": "583748081860641",
+    "vehicle_name": "SW3_KA02AC5929_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "514507474310561": {
+    "imei": "514507474310561",
+    "vehicle_name": "SW3_KA02AH5782_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "784197468553609": {
+    "imei": "784197468553609",
+    "vehicle_name": "SW3_KA04A9513_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "572235363508237": {
+    "imei": "572235363508237",
+    "vehicle_name": "SW3_KA04C5147_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "289273986355742": {
+    "imei": "289273986355742",
+    "vehicle_name": "SW3_KA05A8077_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "294090451534590": {
+    "imei": "294090451534590",
+    "vehicle_name": "SW3_KA05AD2942_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "618058911103694": {
+    "imei": "618058911103694",
+    "vehicle_name": "SW4_KA02AH5777_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "191890648664802": {
+    "imei": "191890648664802",
+    "vehicle_name": "SW4_KA04AA9016_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "865264318830641": {
+    "imei": "865264318830641",
+    "vehicle_name": "SW4_KA04AA9021_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "851184433766150": {
+    "imei": "851184433766150",
+    "vehicle_name": "SW4_KA04C2198_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "845532320380396": {
+    "imei": "845532320380396",
+    "vehicle_name": "SW4_KA04C2203_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "278326615369829": {
+    "imei": "278326615369829",
+    "vehicle_name": "SW4_KA04C5143_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "643214722107398": {
+    "imei": "643214722107398",
+    "vehicle_name": "SW4_KA04C5151_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "927188800899614": {
+    "imei": "927188800899614",
+    "vehicle_name": "SW4_KA04D4106_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "999836804735172": {
+    "imei": "999836804735172",
+    "vehicle_name": "SW4_KA04D4605_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "267132558178731": {
+    "imei": "267132558178731",
+    "vehicle_name": "SW4_KA04D5285_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "684141968410031": {
+    "imei": "684141968410031",
+    "vehicle_name": "SW4_KA04D5298_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "956999784499256": {
+    "imei": "956999784499256",
+    "vehicle_name": "SW4_KA05D6540_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "763916377400405": {
+    "imei": "763916377400405",
+    "vehicle_name": "SW4_KA05D8079_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "174371994570347": {
+    "imei": "174371994570347",
+    "vehicle_name": "SW5_KA03C5043_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "886023897817981": {
+    "imei": "886023897817981",
+    "vehicle_name": "SW5_KA04C5144_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "924279228456896": {
+    "imei": "924279228456896",
+    "vehicle_name": "SW5_KA04D4270_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "169962381934200": {
+    "imei": "169962381934200",
+    "vehicle_name": "SW5_KA05AK3600_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "210590667209061": {
+    "imei": "210590667209061",
+    "vehicle_name": "SW5_KA05B6541_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "324509974248806": {
+    "imei": "324509974248806",
+    "vehicle_name": "SW6_KA04C5129_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "412094519499788": {
+    "imei": "412094519499788",
+    "vehicle_name": "SW6_KA04D5233_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "852983847841968": {
+    "imei": "852983847841968",
+    "vehicle_name": "W1_KA02B6769_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "537152947448240": {
+    "imei": "537152947448240",
+    "vehicle_name": "W1_KA02D3148_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "741705033724218": {
+    "imei": "741705033724218",
+    "vehicle_name": "W1_KA04C9408_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "352974298340911": {
+    "imei": "352974298340911",
+    "vehicle_name": "W1_KA04D6653_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "330732858660368": {
+    "imei": "330732858660368",
+    "vehicle_name": "W1_KA05AD2945_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "974615684738867": {
+    "imei": "974615684738867",
+    "vehicle_name": "W21_KA04A9521_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "972117259255855": {
+    "imei": "972117259255855",
+    "vehicle_name": "W21_KA04D4156_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "358711264317659": {
+    "imei": "358711264317659",
+    "vehicle_name": "W21_KA04D5156_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "630450328860420": {
+    "imei": "630450328860420",
+    "vehicle_name": "W21_KA04D5305_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "881388475631761": {
+    "imei": "881388475631761",
+    "vehicle_name": "W22_KA01A5947_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "571462140420517": {
+    "imei": "571462140420517",
+    "vehicle_name": "W22_KA04C5134_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "919882090256547": {
+    "imei": "919882090256547",
+    "vehicle_name": "W22_KA04D4864_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "136160046756961": {
+    "imei": "136160046756961",
+    "vehicle_name": "W2_KA04C5134_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "257658274038696": {
+    "imei": "257658274038696",
+    "vehicle_name": "W2_KA04D4864_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "103059781855621": {
+    "imei": "103059781855621",
+    "vehicle_name": "W3_KA04A9521_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "246175024404522": {
+    "imei": "246175024404522",
+    "vehicle_name": "W3_KA04C5237_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "444967908650933": {
+    "imei": "444967908650933",
+    "vehicle_name": "W3_KA04D4156_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "696155953769210": {
+    "imei": "696155953769210",
+    "vehicle_name": "W3_KA04D5156_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "775048816455415": {
+    "imei": "775048816455415",
+    "vehicle_name": "W3_KA04D5305_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "329380288433713": {
+    "imei": "329380288433713",
+    "vehicle_name": "W4_KA02D3152_TANKER",
+    "equipment_type": "Tanker"
+  },
+  "391346487038037": {
+    "imei": "391346487038037",
+    "vehicle_name": "W4_KA04B6770_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "497871845386190": {
+    "imei": "497871845386190",
+    "vehicle_name": "W4_KA04C5129_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "252983999693644": {
+    "imei": "252983999693644",
+    "vehicle_name": "W4_KA04D4601_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "361877144269029": {
+    "imei": "361877144269029",
+    "vehicle_name": "WWMN_CV1_KA04AA9020_DESILTING",
+    "equipment_type": "Desiting"
+  },
+  "299610277780411": {
+    "imei": "299610277780411",
+    "vehicle_name": "WWMN_CV1_KA53B3463_DUMPTANKER",
     "equipment_type": "Dumptanker"
   },
-  "864180032711736": {
-    "imei": "864180032711736",
-    "vehicle_name": "WWM_KC1_KA53B3468Jetting",
-    "equipment_type": "KA53B3468Jetting"
-  },
-  "868683022540763": {
-    "imei": "868683022540763",
-    "vehicle_name": "WWM_KC2_KA53B3469_Jetting",
+  "840336965747209": {
+    "imei": "840336965747209",
+    "vehicle_name": "WWMN_CV1_KA53B3464_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022871598": {
-    "imei": "868683022871598",
-    "vehicle_name": "WWM_KC2_KA53B3472_Jetting",
+  "504814867211939": {
+    "imei": "504814867211939",
+    "vehicle_name": "WWMN_CV1_KA53B3468_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022871838": {
-    "imei": "868683022871838",
-    "vehicle_name": "WWM_VV-1_KA53b3465_Jetting",
-    "equipment_type": "Jetting"
+  "729967506243856": {
+    "imei": "729967506243856",
+    "vehicle_name": "WWM_KA53B3470_SUCTION",
+    "equipment_type": "Suction"
   },
-  "864895033187483": {
-    "imei": "864895033187483",
-    "vehicle_name": "WWM_W1_KA04AA9029_Desilting",
+  "656052622861350": {
+    "imei": "656052622861350",
+    "vehicle_name": "WWM_KA53B3471_SUCTION",
+    "equipment_type": "Suction"
+  },
+  "536613534875532": {
+    "imei": "536613534875532",
+    "vehicle_name": "WWM_KA53B3474_DUMPING",
+    "equipment_type": "Dumping"
+  },
+  "365528010923790": {
+    "imei": "365528010923790",
+    "vehicle_name": "WWM_KA53B3475_DUMPING",
+    "equipment_type": "Dumping"
+  },
+  "158312883321006": {
+    "imei": "158312883321006",
+    "vehicle_name": "WWM_KA53B3476_DUMPING",
+    "equipment_type": "Dumping"
+  },
+  "540294286565981": {
+    "imei": "540294286565981",
+    "vehicle_name": "WWM_KA53B3477_DUMPING",
+    "equipment_type": "Dumping"
+  },
+  "383191531740308": {
+    "imei": "383191531740308",
+    "vehicle_name": "WWM_KC1_KA04AA5948_DESILTING",
     "equipment_type": "Desilting"
   },
-  "864895033188325": {
-    "imei": "864895033188325",
-    "vehicle_name": "WWM VV2_KA53B3461_Dump Tanker",
-    "equipment_type": "Dump Tanker"
+  "766129570360397": {
+    "imei": "766129570360397",
+    "vehicle_name": "WWM_KC1_KA04AA9020_DESITING",
+    "equipment_type": "Desiting"
   },
-  "868683022800753": {
-    "imei": "868683022800753",
-    "vehicle_name": "Wwm_Vv2_KA53B3462_Jetting",
+  "482658556850696": {
+    "imei": "482658556850696",
+    "vehicle_name": "WWM_KC1_KA53B3463_DUMPTANKER",
+    "equipment_type": "Dumptanker"
+  },
+  "438786177715825": {
+    "imei": "438786177715825",
+    "vehicle_name": "WWM_KC1_KA53B3464_JETTING",
     "equipment_type": "Jetting"
   },
-  "868683022802296": {
-    "imei": "868683022802296",
-    "vehicle_name": "WWM_WV-2_KA53B3467_Jetting",
+  "836846500631371": {
+    "imei": "836846500631371",
+    "vehicle_name": "WWM_KC1_KA53B3468_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "132296071307369": {
+    "imei": "132296071307369",
+    "vehicle_name": "WWM_KC2_KA53B3469_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "929296773899929": {
+    "imei": "929296773899929",
+    "vehicle_name": "WWM_KC2_KA53B3472_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "612457277507551": {
+    "imei": "612457277507551",
+    "vehicle_name": "WWM_KC2_KA53B3473_DUMPTANKER",
+    "equipment_type": "Dumptanker"
+  },
+  "199835593780739": {
+    "imei": "199835593780739",
+    "vehicle_name": "WWM_VV1_KA04AA9029_DESILTING",
+    "equipment_type": "Desilting"
+  },
+  "338852132208440": {
+    "imei": "338852132208440",
+    "vehicle_name": "WWM_VV1_KA53B3459_DUMPING",
+    "equipment_type": "Dumping"
+  },
+  "100599509179859": {
+    "imei": "100599509179859",
+    "vehicle_name": "WWM_VV1_KA53B3460_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "492207467315581": {
+    "imei": "492207467315581",
+    "vehicle_name": "WWM_VV1_KA53B3461_DUMPTANKER",
+    "equipment_type": "Dumptanker"
+  },
+  "187036345861046": {
+    "imei": "187036345861046",
+    "vehicle_name": "WWM_VV1_KA53B3465_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "925162047291299": {
+    "imei": "925162047291299",
+    "vehicle_name": "WWM_VV2_KA41AB5933_RECYCLER",
+    "equipment_type": "Recycler"
+  },
+  "710107183672920": {
+    "imei": "710107183672920",
+    "vehicle_name": "WWM_VV2_KA53B3461_DUMPTANKER",
+    "equipment_type": "Dumptanker"
+  },
+  "283588349368036": {
+    "imei": "283588349368036",
+    "vehicle_name": "WWM_VV2_KA53B3462_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "447906301750320": {
+    "imei": "447906301750320",
+    "vehicle_name": "WWM_VV2_KA53B3467_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "967055150559324": {
+    "imei": "967055150559324",
+    "vehicle_name": "WWW_V_VV1_KA53B3462_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "993727061130340": {
+    "imei": "993727061130340",
+    "vehicle_name": "WWW_V_VV1_KA53B3465_JETTING",
+    "equipment_type": "Jetting"
+  },
+  "947621164105787": {
+    "imei": "947621164105787",
+    "vehicle_name": "WWW_V_VV1_KA53B3467_JETTING",
     "equipment_type": "Jetting"
   }
 }

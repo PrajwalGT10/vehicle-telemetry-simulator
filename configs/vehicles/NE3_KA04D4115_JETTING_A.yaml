@@ -1,0 +1,42 @@
+vehicle:
+  name: NE3_KA04D4115_JETTING
+  imei: '475189328591437'
+  device_id: NE3_KA04D4115_JETTING
+  vehicle_type: Jetting
+  vehicle_number: KA04D4115
+  zone_id: NE3
+  max_speed_knots: 25.0
+  depot_lat: 13.029433338095238
+  depot_lon: 77.64248601428571
+  odometer_offset_km: 0
+  enabled: true
+zone:
+  name: NE_Zone
+  roads_geojson: data/zones/NE_Zone/roads.geojson
+  localities_file: data/zones/NE_Zone/localities.geojson
+shift:
+  timezone: Asia/Kolkata
+  start_time: 09:00
+  end_time: '19:00'
+  sampling_interval_seconds: 900
+  sampling_jitter_seconds: 0
+calendar:
+  working_days:
+  - MON
+  - TUE
+  - WED
+  - THU
+  - FRI
+  allow_saturdays: true
+  saturday_probability_per_month: 2
+  holidays_file: configs/calendars/india_2023_holidays.json
+simulation_window:
+  start_date: '2021-05-01'
+  end_date: '2022-04-30'
+routes:
+  templates:
+  - RT_DEFAULT
+generation:
+  random_seed: 12345
+  output_root: data/output
+  output_granularity: per_day

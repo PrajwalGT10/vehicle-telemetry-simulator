@@ -15,6 +15,7 @@ import traceback
 from vts_core.engine import run_simulation_day, generate_parked_day, process_external_only
 from vts_core.config import load_vehicle_config
 from vts_core.graph import RoadNetwork  # We will load this inside the worker
+from vts_core.store import SimulationStore # For conversion
 
 def get_date_range(start_date_str, end_date_str):
     start = datetime.strptime(start_date_str, "%Y-%m-%d")
@@ -86,25 +87,43 @@ def process_vehicle_year(task):
         dates = get_date_range(start_date, end_date)
 
         
+        # 2. Loop through every day of the range
+        dates = get_date_range(start_date, end_date)
+        processed_dates = []
+
         for date in dates:
             dt = datetime.strptime(date, "%Y-%m-%d")
             
             # Parking Logic (SKIPPED per User Requirement)
             if dt.weekday() == 6 or date in holidays:
-                # generate_parked_day(vehicle_file, date, output_dir)
                 process_external_only(vehicle_file, date, output_dir)
                 results["S"] += 1 # Skipped
             else:
-                # Run Driving (Graph is re-loaded in engine currently, optimization requires
-                # passing graph object, but engine.py loads it. 
-                # Ideally, we refactor engine.py to accept a graph object.
-                # For now, we will stick to calling run_simulation_day but it's still cleaner structure.)
-                run_simulation_day(vehicle_file, roads_file, date, output_dir)
+                # Disable legacy logs for speed
+                run_simulation_day(vehicle_file, roads_file, date, output_dir, enable_legacy_logs=False)
+                processed_dates.append(date) # Track for post-processing
                 results["D"] += 1
-                
+
+        # 3. Post-Processing Phase (Convert Parquet to Text)
+        # This decouples the expensive text I/O from the physics loop
+        # We process all valid dates for this vehicle now.
+        if processed_dates:
+            store = SimulationStore(base_dir=output_dir, enable_legacy_logs=False) # Helper instance
+            year_map = {} # Cache paths if needed, but simple loop is fine
+            
+            for date in processed_dates:
+                 year, month, _ = date.split("-")
+                 # Reconstruct path logic (keep in sync with store.py)
+                 parquet_dir = store.telemetry_dir / f"year={year}" / f"month={month}"
+                 parquet_path = parquet_dir / f"{config.imei}_{date}.parquet"
+                 
+                 if parquet_path.exists():
+                     store.generate_legacy_log_from_parquet(parquet_path, config.name, config.imei, date)
+        
         return f"✅ {config.imei}: {results['D']} Drives, {results['S']} Skipped"
         
     except Exception as e:
+        traceback.print_exc()
         return f"❌ Error {vehicle_file}: {e}"
 
 def main():
@@ -144,8 +163,28 @@ def main():
 
     print(f"🚀 Simulating {len(tasks)} Vehicles from {args.start_date} to {args.end_date} on {args.cores} cores...")
     
-    with Pool(min(args.cores, len(tasks) or 1)) as pool:
-        for res in tqdm.tqdm(pool.imap_unordered(process_vehicle_year, tasks), total=len(tasks)):
+    print(f"🚀 Simulating {len(tasks)} Vehicles from {args.start_date} to {args.end_date} on {args.cores} cores...")
+    
+    # Strictly enforce core count passed by user
+    # Avoid 'len(tasks) or 1' unless tasks are fewer than cores
+    pool_size = min(args.cores, len(tasks)) if len(tasks) > 0 else 1
+    
+    total_tasks = len(tasks)
+    completed = 0
+    
+    with Pool(pool_size) as pool:
+        # Use imap_unordered for responsiveness
+        for res in pool.imap_unordered(process_vehicle_year, tasks):
+            completed += 1
+            
+            # Heartbeat Log (Every 5%)
+            if total_tasks >= 20 and completed % (total_tasks // 20) == 0:
+                pct = (completed / total_tasks) * 100
+                print(f"   ❤️ Progress: {pct:.1f}% ({completed}/{total_tasks})")
+            
+            # Optional: Verbose printing
+            # print(res)
+            # Only print errors or final summary? Let's keep existing print(res) for now but maybe squelch if too noisy
             print(res)
 
 if __name__ == "__main__":

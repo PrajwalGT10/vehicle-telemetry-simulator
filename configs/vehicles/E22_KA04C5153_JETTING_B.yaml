@@ -1,0 +1,42 @@
+vehicle:
+  name: E22_KA04C5153_JETTING
+  imei: '238380747480194'
+  device_id: E22_KA04C5153_JETTING
+  vehicle_type: Jetting
+  vehicle_number: KA04C5153
+  zone_id: E1
+  max_speed_knots: 25.0
+  depot_lat: 12.975229682857144
+  depot_lon: 77.63872163857141
+  odometer_offset_km: 0
+  enabled: true
+zone:
+  name: E_Zone
+  roads_geojson: data/zones/E_Zone/roads.geojson
+  localities_file: data/zones/E_Zone/localities.geojson
+shift:
+  timezone: Asia/Kolkata
+  start_time: 09:00
+  end_time: '19:00'
+  sampling_interval_seconds: 900
+  sampling_jitter_seconds: 0
+calendar:
+  working_days:
+  - MON
+  - TUE
+  - WED
+  - THU
+  - FRI
+  allow_saturdays: true
+  saturday_probability_per_month: 2
+  holidays_file: configs/calendars/india_2023_holidays.json
+simulation_window:
+  start_date: '2022-05-01'
+  end_date: '2024-04-30'
+routes:
+  templates:
+  - RT_DEFAULT
+generation:
+  random_seed: 12345
+  output_root: data/output
+  output_granularity: per_day

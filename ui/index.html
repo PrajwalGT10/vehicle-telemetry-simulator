@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <title>Device Map – VTS POC</title>
 
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-<div class="topbar">
-  <div>
-    <label>Vehicle</label>
-    <select id="deviceSelect"></select>
+  <div class="topbar">
+    <div>
+      <label>Vehicle</label>
+      <select id="deviceSelect"></select>
+    </div>
+
+    <div>
+      <label>Start Date</label>
+      <input type="date" id="startDate" />
+    </div>
+
+    <div>
+      <label>End Date</label>
+      <input type="date" id="endDate" />
+    </div>
   </div>
 
-  <div>
-  <label>Start Date</label>
-  <input type="date" id="startDate" />
-</div>
-
-<div>
-  <label>End Date</label>
-  <input type="date" id="endDate" />
-</div>
-</div>
-
-<div class="locality-filter">
-  <label>Localities (optional)</label>
-  <select id="localitySelect">
-    <option value="">Select locality</option>
-  </select>
-
-  <div id="selectedLocalities" class="tag-container"></div>
-</div>
 
 
-<div class="content">
-  <div id="map"></div>
 
-  <div class="sidepanel">
-    <h3>Device Details</h3>
-    <p><b>IMEI:</b> <span id="imei"></span></p>
-    <p><b>Vehicle:</b> <span id="vehicleName"></span></p>
-    <p><b>Equipment:</b> <span id="equipmentType"></span></p>
+  <div class="content">
+    <div id="map"></div>
+
+    <div class="sidepanel">
+      <h3>Device Details</h3>
+      <p><b>IMEI:</b> <span id="imei"></span></p>
+      <p><b>Vehicle:</b> <span id="vehicleName"></span></p>
+      <p><b>Equipment:</b> <span id="equipmentType"></span></p>
+
+      <hr />
+      <h3>Compliance</h3>
+      <div class="report-section">
+        <button id="btnGenerateReport" style="width:100%; padding: 8px; cursor: pointer;">Generate RA_12 Report</button>
+        <div id="reportStatus" style="margin-top: 10px; font-size: 0.9em; color: #555;"></div>
+        <a id="reportLink" href="#" target="_blank"
+          style="display:none; display: block; margin-top: 10px; font-weight: bold; color: #1565c0;">Download Report
+          (CSV)</a>
+      </div>
+    </div>
   </div>
-</div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="app.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
 
 </body>
+
 </html>

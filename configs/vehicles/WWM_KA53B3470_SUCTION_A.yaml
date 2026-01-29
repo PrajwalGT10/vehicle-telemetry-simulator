@@ -1,0 +1,42 @@
+vehicle:
+  name: WWM_KA53B3470_SUCTION
+  imei: '272845199094932'
+  device_id: WWM_KA53B3470_SUCTION
+  vehicle_type: Suction
+  vehicle_number: KA53B3470
+  zone_id: WWM
+  max_speed_knots: 25.0
+  depot_lat: 12.932226990697677
+  depot_lon: 77.62113493255814
+  odometer_offset_km: 0
+  enabled: true
+zone:
+  name: WWM_Zone
+  roads_geojson: data/zones/WWM_Zone/roads.geojson
+  localities_file: data/zones/WWM_Zone/localities.geojson
+shift:
+  timezone: Asia/Kolkata
+  start_time: 09:00
+  end_time: '19:00'
+  sampling_interval_seconds: 900
+  sampling_jitter_seconds: 0
+calendar:
+  working_days:
+  - MON
+  - TUE
+  - WED
+  - THU
+  - FRI
+  allow_saturdays: true
+  saturday_probability_per_month: 2
+  holidays_file: configs/calendars/india_2023_holidays.json
+simulation_window:
+  start_date: '2021-05-01'
+  end_date: '2022-04-30'
+routes:
+  templates:
+  - RT_DEFAULT
+generation:
+  random_seed: 12345
+  output_root: data/output
+  output_granularity: per_day

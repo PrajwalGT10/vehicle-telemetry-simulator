@@ -62,30 +62,37 @@ def export_day(parquet_path, output_dir):
         vehicle_name = get_vehicle_name(imei)
         year, month = date_str.split("-")[:2]
         
-        # 3. Build GeoJSON LineString
-        coordinates = df[["lon", "lat"]].values.tolist()
-        
-        geojson = {
-            "type": "FeatureCollection",
-            "features": [{
+        # 3. Build GeoJSON Features (Points)
+        features = []
+        for _, row in df.iterrows():
+            ts_str = row['timestamp'].strftime("%Y-%m-%d %H:%M:%S")
+            speed = row.get('speed', 0.0)
+            heading = row.get('heading', 0.0)
+            
+            feat = {
                 "type": "Feature",
                 "properties": {
+                    "timestamp": ts_str,
+                    "speed": f"{speed:.1f} kts",
+                    "heading": f"{heading:.1f}",
                     "imei": imei,
-                    "vehicle": vehicle_name,
-                    "date": date_str,
-                    "points": len(coordinates),
-                    "distance_km": f"{(df['speed'].mean() * len(df) * 25 / 3600 * 1.852):.2f}"
+                    "vehicle": vehicle_name
                 },
                 "geometry": {
-                    "type": "LineString",
-                    "coordinates": coordinates
+                    "type": "Point",
+                    "coordinates": [row['lon'], row['lat']]
                 }
-            }]
+            }
+            features.append(feat)
+
+        geojson = {
+            "type": "FeatureCollection",
+            "features": features
         }
         
         # 4. Save
-        # Structure: data/exported_geojson/{VehicleName}/{Year}/{Month}/
-        vehicle_dir = os.path.join(output_dir, vehicle_name, year, month)
+        # Structure: data/exported_geojson/{VehicleName}/
+        vehicle_dir = os.path.join(output_dir, vehicle_name)
         os.makedirs(vehicle_dir, exist_ok=True)
         
         out_file = os.path.join(vehicle_dir, f"{date_str}.geojson")

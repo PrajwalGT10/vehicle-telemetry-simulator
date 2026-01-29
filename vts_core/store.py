@@ -9,8 +9,9 @@ import os
 from vts_core.utils import decimal_to_nmea, get_hemisphere
 
 class SimulationStore:
-    def __init__(self, base_dir: str = "data"):
+    def __init__(self, base_dir: str = "data", enable_legacy_logs: bool = True):
         self.base_dir = Path(base_dir)
+        self.enable_legacy_logs = enable_legacy_logs
         self.base_dir.mkdir(parents=True, exist_ok=True)
         
         # Initialize optional Metadata DB (Preserving structure)
@@ -71,50 +72,72 @@ class SimulationStore:
             
         df.to_parquet(parquet_path, index=False)
 
-        # --- 3. Write Custom Text Log ---
-        # Format: imei:868...,tracker,140...,,F,060722.000,A,1255.4187,N,07733.1281,E,0.81,121.83;
-        
-        with open(log_path, "w") as f:
-            for r in records:
-                ts = r["timestamp"]
-                # Handle timestamp types (string vs datetime object)
-                if isinstance(ts, str):
-                    try:
-                        ts = datetime.datetime.fromisoformat(ts)
-                    except ValueError:
-                        # Fallback if unknown format
-                        continue
-                
-                # A. Generate Packet Fields
-                # Packet ID: YYMMDDHHMMSS (Unique based on time)
-                packet_id = ts.strftime("%y%m%d%H%M%S")
-                
-                # Time: HHMMSS.000
-                time_str = ts.strftime("%H%M%S.000")
-                
-                # Lat/Lon NMEA conversion
-                lat = r["lat"]
-                lon = r["lon"]
-                lat_nmea = decimal_to_nmea(lat, is_longitude=False)
-                lat_dir = get_hemisphere(lat, is_lon=False)
-                
-                lon_nmea = decimal_to_nmea(lon, is_longitude=True)
-                lon_dir = get_hemisphere(lon, is_lon=True)
-                
-                # Speed: Value is already in Knots from Agent
-                speed_knots = r.get("speed", 0.0)
-                # speed_kmh = r.get("speed", 0.0)
-                # speed_knots = speed_kmh * 0.539957
-                
-                # Heading
-                heading = r.get("heading", 0.0)
+        if self.enable_legacy_logs:
+            # --- 3. Write Custom Text Log ---
+            with open(log_path, "w") as f:
+                for r in records:
+                    line = self._format_log_line(r, imei)
+                    if line:
+                        f.write(line + "\n")
 
-                # B. Build Line
-                # imei:868...,tracker,packet_id,,F,time,A,lat_nmea,lat_dir,lon_nmea,lon_dir,speed,heading;
-                line = (
-                    f"imei:{imei},tracker,{packet_id},,F,{time_str},A,"
-                    f"{lat_nmea},{lat_dir},{lon_nmea},{lon_dir},"
-                    f"{speed_knots:.2f},{heading:.2f};"
-                )
-                
-                f.write(line + "\n")
+    def _format_log_line(self, r: Dict, imei: str) -> str:
+        """Helper to format a single log line."""
+        ts = r["timestamp"]
+        # Handle timestamp types
+        if isinstance(ts, str):
+            try:
+                ts = datetime.datetime.fromisoformat(ts)
+            except ValueError:
+                return None
+        elif isinstance(ts, int): # Nanoseconds from parquet
+             ts = datetime.datetime.fromtimestamp(ts / 1e9)
+        elif hasattr(ts, 'to_pydatetime'):
+             ts = ts.to_pydatetime()
+        
+        # A. Generate Packet Fields
+        packet_id = ts.strftime("%y%m%d%H%M%S")
+        time_str = ts.strftime("%H%M%S.000")
+        
+        # Lat/Lon NMEA conversion
+        lat = r["lat"]
+        lon = r["lon"]
+        lat_nmea = decimal_to_nmea(lat, is_longitude=False)
+        lat_dir = get_hemisphere(lat, is_lon=False)
+        
+        lon_nmea = decimal_to_nmea(lon, is_longitude=True)
+        lon_dir = get_hemisphere(lon, is_lon=True)
+        
+        speed_knots = r.get("speed", 0.0)
+        heading = r.get("heading", 0.0)
+
+        # B. Build Line
+        return (
+            f"imei:{imei},tracker,{packet_id},,F,{time_str},A,"
+            f"{lat_nmea},{lat_dir},{lon_nmea},{lon_dir},"
+            f"{speed_knots:.2f},{heading:.2f};"
+        )
+
+    def generate_legacy_log_from_parquet(self, parquet_path: str, vehicle_name: str, imei: str, date_str: str):
+        """
+        Reads a generic Parquet file and writes the legacy text log.
+        Used for post-processing to avoid I/O blocking during main loop.
+        """
+        try:
+            df = pd.read_parquet(parquet_path)
+            if df.empty: return
+
+            year, month, _ = date_str.split("-")
+            tracker_dir = self.base_dir / "tracker" / vehicle_name / year / month
+            tracker_dir.mkdir(parents=True, exist_ok=True)
+            log_path = tracker_dir / f"{date_str}.txt"
+
+            with open(log_path, "w") as f:
+                for _, row in df.iterrows():
+                    # Row is a Series, but format expects dict-like with specific keys
+                    # Pandas timestamps need care
+                    r = row.to_dict()
+                    line = self._format_log_line(r, imei)
+                    if line:
+                        f.write(line + "\n")
+        except Exception as e:
+            print(f"⚠️ Error converting Parquet for {vehicle_name}/{date_str}: {e}")

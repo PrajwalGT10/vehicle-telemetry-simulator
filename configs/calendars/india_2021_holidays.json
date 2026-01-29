@@ -1,0 +1,113 @@
+{
+    "year": 2021,
+    "country": "India",
+    "state": "Karnataka",
+    "description": "Government holidays applicable to Karnataka state for the year 2021 based on the provided list and state-specific mandatory holidays. These dates are treated as non-operational days for dataset generation.",
+    "holidays": [
+        {
+            "date": "2021-01-14",
+            "name": "Makara Sankranti",
+            "type": "government"
+        },
+        {
+            "date": "2021-01-26",
+            "name": "Republic Day",
+            "type": "government"
+        },
+        {
+            "date": "2021-03-11",
+            "name": "Maha Shivaratri",
+            "type": "government"
+        },
+        {
+            "date": "2021-03-29",
+            "name": "Holi",
+            "type": "government"
+        },
+        {
+            "date": "2021-04-02",
+            "name": "Good Friday",
+            "type": "government"
+        },
+        {
+            "date": "2021-04-13",
+            "name": "Ugadi",
+            "type": "government"
+        },
+        {
+            "date": "2021-04-14",
+            "name": "Dr. Ambedkar Jayanti",
+            "type": "government"
+        },
+        {
+            "date": "2021-05-01",
+            "name": "May Day",
+            "type": "government"
+        },
+        {
+            "date": "2021-05-14",
+            "name": "Id-ul-Fitr (Ramzan)",
+            "type": "government"
+        },
+        {
+            "date": "2021-07-21",
+            "name": "Bakrid / Eid al Adha",
+            "type": "government"
+        },
+        {
+            "date": "2021-08-15",
+            "name": "Independence Day",
+            "type": "government"
+        },
+        {
+            "date": "2021-08-20",
+            "name": "Muharram",
+            "type": "government"
+        },
+        {
+            "date": "2021-09-10",
+            "name": "Ganesh Chaturthi",
+            "type": "government"
+        },
+        {
+            "date": "2021-10-02",
+            "name": "Gandhi Jayanti",
+            "type": "government"
+        },
+        {
+            "date": "2021-10-14",
+            "name": "Mahanavami / Ayudha Puja",
+            "type": "government"
+        },
+        {
+            "date": "2021-10-15",
+            "name": "Vijaya Dashami",
+            "type": "government"
+        },
+        {
+            "date": "2021-10-19",
+            "name": "Eid-Milad",
+            "type": "government"
+        },
+        {
+            "date": "2021-11-01",
+            "name": "Kannada Rajyotsava",
+            "type": "government"
+        },
+        {
+            "date": "2021-11-03",
+            "name": "Naraka Chaturdashi",
+            "type": "government"
+        },
+        {
+            "date": "2021-11-05",
+            "name": "Deepavali",
+            "type": "government"
+        },
+        {
+            "date": "2021-12-25",
+            "name": "Christmas",
+            "type": "government"
+        }
+    ]
+}

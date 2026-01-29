@@ -1,9 +1,6 @@
 const map = L.map("map").setView([12.958319, 77.612422], 12);
-const selectedLocalities = new Set();
 
 let routeLayer = L.layerGroup().addTo(map);
-let zoneLayer = L.layerGroup().addTo(map);
-let allZonesData = null; 
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "© OpenStreetMap"
@@ -19,17 +16,36 @@ fetch("data/vehicles.json")
     const select = document.getElementById("deviceSelect");
     Object.keys(vehicles).forEach(v => {
       const opt = document.createElement("option");
-      opt.value = v; 
+      opt.value = v;
       // Show Name in Dropdown, but Value is IMEI
-      opt.textContent = vehicles[v].vehicle_name || v; 
+      opt.textContent = vehicles[v].vehicle_name || v;
       select.appendChild(opt);
     });
-    select.onchange = () => { reloadRoutes(); };
+    // Trigger initial update if val exists
+    const initialVal = select.value;
+    if (initialVal) {
+      updateDetails(initialVal);
+    }
+
+    select.onchange = () => {
+      reloadRoutes();
+      updateDetails(select.value);
+    };
   });
+
+function updateDetails(imei) {
+  const info = vehicleData[imei];
+  if (info) {
+    document.getElementById("imei").textContent = imei;
+    document.getElementById("vehicleName").textContent = info.vehicle_name || "-";
+    // Map vehicle_type to equipmentType field in UI
+    document.getElementById("equipmentType").textContent = info.vehicle_type || info.equipment_type || "-";
+  }
+}
 
 // 2. Load Routes with Markers
 function loadRouteRange(vehicleId, startDate, endDate) {
-  routeLayer.clearLayers(); 
+  routeLayer.clearLayers();
   const dates = [];
   let current = new Date(startDate);
   const end = new Date(endDate);
@@ -46,44 +62,50 @@ function loadRouteRange(vehicleId, startDate, endDate) {
     // Lookup vehicle name from global data
     const vInfo = vehicleData[vehicleId];
     if (!vInfo) return;
-    
+
     // Ensure name format matches Export script (spaces to underscores etc if needed, 
     // but export script and UpdateUI should align on name from Config/Info).
-    const vName = vInfo.vehicle_name; 
-    
+    const vName = vInfo.vehicle_name;
+
     const [year, month, day] = date.split("-");
-    const path = `../data/exported_geojson/${vName}/${year}/${month}/${date}.geojson`;
+    const path = `../data/exported_geojson/${vName}/${date}.geojson`;
     fetch(path)
       .then(r => r.json())
       .then(data => {
-        // Draw Line
+        // Draw Points independently
         const layer = L.geoJSON(data, {
-            style: { color: "#1565c0", weight: 4 }
+          pointToLayer: function (feature, latlng) {
+            // Check for hybrid vs regular?
+            // For now, uniform markers
+            return L.circleMarker(latlng, {
+              radius: 4,
+              fillColor: "#ff7800",
+              color: "#000",
+              weight: 1,
+              opacity: 1,
+              fillOpacity: 0.8
+            });
+          },
+          onEachFeature: function (feature, layer) {
+            if (feature.properties) {
+              layer.bindPopup(`
+                     <b>Time:</b> ${feature.properties.timestamp}<br>
+                     <b>Speed:</b> ${feature.properties.speed}<br>
+                     <b>Heading:</b> ${feature.properties.heading}
+                 `);
+            }
+          }
         });
+
         layer.addTo(routeLayer);
         bounds.push(layer.getBounds());
 
-        // Draw Markers
-        const coords = data.features[0].geometry.coordinates;
-        if (coords.length > 0) {
-            const startPt = [coords[0][1], coords[0][0]];
-            const endPt = [coords[coords.length-1][1], coords[coords.length-1][0]];
-
-            L.circleMarker(startPt, {
-                color: 'green', fillColor: '#4CAF50', fillOpacity: 1, radius: 5
-            }).addTo(routeLayer).bindPopup(`Start: ${date}`);
-
-            L.circleMarker(endPt, {
-                color: 'red', fillColor: '#F44336', fillOpacity: 1, radius: 5
-            }).addTo(routeLayer).bindPopup(`End: ${date}`);
-        }
-        
         if (bounds.length > 0) {
-             const groupBounds = L.latLngBounds(bounds);
-             if (groupBounds.isValid()) map.fitBounds(groupBounds);
+          const groupBounds = L.latLngBounds(bounds);
+          if (groupBounds.isValid()) map.fitBounds(groupBounds);
         }
       })
-      .catch(() => {});
+      .catch(() => { });
   });
 }
 
@@ -102,3 +124,42 @@ document.getElementById("endDate").addEventListener("change", reloadRoutes);
 
 // Initial Load
 setTimeout(reloadRoutes, 500);
+
+// Compliance Report Logic
+const btnReport = document.getElementById("btnGenerateReport");
+const statusDiv = document.getElementById("reportStatus");
+const linkReport = document.getElementById("reportLink");
+
+if (btnReport) {
+  btnReport.addEventListener("click", () => {
+    // 1. UI State: Busy
+    btnReport.disabled = true;
+    statusDiv.textContent = "Generating Report... This may take a moment.";
+    statusDiv.style.color = "#555";
+    linkReport.style.display = "none";
+
+    // 2. Call API
+    fetch("/api/generate_report", { method: "POST" })
+      .then(r => r.json())
+      .then(data => {
+        if (data.status === "success") {
+          statusDiv.textContent = "Report Ready!";
+          statusDiv.style.color = "green";
+
+          linkReport.href = data.file_url;
+          linkReport.style.display = "block";
+          linkReport.textContent = "Download RA_12_Compliance_Report.csv";
+        } else {
+          statusDiv.textContent = "Error: " + data.message;
+          statusDiv.style.color = "red";
+        }
+      })
+      .catch(err => {
+        statusDiv.textContent = "Request Failed: " + err;
+        statusDiv.style.color = "red";
+      })
+      .finally(() => {
+        btnReport.disabled = false;
+      });
+  });
+}

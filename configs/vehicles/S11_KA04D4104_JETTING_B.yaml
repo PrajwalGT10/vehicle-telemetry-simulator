@@ -1,0 +1,42 @@
+vehicle:
+  name: S11_KA04D4104_JETTING
+  imei: '998118661770145'
+  device_id: S11_KA04D4104_JETTING
+  vehicle_type: Jetting
+  vehicle_number: KA04D4104
+  zone_id: S2
+  max_speed_knots: 25.0
+  depot_lat: 12.924132444803922
+  depot_lon: 77.59429202588234
+  odometer_offset_km: 0
+  enabled: true
+zone:
+  name: S_Zone
+  roads_geojson: data/zones/S_Zone/roads.geojson
+  localities_file: data/zones/S_Zone/localities.geojson
+shift:
+  timezone: Asia/Kolkata
+  start_time: 09:00
+  end_time: '19:00'
+  sampling_interval_seconds: 900
+  sampling_jitter_seconds: 0
+calendar:
+  working_days:
+  - MON
+  - TUE
+  - WED
+  - THU
+  - FRI
+  allow_saturdays: true
+  saturday_probability_per_month: 2
+  holidays_file: configs/calendars/india_2023_holidays.json
+simulation_window:
+  start_date: '2022-05-01'
+  end_date: '2024-04-30'
+routes:
+  templates:
+  - RT_DEFAULT
+generation:
+  random_seed: 12345
+  output_root: data/output
+  output_granularity: per_day
